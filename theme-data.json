@@ -1,0 +1,417 @@
+{
+  "free": [
+    [
+      "24hr-Earth",
+      "extern",
+      {
+        "displayName": "24 Hour Earth"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/windowsdownload/"
+    ],
+    [
+      "24hr-HighSierra",
+      "extern",
+      {
+        "displayName": "24 Hour High Sierra"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/windowsdownload/"
+    ],
+    [
+      "24hr-NewYork",
+      "extern",
+      {
+        "displayName": "24 Hour New York City"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/windowsdownload/"
+    ],
+    [
+      "24hr-SanFrancisco",
+      "extern",
+      {
+        "displayName": "24 Hour San Francisco"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/windowsdownload/"
+    ],
+    [
+      "BitDay",
+      "contrib",
+      {
+        "imagesZipUri": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/BitDay.zip",
+        "imageFilename": "pixels_*.png",
+        "imageCredits": "BloodyMarvellous",
+        "sunriseImageList": [
+          12,
+          1
+        ],
+        "dayImageList": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "sunsetImageList": [
+          7,
+          8
+        ],
+        "nightImageList": [
+          9,
+          10,
+          11
+        ],
+        "fileSize": 5.45
+      },
+      "4k",
+      [
+        "previews/pixels_12.png",
+        "previews/pixels_1.png",
+        "previews/pixels_2.png",
+        "previews/pixels_3.png",
+        "previews/pixels_4.png",
+        "previews/pixels_5.png",
+        "previews/pixels_6.png",
+        "previews/pixels_7.png",
+        "previews/pixels_8.png",
+        "previews/pixels_9.png",
+        "previews/pixels_10.png",
+        "previews/pixels_11.png"
+      ]
+    ],
+    [
+      "Earth_View",
+      "contrib",
+      {
+        "imagesZipUri": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Earth_View.zip",
+        "imageFilename": "earth_view_*.jpeg",
+        "imageCredits": "Himawari 8",
+        "sunriseImageList": [
+          4,
+          5,
+          6
+        ],
+        "dayImageList": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "sunsetImageList": [
+          12,
+          13,
+          14
+        ],
+        "nightImageList": [
+          15,
+          16,
+          1,
+          2,
+          3
+        ],
+        "fileSize": 14.39
+      },
+      "5k",
+      [
+        "previews/earth_view_4.jpeg",
+        "previews/earth_view_5.jpeg",
+        "previews/earth_view_6.jpeg",
+        "previews/earth_view_7.jpeg",
+        "previews/earth_view_8.jpeg",
+        "previews/earth_view_9.jpeg",
+        "previews/earth_view_10.jpeg",
+        "previews/earth_view_11.jpeg",
+        "previews/earth_view_12.jpeg",
+        "previews/earth_view_13.jpeg",
+        "previews/earth_view_14.jpeg",
+        "previews/earth_view_15.jpeg",
+        "previews/earth_view_16.jpeg",
+        "previews/earth_view_1.jpeg",
+        "previews/earth_view_2.jpeg",
+        "previews/earth_view_3.jpeg"
+      ]
+    ],
+    [
+      "Firewatch",
+      "contrib",
+      {
+        "imagesZipUri": "https://bitbucket.org/t1m0thyj/wdd-themes/downloads/Firewatch.zip",
+        "imageFilename": "firewatch_*.jpg",
+        "imageCredits": "Olly Moss",
+        "sunriseImageList": [
+          1,
+          2
+        ],
+        "dayImageList": [
+          3,
+          4,
+          5
+        ],
+        "sunsetImageList": [
+          6,
+          7
+        ],
+        "nightImageList": [
+          8
+        ],
+        "fileSize": 0.98
+      },
+      "HD",
+      [
+        "previews/firewatch_1.jpg",
+        "previews/firewatch_2.jpg",
+        "previews/firewatch_3.jpg",
+        "previews/firewatch_4.jpg",
+        "previews/firewatch_5.jpg",
+        "previews/firewatch_6.jpg",
+        "previews/firewatch_7.jpg",
+        "previews/firewatch_8.jpg"
+      ]
+    ],
+    [
+      "Licancabur",
+      "contrib",
+      {
+        "imageFilename": "Licancabur_*.jpg",
+        "imageCredits": "gumoreira",
+        "sunriseImageList": [
+          1
+        ],
+        "dayImageList": [
+          1
+        ],
+        "sunsetImageList": [
+          1
+        ],
+        "nightImageList": [
+          2
+        ],
+        "fileSize": 11.34
+      },
+      "4k",
+      [
+        "previews/Licancabur_1.jpg",
+        "previews/Licancabur_2.jpg"
+      ]
+    ],
+    [
+      "Your_Name",
+      "contrib",
+      {
+        "imageFilename": "Your_Name_*.jpg",
+        "imageCredits": "wallpapyrus",
+        "sunriseImageList": [
+          3,
+          4
+        ],
+        "dayImageList": [
+          1,
+          5
+        ],
+        "sunsetImageList": [
+          4,
+          3
+        ],
+        "nightImageList": [
+          2
+        ],
+        "fileSize": 26.66
+      },
+      "4k",
+      [
+        "previews/Your_Name_3.jpg",
+        "previews/Your_Name_4.jpg",
+        "previews/Your_Name_1.jpg",
+        "previews/Your_Name_5.jpg",
+        "previews/Your_Name_4.jpg",
+        "previews/Your_Name_3.jpg",
+        "previews/Your_Name_2.jpg"
+      ]
+    ]
+  ],
+  "paid": [
+    [
+      "24hr-Bristlecone",
+      "paid",
+      {
+        "displayName": "Bristlecone Pine"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy"
+    ],
+    [
+      "24hr-Colorado-Mix",
+      "paid",
+      {
+        "displayName": "Colorado Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm"
+    ],
+    [
+      "24hr-Iceland-Mix",
+      "paid",
+      {
+        "displayName": "Iceland Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68-mz52j"
+    ],
+    [
+      "24hr-JoshuaTree",
+      "paid",
+      {
+        "displayName": "Joshua Tree"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s-bxhg9"
+    ],
+    [
+      "24hr-London-Mix",
+      "paid",
+      {
+        "displayName": "London Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68-mz52j-a6abd-45zba"
+    ],
+    [
+      "24hr-LosAngeles",
+      "paid",
+      {
+        "displayName": "Los Angeles"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d"
+    ],
+    [
+      "24hr-Malibu",
+      "paid",
+      {
+        "displayName": "Malibu"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep"
+    ],
+    [
+      "24hr-MojaveDunes",
+      "paid",
+      {
+        "displayName": "Mojave Dunes"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s"
+    ],
+    [
+      "24hr-MojaveMount",
+      "paid",
+      {
+        "displayName": "Mojave Mount"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s-wnwfy"
+    ],
+    [
+      "24hr-NewYorkWinter",
+      "paid",
+      {
+        "displayName": "New York City Winter"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s-wnwfy-38lfw"
+    ],
+    [
+      "24hr-NewZealand-Mix",
+      "paid",
+      {
+        "displayName": "New Zealand Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68"
+    ],
+    [
+      "24hr-Paris-Mix",
+      "paid",
+      {
+        "displayName": "Paris Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68-mz52j-a6abd-45zba-w57ms-hnzxh"
+    ],
+    [
+      "24hr-PyramidLake-Mix",
+      "paid",
+      {
+        "displayName": "Pyramid Lake Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz"
+    ],
+    [
+      "24hr-SanFranciscoEast",
+      "paid",
+      {
+        "displayName": "San Francisco East"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s-wnwfy-38lfw-zjtcb-6l3eh"
+    ],
+    [
+      "24hr-Seattle-Mix",
+      "paid",
+      {
+        "displayName": "Seattle Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68-mz52j-a6abd-45zba-w57ms-hnzxh-d42x7"
+    ],
+    [
+      "24hr-Tahoe-Mix",
+      "paid",
+      {
+        "displayName": "Tahoe Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68-mz52j-a6abd"
+    ],
+    [
+      "24hr-Tokyo-Mix",
+      "paid",
+      {
+        "displayName": "Tokyo Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl-rwmyz-3t9zm-jdc68-mz52j-a6abd-45zba-w57ms"
+    ],
+    [
+      "24hr-Yosemite-Mix",
+      "paid",
+      {
+        "displayName": "Yosemite Mix"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-jmrfl"
+    ],
+    [
+      "24hr-YosemiteLukens",
+      "paid",
+      {
+        "displayName": "Yosemite Lukens Lake"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s-wnwfy-38lfw-zjtcb-6l3eh-yx86h"
+    ],
+    [
+      "24hr-YosemiteTioga",
+      "paid",
+      {
+        "displayName": "Yosemite Tioga Road"
+      },
+      "5k",
+      "https://www.jetsoncreative.com/ddcatalog/high-sierra-onion-valley-89sjb-5l8wy-4ntep-7kg6d-d567s-wnwfy-38lfw-zjtcb-6l3eh-yx86h-p6e3t"
+    ]
+  ]
+}
