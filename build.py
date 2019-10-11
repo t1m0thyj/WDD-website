@@ -4,7 +4,7 @@ import os
 from mako.template import Template
 
 for filename in os.listdir("themes"):
-    if os.path.isfile(filename):
+    if os.path.isfile(f"themes/{filename}"):
         os.remove(os.path.join("themes", filename))
 
 with open("theme-data.json", 'r') as fileobj:

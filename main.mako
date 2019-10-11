@@ -57,9 +57,10 @@
                         </div>
                     </a>
                     % if theme_type == "contrib":
-                    <a href="https://bitbucket.org/t1m0thyj/wdd-themes/downloads/${theme_name}.ddw" style="float:right; margin-top:-22px;"><i class="fa fa-download"></i></a>
+                    <% file_size = theme_config["fileSize"] %>
+                    <a href="https://bitbucket.org/t1m0thyj/wdd-themes/downloads/${theme_name}.ddw" title="Download (${file_size} MB)" style="float:right; margin-top:-22px;"><i class="fa fa-download"></i></a>
                     % else:
-                    <a href="${theme_url}" target="_blank" style="float:right; margin-top:-22px;"><i class="fa fa-external-link"></i></a>
+                    <a href="${theme_url}" target="_blank" title="Open in new tab" style="float:right; margin-top:-22px;"><i class="fa fa-external-link"></i></a>
                     % endif
                 </div>
             </div>
@@ -81,7 +82,7 @@
                             ${display_name}<small> (${theme_resolution})</small>
                         </div>
                     </a>
-                    <a href="${theme_url}" target="_blank" style="float:right; margin-top:-22px;"><i class="fa fa-external-link"></i></a>
+                    <a href="${theme_url}" target="_blank" title="Open in new tab" style="float:right; margin-top:-22px;"><i class="fa fa-external-link"></i></a>
                 </div>
             </div>
         % endfor
