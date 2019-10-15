@@ -36,7 +36,7 @@
                 </div>
             </div>
         </nav>
-        <a name="free"></a><h2 style="padding-top:20px;">Free</h2>
+        <a name="free" style="margin-top:-38px; padding-top:38px;"></a><h2 style="padding-top:20px;">Free</h2>
         <div class="row" style="padding:0 12px;">
         % for theme_name, theme_type, theme_config, theme_resolution, theme_url in themes_free:
             <div class="col-md-4" style="padding:8px;">
@@ -66,7 +66,7 @@
             </div>
         % endfor
         </div>
-        <a name="paid"></a><h2 style="padding-top:20px;">Paid</h2>
+        <a name="paid" style="margin-top:-38px; padding-top:38px;"></a><h2 style="padding-top:20px;">Paid</h2>
         <div class="row" style="padding:0 12px;">
         % for theme_name, _, theme_config, theme_resolution, theme_url in themes_paid:
             <div class="col-md-4" style="padding:8px;">
@@ -87,7 +87,7 @@
             </div>
         % endfor
         </div>
-        <a name="bundles"></a><h2 style="padding-top:20px;">Bundles</h2>
+        <a name="bundles" style="margin-top:-38px; padding-top:38px;"></a><h2 style="padding-top:20px;">Bundles</h2>
         <div class="row" style="padding:0 12px;">
         <span style="padding:0 8px; padding-bottom:50px;">The paid wallpapers listed above can be purchased in bundles for a 50% discount from <a href="https://www.jetsoncreative.com/24hourwindows/#paid">24 Hour Wallpaper <i class="fa fa-external-link"></i></a>.</span>
         </div>
