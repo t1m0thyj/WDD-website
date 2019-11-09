@@ -7,6 +7,22 @@
     <title>WinDynamicDesktop Themes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+    .alternating-image {
+        background: no-repeat center;
+        background-size: cover;
+    }
+
+    .alternating-image img {
+        opacity: 0;
+        -webkit-transition: opacity .3s ease-in;
+        transition: opacity .3s ease-in;
+    }
+
+    .alternating-image:hover img {
+        opacity: 1;
+    }
+    </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
@@ -41,7 +57,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/windowsdownload/">
-                        <img src="thumbnails/24hr-Earth_thumbnail.png" alt="24hr-Earth" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Earth_light.png');">
+                            <img src="thumbnails/24hr-Earth_dark.png" alt="24hr-Earth" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             24 Hour Earth<small> (5k)</small>
@@ -53,7 +71,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/windowsdownload/">
-                        <img src="thumbnails/24hr-HighSierra_thumbnail.png" alt="24hr-HighSierra" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-HighSierra_light.png');">
+                            <img src="thumbnails/24hr-HighSierra_dark.png" alt="24hr-HighSierra" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             24 Hour High Sierra<small> (5k)</small>
@@ -65,7 +85,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/windowsdownload/">
-                        <img src="thumbnails/24hr-NewYork_thumbnail.png" alt="24hr-NewYork" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-NewYork_light.png');">
+                            <img src="thumbnails/24hr-NewYork_dark.png" alt="24hr-NewYork" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             24 Hour New York City<small> (5k)</small>
@@ -77,7 +99,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/windowsdownload/">
-                        <img src="thumbnails/24hr-SanFrancisco_thumbnail.png" alt="24hr-SanFrancisco" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-SanFrancisco_light.png');">
+                            <img src="thumbnails/24hr-SanFrancisco_dark.png" alt="24hr-SanFrancisco" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             24 Hour San Francisco<small> (5k)</small>
@@ -89,7 +113,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="BitDay.html">
-                        <img src="thumbnails/BitDay_thumbnail.png" alt="BitDay" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/BitDay_light.png');">
+                            <img src="thumbnails/BitDay_dark.png" alt="BitDay" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             BitDay<small> (4k)</small>
@@ -102,7 +128,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="Earth_View.html">
-                        <img src="thumbnails/Earth_View_thumbnail.png" alt="Earth_View" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/Earth_View_light.png');">
+                            <img src="thumbnails/Earth_View_dark.png" alt="Earth_View" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Earth View<small> (5k)</small>
@@ -115,7 +143,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="Firewatch.html">
-                        <img src="thumbnails/Firewatch_thumbnail.png" alt="Firewatch" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/Firewatch_light.png');">
+                            <img src="thumbnails/Firewatch_dark.png" alt="Firewatch" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Firewatch<small> (HD)</small>
@@ -128,7 +158,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="iOS_13_Black.html">
-                        <img src="thumbnails/iOS_13_Black_thumbnail.png" alt="iOS_13_Black" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/iOS_13_Black_light.png');">
+                            <img src="thumbnails/iOS_13_Black_dark.png" alt="iOS_13_Black" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             iOS 13 Black<small> (2k)</small>
@@ -141,7 +173,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="iOS_13_Blue.html">
-                        <img src="thumbnails/iOS_13_Blue_thumbnail.png" alt="iOS_13_Blue" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/iOS_13_Blue_light.png');">
+                            <img src="thumbnails/iOS_13_Blue_dark.png" alt="iOS_13_Blue" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             iOS 13 Blue<small> (2k)</small>
@@ -154,7 +188,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="iOS_13_Green.html">
-                        <img src="thumbnails/iOS_13_Green_thumbnail.png" alt="iOS_13_Green" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/iOS_13_Green_light.png');">
+                            <img src="thumbnails/iOS_13_Green_dark.png" alt="iOS_13_Green" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             iOS 13 Green<small> (2k)</small>
@@ -167,7 +203,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="iOS_13_Red.html">
-                        <img src="thumbnails/iOS_13_Red_thumbnail.png" alt="iOS_13_Red" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/iOS_13_Red_light.png');">
+                            <img src="thumbnails/iOS_13_Red_dark.png" alt="iOS_13_Red" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             iOS 13 Red<small> (2k)</small>
@@ -180,7 +218,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="Licancabur.html">
-                        <img src="thumbnails/Licancabur_thumbnail.png" alt="Licancabur" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/Licancabur_light.png');">
+                            <img src="thumbnails/Licancabur_dark.png" alt="Licancabur" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Licancabur<small> (4k)</small>
@@ -193,7 +233,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="Your_Name.html">
-                        <img src="thumbnails/Your_Name_thumbnail.png" alt="Your_Name" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/Your_Name_light.png');">
+                            <img src="thumbnails/Your_Name_dark.png" alt="Your_Name" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Your Name<small> (4k)</small>
@@ -209,7 +251,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd">
-                        <img src="thumbnails/24hr-Bristlecone_thumbnail.png" alt="24hr-Bristlecone" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Bristlecone_light.png');">
+                            <img src="thumbnails/24hr-Bristlecone_dark.png" alt="24hr-Bristlecone" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Bristlecone Pine<small> (5k)</small>
@@ -221,7 +265,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd">
-                        <img src="thumbnails/24hr-Colorado-Mix_thumbnail.png" alt="24hr-Colorado-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Colorado-Mix_light.png');">
+                            <img src="thumbnails/24hr-Colorado-Mix_dark.png" alt="24hr-Colorado-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Colorado Mix<small> (5k)</small>
@@ -233,7 +279,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/iceland-mix-windd">
-                        <img src="thumbnails/24hr-Iceland-Mix_thumbnail.png" alt="24hr-Iceland-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Iceland-Mix_light.png');">
+                            <img src="thumbnails/24hr-Iceland-Mix_dark.png" alt="24hr-Iceland-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Iceland Mix<small> (5k)</small>
@@ -245,7 +293,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/joshua-tree-windd">
-                        <img src="thumbnails/24hr-JoshuaTree_thumbnail.png" alt="24hr-JoshuaTree" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-JoshuaTree_light.png');">
+                            <img src="thumbnails/24hr-JoshuaTree_dark.png" alt="24hr-JoshuaTree" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Joshua Tree<small> (5k)</small>
@@ -257,7 +307,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/london-mix-windd">
-                        <img src="thumbnails/24hr-London-Mix_thumbnail.png" alt="24hr-London-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-London-Mix_light.png');">
+                            <img src="thumbnails/24hr-London-Mix_dark.png" alt="24hr-London-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             London Mix<small> (5k)</small>
@@ -269,7 +321,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/los-angeles-windd">
-                        <img src="thumbnails/24hr-LosAngeles_thumbnail.png" alt="24hr-LosAngeles" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-LosAngeles_light.png');">
+                            <img src="thumbnails/24hr-LosAngeles_dark.png" alt="24hr-LosAngeles" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Los Angeles<small> (5k)</small>
@@ -281,7 +335,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/malibu-windd">
-                        <img src="thumbnails/24hr-Malibu_thumbnail.png" alt="24hr-Malibu" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Malibu_light.png');">
+                            <img src="thumbnails/24hr-Malibu_dark.png" alt="24hr-Malibu" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Malibu<small> (5k)</small>
@@ -293,7 +349,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd">
-                        <img src="thumbnails/24hr-MojaveDunes_thumbnail.png" alt="24hr-MojaveDunes" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-MojaveDunes_light.png');">
+                            <img src="thumbnails/24hr-MojaveDunes_dark.png" alt="24hr-MojaveDunes" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Mojave Dunes<small> (5k)</small>
@@ -305,7 +363,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/mojave-mount-windd">
-                        <img src="thumbnails/24hr-MojaveMount_thumbnail.png" alt="24hr-MojaveMount" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-MojaveMount_light.png');">
+                            <img src="thumbnails/24hr-MojaveMount_dark.png" alt="24hr-MojaveMount" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Mojave Mount<small> (5k)</small>
@@ -317,7 +377,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/nyc-winter-windd">
-                        <img src="thumbnails/24hr-NewYorkWinter_thumbnail.png" alt="24hr-NewYorkWinter" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-NewYorkWinter_light.png');">
+                            <img src="thumbnails/24hr-NewYorkWinter_dark.png" alt="24hr-NewYorkWinter" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             New York City Winter<small> (5k)</small>
@@ -329,7 +391,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/new-zealand-nature-mix-windd">
-                        <img src="thumbnails/24hr-NewZealand-Mix_thumbnail.png" alt="24hr-NewZealand-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-NewZealand-Mix_light.png');">
+                            <img src="thumbnails/24hr-NewZealand-Mix_dark.png" alt="24hr-NewZealand-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             New Zealand Mix<small> (5k)</small>
@@ -341,7 +405,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/paris-mix-windd">
-                        <img src="thumbnails/24hr-Paris-Mix_thumbnail.png" alt="24hr-Paris-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Paris-Mix_light.png');">
+                            <img src="thumbnails/24hr-Paris-Mix_dark.png" alt="24hr-Paris-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Paris Mix<small> (5k)</small>
@@ -353,7 +419,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/pyramid-lake-mix-windd">
-                        <img src="thumbnails/24hr-PyramidLake-Mix_thumbnail.png" alt="24hr-PyramidLake-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-PyramidLake-Mix_light.png');">
+                            <img src="thumbnails/24hr-PyramidLake-Mix_dark.png" alt="24hr-PyramidLake-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Pyramid Lake Mix<small> (5k)</small>
@@ -365,7 +433,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/sf-east-windd">
-                        <img src="thumbnails/24hr-SanFranciscoEast_thumbnail.png" alt="24hr-SanFranciscoEast" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-SanFranciscoEast_light.png');">
+                            <img src="thumbnails/24hr-SanFranciscoEast_dark.png" alt="24hr-SanFranciscoEast" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             San Francisco East<small> (5k)</small>
@@ -377,7 +447,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/seattle-mix-windd">
-                        <img src="thumbnails/24hr-Seattle-Mix_thumbnail.png" alt="24hr-Seattle-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Seattle-Mix_light.png');">
+                            <img src="thumbnails/24hr-Seattle-Mix_dark.png" alt="24hr-Seattle-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Seattle Mix<small> (5k)</small>
@@ -389,7 +461,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd">
-                        <img src="thumbnails/24hr-Tahoe-Mix_thumbnail.png" alt="24hr-Tahoe-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Tahoe-Mix_light.png');">
+                            <img src="thumbnails/24hr-Tahoe-Mix_dark.png" alt="24hr-Tahoe-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Tahoe Mix<small> (5k)</small>
@@ -401,7 +475,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd">
-                        <img src="thumbnails/24hr-Tokyo-Mix_thumbnail.png" alt="24hr-Tokyo-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Tokyo-Mix_light.png');">
+                            <img src="thumbnails/24hr-Tokyo-Mix_dark.png" alt="24hr-Tokyo-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Tokyo Mix<small> (5k)</small>
@@ -413,7 +489,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/yosemite-mix-windd">
-                        <img src="thumbnails/24hr-Yosemite-Mix_thumbnail.png" alt="24hr-Yosemite-Mix" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-Yosemite-Mix_light.png');">
+                            <img src="thumbnails/24hr-Yosemite-Mix_dark.png" alt="24hr-Yosemite-Mix" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Yosemite Mix<small> (5k)</small>
@@ -425,7 +503,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/yosemite-lukens-windd">
-                        <img src="thumbnails/24hr-YosemiteLukens_thumbnail.png" alt="24hr-YosemiteLukens" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-YosemiteLukens_light.png');">
+                            <img src="thumbnails/24hr-YosemiteLukens_dark.png" alt="24hr-YosemiteLukens" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Yosemite Lukens Lake<small> (5k)</small>
@@ -437,7 +517,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="https://www.jetsoncreative.com/ddcatalog/yosemite-tioga-windd">
-                        <img src="thumbnails/24hr-YosemiteTioga_thumbnail.png" alt="24hr-YosemiteTioga" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/24hr-YosemiteTioga_light.png');">
+                            <img src="thumbnails/24hr-YosemiteTioga_dark.png" alt="24hr-YosemiteTioga" style="width:100%">
+                        </div>
                         <div class="caption">
                             
                             Yosemite Tioga Road<small> (5k)</small>

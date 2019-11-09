@@ -7,6 +7,22 @@
     <title>WinDynamicDesktop Themes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+    .alternating-image {
+        background: no-repeat center;
+        background-size: cover;
+    }
+
+    .alternating-image img {
+        opacity: 0;
+        -webkit-transition: opacity .3s ease-in;
+        transition: opacity .3s ease-in;
+    }
+
+    .alternating-image:hover img {
+        opacity: 1;
+    }
+    </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
@@ -46,7 +62,9 @@
                     % else:
                     <a href="${theme_url}">
                     % endif
-                        <img src="thumbnails/${theme_name}_thumbnail.png" alt="${theme_name}" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_name}_light.png');">
+                            <img src="thumbnails/${theme_name}_dark.png" alt="${theme_name}" style="width:100%">
+                        </div>
                         <div class="caption">
                             <%
                                 display_name = theme_config.get("displayName")
@@ -72,7 +90,9 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="${theme_url}">
-                        <img src="${f'thumbnails/{theme_name}_thumbnail.png'}" alt="${theme_name}" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_name}_light.png');">
+                            <img src="thumbnails/${theme_name}_dark.png" alt="${theme_name}" style="width:100%">
+                        </div>
                         <div class="caption">
                             <%
                                 display_name = theme_config.get("displayName")
