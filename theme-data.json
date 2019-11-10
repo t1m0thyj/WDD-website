@@ -1,6 +1,33 @@
 {
   "free": [
     [
+      "24hr-Earth",
+      "extern",
+      {
+        "displayName": "24 Hour Earth from ISS"
+      },
+      "5k",
+      "https://jetsoncreative.com/24hourwindows/"
+    ],
+    [
+      "24hr-LosAngeles2019",
+      "extern",
+      {
+        "displayName": "24 Hour Los Angeles 2019"
+      },
+      "5k",
+      "https://jetsoncreative.com/24hourwindows/"
+    ],
+    [
+      "24hr-MonumentValley",
+      "extern",
+      {
+        "displayName": "24 Hour Monument Valley"
+      },
+      "5k",
+      "https://jetsoncreative.com/24hourwindows/"
+    ],
+    [
       "BitDay",
       "contrib",
       {
@@ -44,15 +71,6 @@
         "previews/pixels_10.png",
         "previews/pixels_11.png"
       ]
-    ],
-    [
-      "24hr-Earth",
-      "extern",
-      {
-        "displayName": "Earth from ISS"
-      },
-      "5k",
-      "https://jetsoncreative.com/24hourwindows/"
     ],
     [
       "Earth_View",
@@ -273,24 +291,6 @@
         "previews/Licancabur_1.jpg",
         "previews/Licancabur_2.jpg"
       ]
-    ],
-    [
-      "24hr-LosAngeles2019",
-      "extern",
-      {
-        "displayName": "Los Angeles 2019"
-      },
-      "5k",
-      "https://jetsoncreative.com/24hourwindows/"
-    ],
-    [
-      "24hr-MonumentValley",
-      "extern",
-      {
-        "displayName": "Monument Valley"
-      },
-      "5k",
-      "https://jetsoncreative.com/24hourwindows/"
     ],
     [
       "Your_Name",
