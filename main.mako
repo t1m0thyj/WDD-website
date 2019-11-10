@@ -62,8 +62,8 @@
                     % else:
                     <a href="${theme_url}">
                     % endif
-                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_name}_light.png');">
-                            <img src="thumbnails/${theme_name}_dark.png" alt="${theme_name}" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_name}_day.png');">
+                            <img src="thumbnails/${theme_name}_night.png" alt="${theme_name}" style="width:100%">
                         </div>
                         <div class="caption">
                             <%
@@ -71,6 +71,9 @@
                                 if not display_name:
                                     display_name = theme_name.replace("_", " ")
                             %>
+                            % if theme_name in new_themes:
+                            <small style="color:orange; font-weight:bold;">NEW </small>
+                            % endif
                             ${display_name}<small> (${theme_resolution})</small>
                         </div>
                     </a>
@@ -90,8 +93,8 @@
             <div class="col-md-4" style="padding:8px;">
                 <div class="img-thumbnail">
                     <a href="${theme_url}">
-                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_name}_light.png');">
-                            <img src="thumbnails/${theme_name}_dark.png" alt="${theme_name}" style="width:100%">
+                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_name}_day.png');">
+                            <img src="thumbnails/${theme_name}_night.png" alt="${theme_name}" style="width:100%">
                         </div>
                         <div class="caption">
                             <%
@@ -99,6 +102,9 @@
                                 if not display_name:
                                     display_name = theme_name.replace("_", " ")
                             %>
+                            % if theme_name in new_themes:
+                            <small style="color:orange; font-weight:bold;">NEW </small>
+                            % endif
                             ${display_name}<small> (${theme_resolution})</small>
                         </div>
                     </a>

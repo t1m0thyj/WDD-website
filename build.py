@@ -10,11 +10,15 @@ for filename in os.listdir("themes"):
 with open("theme-data.json", 'r') as fileobj:
     theme_data = json.load(fileobj)
 
+with open("new-themes.txt", 'r') as fileobj:
+    new_themes = fileobj.read().strip().splitlines()
+
 with open("main.mako", 'r') as fileobj:
     template_main = Template(fileobj.read())
 
 with open("themes/index.html", 'w') as fileobj:
-    fileobj.write(template_main.render(themes_free=theme_data["free"], themes_paid=theme_data["paid"]))
+    fileobj.write(template_main.render(new_themes=new_themes, themes_free=theme_data["free"],
+        themes_paid=theme_data["paid"]))
 
 with open("preview.mako", 'r') as fileobj:
     template_preview = Template(fileobj.read())

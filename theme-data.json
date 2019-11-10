@@ -1,42 +1,6 @@
 {
   "free": [
     [
-      "24hr-Earth",
-      "extern",
-      {
-        "displayName": "24 Hour Earth"
-      },
-      "5k",
-      "https://www.jetsoncreative.com/windowsdownload/"
-    ],
-    [
-      "24hr-HighSierra",
-      "extern",
-      {
-        "displayName": "24 Hour High Sierra"
-      },
-      "5k",
-      "https://www.jetsoncreative.com/windowsdownload/"
-    ],
-    [
-      "24hr-NewYork",
-      "extern",
-      {
-        "displayName": "24 Hour New York City"
-      },
-      "5k",
-      "https://www.jetsoncreative.com/windowsdownload/"
-    ],
-    [
-      "24hr-SanFrancisco",
-      "extern",
-      {
-        "displayName": "24 Hour San Francisco"
-      },
-      "5k",
-      "https://www.jetsoncreative.com/windowsdownload/"
-    ],
-    [
       "BitDay",
       "contrib",
       {
@@ -80,6 +44,15 @@
         "previews/pixels_10.png",
         "previews/pixels_11.png"
       ]
+    ],
+    [
+      "24hr-Earth",
+      "extern",
+      {
+        "displayName": "Earth from ISS"
+      },
+      "5k",
+      "https://jetsoncreative.com/24hourwindows/"
     ],
     [
       "Earth_View",
@@ -302,6 +275,24 @@
       ]
     ],
     [
+      "24hr-LosAngeles2019",
+      "extern",
+      {
+        "displayName": "Los Angeles 2019"
+      },
+      "5k",
+      "https://jetsoncreative.com/24hourwindows/"
+    ],
+    [
+      "24hr-MonumentValley",
+      "extern",
+      {
+        "displayName": "Monument Valley"
+      },
+      "5k",
+      "https://jetsoncreative.com/24hourwindows/"
+    ],
+    [
       "Your_Name",
       "contrib",
       {
@@ -338,13 +329,76 @@
   ],
   "paid": [
     [
+      "24hr-AlabamaHills",
+      "paid",
+      {
+        "displayName": "Alabama Hills"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/alabama-hills-windd"
+    ],
+    [
       "24hr-Bristlecone",
       "paid",
       {
         "displayName": "Bristlecone Pine"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd"
+      "https://jetsoncreative.com/ddcatalog/bristlecone-pine-windd"
+    ],
+    [
+      "24hr-CatalinaAvalonLeft",
+      "paid",
+      {
+        "displayName": "Catalina Avalon (Left)"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/catalina-avalon-left-windd"
+    ],
+    [
+      "24hr-CatalinaAvalonRight",
+      "paid",
+      {
+        "displayName": "Catalina Avalon (Right)"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/catalina-avalon-right-windd"
+    ],
+    [
+      "24hr-CatalinaIsthmusCove",
+      "paid",
+      {
+        "displayName": "Catalina Isthmus Cove"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/catalina-isthmus-cove-windd"
+    ],
+    [
+      "24hr-CatalinaLittleHarbor",
+      "paid",
+      {
+        "displayName": "Catalina Little Harbor"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/catalina-little-harbor-windd"
+    ],
+    [
+      "24hr-Catalina-Mix",
+      "paid",
+      {
+        "displayName": "Catalina Mix"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/catalina-mix-windd"
+    ],
+    [
+      "24hr-CatalinaWhalesTail",
+      "paid",
+      {
+        "displayName": "Catalina Whale's Tail"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/catalina-whales-tail-windd"
     ],
     [
       "24hr-Colorado-Mix",
@@ -353,7 +407,43 @@
         "displayName": "Colorado Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/colorado-nature-mix-windd"
+    ],
+    [
+      "24hr-Cotswolds",
+      "paid",
+      {
+        "displayName": "Cotswolds"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/cotswolds-windd"
+    ],
+    [
+      "24hr-Glacier",
+      "paid",
+      {
+        "displayName": "Glacier National Park"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/glacier-windd"
+    ],
+    [
+      "24hr-GrandTetons",
+      "paid",
+      {
+        "displayName": "Grand Tetons"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/grand-tetons-windd"
+    ],
+    [
+      "24hr-HighSierra",
+      "paid",
+      {
+        "displayName": "High Sierra"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/high-sierra-windd"
     ],
     [
       "24hr-Iceland-Mix",
@@ -362,7 +452,7 @@
         "displayName": "Iceland Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/iceland-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/iceland-mix-windd"
     ],
     [
       "24hr-JoshuaTree",
@@ -371,7 +461,7 @@
         "displayName": "Joshua Tree"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/joshua-tree-windd"
+      "https://jetsoncreative.com/ddcatalog/joshua-tree-windd"
     ],
     [
       "24hr-London-Mix",
@@ -380,7 +470,7 @@
         "displayName": "London Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/london-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/london-mix-windd"
     ],
     [
       "24hr-LosAngeles",
@@ -389,7 +479,7 @@
         "displayName": "Los Angeles"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/los-angeles-windd"
+      "https://jetsoncreative.com/ddcatalog/los-angeles-windd"
     ],
     [
       "24hr-Malibu",
@@ -398,7 +488,7 @@
         "displayName": "Malibu"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/malibu-windd"
+      "https://jetsoncreative.com/ddcatalog/malibu-windd"
     ],
     [
       "24hr-MojaveDunes",
@@ -407,7 +497,7 @@
         "displayName": "Mojave Dunes"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd"
+      "https://jetsoncreative.com/ddcatalog/mojave-dunes-windd"
     ],
     [
       "24hr-MojaveMount",
@@ -416,7 +506,16 @@
         "displayName": "Mojave Mount"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/mojave-mount-windd"
+      "https://jetsoncreative.com/ddcatalog/mojave-mount-windd"
+    ],
+    [
+      "24hr-NewYork",
+      "paid",
+      {
+        "displayName": "New York City"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/new-york-windd"
     ],
     [
       "24hr-NewYorkWinter",
@@ -425,7 +524,7 @@
         "displayName": "New York City Winter"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/nyc-winter-windd"
+      "https://jetsoncreative.com/ddcatalog/nyc-winter-windd"
     ],
     [
       "24hr-NewZealand-Mix",
@@ -434,7 +533,34 @@
         "displayName": "New Zealand Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/new-zealand-nature-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/new-zealand-nature-mix-windd"
+    ],
+    [
+      "24hr-Oxenhope",
+      "paid",
+      {
+        "displayName": "Oxenhope"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/oxenhope-windd"
+    ],
+    [
+      "24hr-Paris-1",
+      "paid",
+      {
+        "displayName": "Paris 1"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/paris-1-windd"
+    ],
+    [
+      "24hr-Paris-2",
+      "paid",
+      {
+        "displayName": "Paris 2"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/paris-2-windd"
     ],
     [
       "24hr-Paris-Mix",
@@ -443,7 +569,16 @@
         "displayName": "Paris Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/paris-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/paris-mix-windd"
+    ],
+    [
+      "24hr-Polson",
+      "paid",
+      {
+        "displayName": "Polson"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/polson-windd"
     ],
     [
       "24hr-PyramidLake-Mix",
@@ -452,7 +587,16 @@
         "displayName": "Pyramid Lake Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/pyramid-lake-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/pyramid-lake-mix-windd"
+    ],
+    [
+      "24hr-SanFrancisco",
+      "paid",
+      {
+        "displayName": "San Francisco"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/sf-south-windd"
     ],
     [
       "24hr-SanFranciscoEast",
@@ -461,7 +605,7 @@
         "displayName": "San Francisco East"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/sf-east-windd"
+      "https://jetsoncreative.com/ddcatalog/sf-east-windd"
     ],
     [
       "24hr-Seattle-Mix",
@@ -470,7 +614,7 @@
         "displayName": "Seattle Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/seattle-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/seattle-mix-windd"
     ],
     [
       "24hr-Tahoe-Mix",
@@ -479,7 +623,7 @@
         "displayName": "Tahoe Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd"
     ],
     [
       "24hr-Tokyo-Mix",
@@ -488,16 +632,16 @@
         "displayName": "Tokyo Mix"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/tokyo-mix-windd"
     ],
     [
-      "24hr-Yosemite-Mix",
+      "24hr-VeryLargeArray",
       "paid",
       {
-        "displayName": "Yosemite Mix"
+        "displayName": "Very Large Array (VLA)"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/yosemite-mix-windd"
+      "https://jetsoncreative.com/ddcatalog/vla-windd"
     ],
     [
       "24hr-YosemiteLukens",
@@ -506,7 +650,16 @@
         "displayName": "Yosemite Lukens Lake"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/yosemite-lukens-windd"
+      "https://jetsoncreative.com/ddcatalog/yosemite-lukens-windd"
+    ],
+    [
+      "24hr-Yosemite-Mix",
+      "paid",
+      {
+        "displayName": "Yosemite Mix"
+      },
+      "5k",
+      "https://jetsoncreative.com/ddcatalog/yosemite-mix-windd"
     ],
     [
       "24hr-YosemiteTioga",
@@ -515,7 +668,7 @@
         "displayName": "Yosemite Tioga Road"
       },
       "5k",
-      "https://www.jetsoncreative.com/ddcatalog/yosemite-tioga-windd"
+      "https://jetsoncreative.com/ddcatalog/yosemite-tioga-windd"
     ]
   ]
 }
