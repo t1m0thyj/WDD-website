@@ -15,3 +15,5 @@
 24hr-Polson
 24hr-Paris-1
 24hr-Paris-2
+Firewatch_Tower
+Mojave_XP

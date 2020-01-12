@@ -163,6 +163,46 @@
       ]
     ],
     [
+      "Firewatch_Tower",
+      "contrib",
+      {
+        "imageFilename": "FireWatch_Dynamic_*.jpeg",
+        "imageCredits": "Olly Moss",
+        "sunriseImageList": [
+          2,
+          3
+        ],
+        "dayImageList": [
+          4,
+          5,
+          6
+        ],
+        "sunsetImageList": [
+          7,
+          8
+        ],
+        "nightImageList": [
+          9,
+          10,
+          1
+        ],
+        "fileSize": 8.37
+      },
+      "4k",
+      [
+        "previews/FireWatch_Dynamic_2.jpeg",
+        "previews/FireWatch_Dynamic_3.jpeg",
+        "previews/FireWatch_Dynamic_4.jpeg",
+        "previews/FireWatch_Dynamic_5.jpeg",
+        "previews/FireWatch_Dynamic_6.jpeg",
+        "previews/FireWatch_Dynamic_7.jpeg",
+        "previews/FireWatch_Dynamic_8.jpeg",
+        "previews/FireWatch_Dynamic_9.jpeg",
+        "previews/FireWatch_Dynamic_10.jpeg",
+        "previews/FireWatch_Dynamic_1.jpeg"
+      ]
+    ],
+    [
       "iOS_13_Black",
       "contrib",
       {
@@ -290,6 +330,46 @@
       [
         "previews/Licancabur_1.jpg",
         "previews/Licancabur_2.jpg"
+      ]
+    ],
+    [
+      "Mojave_XP",
+      "contrib",
+      {
+        "imageFilename": "Mojave_XP_*.jpg",
+        "imageCredits": "legrisch",
+        "sunriseImageList": [
+          6,
+          1,
+          3,
+          4
+        ],
+        "dayImageList": [
+          5
+        ],
+        "sunsetImageList": [
+          4,
+          3,
+          1,
+          6
+        ],
+        "nightImageList": [
+          2
+        ],
+        "fileSize": 22.61
+      },
+      "4k",
+      [
+        "previews/Mojave_XP_6.jpg",
+        "previews/Mojave_XP_1.jpg",
+        "previews/Mojave_XP_3.jpg",
+        "previews/Mojave_XP_4.jpg",
+        "previews/Mojave_XP_5.jpg",
+        "previews/Mojave_XP_4.jpg",
+        "previews/Mojave_XP_3.jpg",
+        "previews/Mojave_XP_1.jpg",
+        "previews/Mojave_XP_6.jpg",
+        "previews/Mojave_XP_2.jpg"
       ]
     ],
     [
