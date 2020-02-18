@@ -29,7 +29,7 @@
                 </div>
                 <div class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/t1m0thyj/WinDynamicDesktop/wiki/Creating-custom-themes"><i class="fa fa-plus"></i> Contribute</a>
+                        <a class="nav-link" href="https://github.com/t1m0thyj/WDD-scripts#creating-new-scripts"><i class="fa fa-plus"></i> Contribute</a>
                     </li>
                 </div>
             </div>
