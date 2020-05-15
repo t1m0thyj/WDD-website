@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEIC Extractor</title>
+</head>
+<body>
+    <h1>Multi-Image HEIC Extractor</h1>
+    <p>
+        <label for="format">Format:</label>
+        <select id="format">
+            <option value="JPEG">JPEG</option>
+            <option value="PNG">PNG</option>
+        </select>
+        <label for="quality" style="margin-left: 5px;">Quality:</label>
+        <input id="quality" type="number" min="0" max="100" value="98" size="3">
+    </p>
+    <p>
+        <label for="uploader">Select an HEIC:</label>
+        <input id="uploader" type="file" accept="image/heic">
+    </p>
+    <p>
+        <progress id="progress" value="0" max="100" style="margin-right: 5px; width: 250px;"></progress>
+        <span id="message">Ready</span>
+        <image id="spinner" src="./ajax-loader.gif" style="vertical-align: middle; visibility: hidden;"></image>
+    </p>
+    <p>
+        <label for="metadata" style="display: block; margin-bottom: 5px;">HEIC Metadata:</label>
+        <textarea id="metadata" rows="24" cols="80" readonly></textarea>
+    </p>
+    <script src="./bundle.js"></script>
+</body>
+</html>
