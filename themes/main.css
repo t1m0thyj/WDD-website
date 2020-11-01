@@ -1,0 +1,61 @@
+h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.alternating-image {
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.alternating-image img {
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in;
+    transition: opacity .3s ease-in;
+    width: 100%;
+}
+
+.alternating-image:hover img {
+    opacity: 1;
+}
+
+.caption-button {
+    float: right;
+    margin-top: -22px;
+}
+
+.col-md-4 {
+    padding: 8px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.h2-anchor {
+    margin-top: -38px;
+    padding-top: 38px;
+}
+
+.label-new {
+    color: orange;
+    font-weight: bold;
+}
+
+.modal-dialog {
+    max-width: 994px;
+}
+
+.modal-open .navbar {
+    margin-right: 0 !important;
+    padding-right: 1rem !important;
+}
+
+.row {
+    padding: 0 12px;
+}
