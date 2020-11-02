@@ -2,6 +2,7 @@ import glob
 import json
 import os
 import sys
+from datetime import datetime, timedelta
 
 from mako.template import Template
 
@@ -15,13 +16,11 @@ for html_file in glob.glob("../themes/*.html"):
 
 print("Generating HTML files", end="")
 
-with open("themes-new.txt", 'r') as fileobj:
-    new_themes = fileobj.read().strip().splitlines()
-
+three_months_ago = datetime.today() - timedelta(days=90)
 for theme_id, theme_data in theme_db.items():
     theme_data["displayName"] = theme_data.get("displayName") or theme_id.replace("_", " ")
     theme_data["fileSize"] = round(theme_data["fileSize"] / 1024 / 1024, 2)
-    theme_data["isNew"] = theme_id in new_themes
+    theme_data["isNew"] = datetime.strptime(theme_data["dateAdded"], "%Y-%m-%d") > three_months_ago
 
     if theme_data["imageSize"][1] >= 4320:
         theme_data["imageSize"] = "8k"

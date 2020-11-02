@@ -35,87 +35,122 @@
             </div>
         </nav>
         <a name="free" class="h2-anchor"></a><h2>Free</h2>
-        <h4>Photos</h4>
-        <div class="row">
-        % for theme_id, theme_data in photos_theme_data.items():
-            <div class="col-md-4">
-                <div class="img-thumbnail">
-                    % if theme_data["sunPhases"]:
-                    <a href="#" onclick="openPreview('${theme_id}'); return false;">
-                    % else:
-                    <a href="${theme_data['themeUrl']}">
-                    % endif
-                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
-                            <img src="thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+        <div class="accordion">
+            <div class="card">
+                <div class="card-header" id="heading-free-photos">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-photos" aria-expanded="true" aria-controls="collapse-free-photos">
+                            <i class="fa fa-minus"></i> Photos (${len(photos_theme_data)})
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapse-free-photos" class="collapse show" aria-labelledby="heading-free-photos">
+                    <div class="card-body row">
+                    % for theme_id, theme_data in photos_theme_data.items():
+                        <div class="col-md-4">
+                            <div class="img-thumbnail">
+                                % if theme_data["sunPhases"]:
+                                <a href="#" onclick="openPreview('${theme_id}'); return false;">
+                                % else:
+                                <a href="${theme_data['themeUrl']}">
+                                % endif
+                                    <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
+                                        <img src="thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+                                    </div>
+                                    <div class="caption">
+                                        % if theme_data["isNew"]:
+                                        <small class="label-new">NEW </small>
+                                        % endif
+                                        ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
+                                    </div>
+                                </a>
+                                % if theme_data["sunPhases"]:
+                                <a id="download_${theme_id}" class="caption-button" href="${theme_data['themeUrl']}" title="Download (${theme_data['fileSize']} MB)"><i class="fa fa-download"></i></a>
+                                % else:
+                                <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
+                                % endif
+                            </div>
                         </div>
-                        <div class="caption">
-                            % if theme_data["isNew"]:
-                            <small class="label-new">NEW </small>
-                            % endif
-                            ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
-                        </div>
-                    </a>
-                    % if theme_data["sunPhases"]:
-                    <a id="download_${theme_id}" class="caption-button" href="${theme_data['themeUrl']}" title="Download (${theme_data['fileSize']} MB)"><i class="fa fa-download"></i></a>
-                    % else:
-                    <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
-                    % endif
+                    % endfor
+                    </div>
                 </div>
             </div>
-        % endfor
-        </div>
-        <h4>Art</h4>
-        <div class="row">
-        % for theme_id, theme_data in art_theme_data.items():
-            <div class="col-md-4">
-                <div class="img-thumbnail">
-                    % if theme_data["sunPhases"]:
-                    <a href="#" onclick="openPreview('${theme_id}'); return false;">
-                    % else:
-                    <a href="${theme_data['themeUrl']}">
-                    % endif
-                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
-                            <img src="thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+            <div class="card">
+                <div class="card-header" id="heading-free-art">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-art" aria-expanded="true" aria-controls="collapse-free-art">
+                            <i class="fa fa-minus"></i> Art (${len(art_theme_data)})
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapse-free-art" class="collapse show" aria-labelledby="heading-free-art">
+                    <div class="card-body row">
+                    % for theme_id, theme_data in art_theme_data.items():
+                        <div class="col-md-4">
+                            <div class="img-thumbnail">
+                                % if theme_data["sunPhases"]:
+                                <a href="#" onclick="openPreview('${theme_id}'); return false;">
+                                % else:
+                                <a href="${theme_data['themeUrl']}">
+                                % endif
+                                    <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
+                                        <img src="thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+                                    </div>
+                                    <div class="caption">
+                                        % if theme_data["isNew"]:
+                                        <small class="label-new">NEW </small>
+                                        % endif
+                                        ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
+                                    </div>
+                                </a>
+                                % if theme_data["sunPhases"]:
+                                <a id="download_${theme_id}" class="caption-button" href="${theme_data['themeUrl']}" title="Download (${theme_data['fileSize']} MB)"><i class="fa fa-download"></i></a>
+                                % else:
+                                <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
+                                % endif
+                            </div>
                         </div>
-                        <div class="caption">
-                            % if theme_data["isNew"]:
-                            <small class="label-new">NEW </small>
-                            % endif
-                            ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
-                        </div>
-                    </a>
-                    % if theme_data["sunPhases"]:
-                    <a id="download_${theme_id}" class="caption-button" href="${theme_data['themeUrl']}" title="Download (${theme_data['fileSize']} MB)"><i class="fa fa-download"></i></a>
-                    % else:
-                    <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
-                    % endif
+                    % endfor
+                    </div>
                 </div>
             </div>
-        % endfor
         </div>
         <a name="paid" class="h2-anchor"></a><h2>Paid</h2>
         <div class="alert alert-info" role="alert">
             <i class="fa fa-info-circle"></i> The paid wallpapers listed below can be purchased in bundles for a 50% discount from <a href="https://www.jetsoncreative.com/24hourwindows/#paid">24 Hour Wallpaper <i class="fa fa-external-link"></i></a>.
         </div>
-        <div class="row">
-        % for theme_id, theme_data in paid_theme_data.items():
-            <div class="col-md-4">
-                <div class="img-thumbnail">
-                    <a href="${theme_data['themeUrl']}">
-                        <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
-                            <img src="thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+        <div class="accordion">
+            <div class="card">
+                <div class="card-header" id="heading-paid-photos">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-paid-photos" aria-expanded="true" aria-controls="collapse-paid-photos">
+                            <i class="fa fa-minus"></i> Photos (${len(paid_theme_data)})
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapse-paid-photos" class="collapse show" aria-labelledby="heading-paid-photos">
+                    <div class="card-body row">
+                    % for theme_id, theme_data in paid_theme_data.items():
+                        <div class="col-md-4">
+                            <div class="img-thumbnail">
+                                <a href="${theme_data['themeUrl']}">
+                                    <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
+                                        <img src="thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+                                    </div>
+                                    <div class="caption">
+                                        % if theme_data["isNew"]:
+                                        <small class="label-new">NEW </small>
+                                        % endif
+                                        ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
+                                    </div>
+                                </a>
+                                <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
+                            </div>
                         </div>
-                        <div class="caption">
-                            % if theme_data["isNew"]:
-                            <small class="label-new">NEW </small>
-                            % endif
-                            ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
-                        </div>
-                    </a>
-                    <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
+                    % endfor
+                    </div>
                 </div>
             </div>
-        % endfor
         </div>
     </div>
     <div id="previewModal" class="modal fade" tabindex="-1">

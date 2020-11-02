@@ -3,11 +3,6 @@ h2 {
     text-align: center;
 }
 
-h4 {
-    margin-bottom: 0;
-    margin-top: 8px;
-}
-
 .alternating-image {
     background: no-repeat center;
     background-size: cover;
@@ -27,6 +22,10 @@ h4 {
 .caption-button {
     float: right;
     margin-top: -22px;
+}
+
+.card-header {
+    padding: 3px 5px;
 }
 
 .col-md-4 {
