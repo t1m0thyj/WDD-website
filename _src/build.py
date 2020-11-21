@@ -42,7 +42,7 @@ paid_theme_data = {ti: td for ti, td in theme_db.items() if td["themeType"] == "
 with open("themes-main.mako", 'r') as fileobj:
     themes_main = Template(fileobj.read())
 
-with open("../themes/index.html", 'w') as fileobj:
+with open("../themes/index.html", 'w', newline='\n') as fileobj:
     print(".", end="")
     fileobj.write(themes_main.render(photos_theme_data=photos_theme_data, art_theme_data=art_theme_data,
         paid_theme_data=paid_theme_data))
@@ -53,7 +53,7 @@ with open("themes-preview.mako", 'r') as fileobj:
 for theme_id, theme_data in theme_db.items():
     if not theme_id.startswith("24hr"):
         print(".", end="")
-        with open(f"../themes/preview_{theme_id}.html", 'w') as fileobj:
+        with open(f"../themes/preview_{theme_id}.html", 'w', newline='\n') as fileobj:
             fileobj.write(themes_preview.render(themeId=theme_id, **theme_data))
 
 print("done")
