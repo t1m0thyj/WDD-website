@@ -1,7 +1,6 @@
 import os
 import re
 import smtplib
-import sys
 from dataclasses import dataclass
 from email.mime.text import MIMEText
 from io import BytesIO
@@ -10,7 +9,6 @@ import discord
 from dotenv import load_dotenv
 from PIL import Image, ImageStat
 
-sys.path.append("..")
 from utils import extract_ddw, get_image_ids, get_middle_item, load_theme_config, mediafire_download, resize_16x9
 
 EMOJI_APPROVED = "✔️"
@@ -30,8 +28,7 @@ class ThemeData:
 
 def validate_ddw_name(data: ThemeData):
     filename = re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", data.theme_url).group(1)
-    allowed_names = (data.theme_name, data.theme_name.replace(" ", "-"), data.theme_name.replace(" ", "_"))
-    if os.path.splitext(filename)[0] not in allowed_names:
+    if re.split("[\W_]+", os.path.splitext(filename)[0]) != re.split("[\W_]+", data.theme_name):
         return 'DDW filename matches theme name (e.g., "My_Theme.ddw" for "My Theme")'
 
 

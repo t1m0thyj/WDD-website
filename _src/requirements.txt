@@ -1,4 +1,6 @@
 beautifulsoup4
+discord.py
 mako
 Pillow
+python-dotenv
 pyyaml
