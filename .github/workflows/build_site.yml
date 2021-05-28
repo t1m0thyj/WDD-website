@@ -1,0 +1,31 @@
+name: Site Builder
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Site Builder
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install -r _src/requirements.txt
+
+      - name: Rebuild Site
+        run: python _src/site-builder.py
+
+      - name: Publish Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update themes website
