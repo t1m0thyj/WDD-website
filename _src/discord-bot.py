@@ -28,7 +28,7 @@ class ThemeData:
 
 def validate_ddw_name(data: ThemeData):
     filename = re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", data.theme_url).group(1)
-    if re.split("[\W_]+", os.path.splitext(filename)[0]) != re.split("[\W_]+", data.theme_name):
+    if re.sub("[\W_]", "", os.path.splitext(filename)[0]) != re.sub("[\W_]", "", data.theme_name):
         return 'DDW filename matches theme name (e.g., "My_Theme.ddw" for "My Theme")'
 
 
