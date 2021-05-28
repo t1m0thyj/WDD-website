@@ -37,16 +37,16 @@
         <a name="free" class="h2-anchor"></a><h2>Free</h2>
         <div class="accordion">
             <div class="card">
-                <div class="card-header" id="heading-free-photos">
+                <div class="card-header" id="heading-free-macos">
                     <h3 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-photos" aria-expanded="true" aria-controls="collapse-free-photos">
-                            <i class="fa fa-minus"></i> Photos (${len(photos_theme_data)})
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-macos" aria-expanded="false" aria-controls="collapse-free-macos">
+                            <i class="fa fa-plus"></i> macOS (${len(macos_theme_data)})
                         </button>
                     </h3>
                 </div>
-                <div id="collapse-free-photos" class="collapse show" aria-labelledby="heading-free-photos">
+                <div id="collapse-free-macos" class="collapse" aria-labelledby="heading-free-macos">
                     <div class="card-body row">
-                    % for theme_id, theme_data in photos_theme_data.items():
+                    % for theme_id, theme_data in macos_theme_data.items():
                         <div class="col-md-4">
                             <div class="img-thumbnail">
                                 % if theme_data["sunPhases"]:
@@ -76,16 +76,16 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" id="heading-free-art">
+                <div class="card-header" id="heading-free-community">
                     <h3 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-art" aria-expanded="true" aria-controls="collapse-free-art">
-                            <i class="fa fa-minus"></i> Art (${len(art_theme_data)})
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-community" aria-expanded="true" aria-controls="collapse-free-community">
+                            <i class="fa fa-minus"></i> Community (${len(community_theme_data)})
                         </button>
                     </h3>
                 </div>
-                <div id="collapse-free-art" class="collapse show" aria-labelledby="heading-free-art">
+                <div id="collapse-free-community" class="collapse show" aria-labelledby="heading-free-community">
                     <div class="card-body row">
-                    % for theme_id, theme_data in art_theme_data.items():
+                    % for theme_id, theme_data in community_theme_data.items():
                         <div class="col-md-4">
                             <div class="img-thumbnail">
                                 % if theme_data["sunPhases"]:

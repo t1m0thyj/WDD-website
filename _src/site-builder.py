@@ -1,15 +1,13 @@
 import glob
-import json
 import os
-import sys
 from datetime import datetime, timedelta
 
 from mako.template import Template
 
-with open(sys.argv[1], 'r') as fileobj:
-    theme_db = json.load(fileobj)
+from utils import load_themes_db
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
+themes_db = load_themes_db()
 
 for html_file in glob.glob("../themes/*.html"):
     os.remove(html_file)
@@ -17,7 +15,7 @@ for html_file in glob.glob("../themes/*.html"):
 print("Generating HTML files", end="")
 
 three_months_ago = datetime.today() - timedelta(days=90)
-for theme_id, theme_data in theme_db.items():
+for theme_id, theme_data in themes_db.items():
     theme_data["displayName"] = theme_data.get("displayName") or theme_id.replace("_", " ")
     theme_data["fileSize"] = round(theme_data["fileSize"] / 1024 / 1024, 2)
     theme_data["isNew"] = datetime.strptime(theme_data["dateAdded"], "%Y-%m-%d") > three_months_ago
@@ -35,25 +33,30 @@ for theme_id, theme_data in theme_db.items():
     else:
         theme_data["imageSize"] = "HD"
 
-photos_theme_data = {ti: td for ti, td in theme_db.items() if td["themeType"] == "photos"}
-art_theme_data = {ti: td for ti, td in theme_db.items() if td["themeType"] == "art"}
-paid_theme_data = {ti: td for ti, td in theme_db.items() if td["themeType"] == "paid"}
+macos_theme_data = {ti: td for ti, td in themes_db.items() if td["themeType"] == "macos"}
+community_theme_data = {ti: td for ti, td in themes_db.items() if td["themeType"] == "community"}
+paid_theme_data = {ti: td for ti, td in themes_db.items() if td["themeType"] == "paid"}
 
-with open("themes-main.mako", 'r') as fileobj:
+with open("themes-main.mako", "r") as fileobj:
     themes_main = Template(fileobj.read())
 
-with open("../themes/index.html", 'w', newline='\n') as fileobj:
+with open("../themes/index.html", "w", newline="\n") as fileobj:
     print(".", end="")
-    fileobj.write(themes_main.render(photos_theme_data=photos_theme_data, art_theme_data=art_theme_data,
-        paid_theme_data=paid_theme_data))
+    fileobj.write(
+        themes_main.render(
+            macos_theme_data=macos_theme_data,
+            community_theme_data=community_theme_data,
+            paid_theme_data=paid_theme_data,
+        )
+    )
 
-with open("themes-preview.mako", 'r') as fileobj:
+with open("themes-preview.mako", "r") as fileobj:
     themes_preview = Template(fileobj.read())
 
-for theme_id, theme_data in theme_db.items():
-    if not theme_id.startswith("24hr"):
+for theme_id, theme_data in themes_db.items():
+    if theme_data["themeType"] != "paid":
         print(".", end="")
-        with open(f"../themes/preview_{theme_id}.html", 'w', newline='\n') as fileobj:
+        with open(f"../themes/preview_{theme_id}.html", "w", newline="\n") as fileobj:
             fileobj.write(themes_preview.render(themeId=theme_id, **theme_data))
 
 print("done")
