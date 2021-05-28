@@ -45,7 +45,7 @@ def get_md5_checksum(filename):
 def get_theme_url(theme_type, theme_id):
     with open("themes.yaml", "r") as fileobj:
         themes_yaml = yaml.safe_load(fileobj)
-    return themes_yaml[theme_type][theme_id]
+    return themes_yaml[theme_type][theme_id][0]
 
 
 def get_temp_dir():

@@ -26,7 +26,7 @@ def add(theme_type, theme_path):
     themes_db = load_themes_db()
     theme_id = os.path.splitext(os.path.basename(ddw_file))[0].replace(" ", "_")
     themes_db[theme_id] = {
-        "themeUrl": theme_path if not is_local else get_theme_url(theme_id),
+        "themeUrl": theme_path if not is_local else get_theme_url(theme_type, theme_id),
         "themeType": theme_type,
         "displayName": theme_config.get("displayName"),
         "imageCredits": theme_config.get("imageCredits"),
@@ -34,8 +34,10 @@ def add(theme_type, theme_path):
         "fileSize": os.path.getsize(ddw_file),
         "dateAdded": str(datetime.utcfromtimestamp(os.path.getmtime(ddw_file)).date()),
         "imageSize": make_thumbnails(theme_config, theme_dir, theme_id),
-        "sunPhases": make_previews(theme_config, theme_dir, theme_id) if theme_type != "paid" else None,
+        "sunPhases": make_previews(theme_config, theme_dir, theme_id) if not theme_id.startswith("24hr") else None,
     }
+    if theme_id.startswith("24hr") and theme_type == "community":
+        themes_db[theme_id]["displayName"] = "24 Hour " + themes_db[theme_id]["displayName"]
     save_themes_db(themes_db)
 
 
@@ -43,6 +45,7 @@ def remove(theme_id):
     pass
 
 
+old_cwd = os.getcwd()
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 if len(sys.argv) > 2:
@@ -50,7 +53,9 @@ if len(sys.argv) > 2:
     if action == "add":
         type_ = sys.argv[2]
         for path in sys.argv[3:]:
-            add(type_, path)
+            print(f"+ {type_}\t{path}")
+            add(type_, path if os.path.isabs(path) else os.path.join(old_cwd, path))
     elif action == "remove":
         for id_ in sys.argv[2:]:
+            print(f"- {id_}")
             remove(id_)

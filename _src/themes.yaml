@@ -1,58 +1,10 @@
 community:
-  BitDay:
-  - https://www.mediafire.com/file/0bqp279mw3cb3x3/BitDay.ddw/file
-  Firewatch:
-  - https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file
-  Firewatch_Tower:
-  - https://www.mediafire.com/file/yv0je8geo16a6mj/Firewatch_Tower.ddw/file
-  iOS_13_Black:
-  - https://www.mediafire.com/file/t8re8m95wgip8vg/iOS_13_Black.ddw/file
-  iOS_13_Blue:
-  - https://www.mediafire.com/file/fhllonyn96r7l0o/iOS_13_Blue.ddw/file
-  iOS_13_Green:
-  - https://www.mediafire.com/file/dkmai7jxgi8ov1m/iOS_13_Green.ddw/file
-  iOS_13_Red:
-  - https://www.mediafire.com/file/hmcf2uz47rfpu86/iOS_13_Red.ddw/file
-  Your_Name:
-  - https://www.mediafire.com/file/2telqk5hrun40vv/Your_Name.ddw/file
-  Abstract_Cloth:
-  - https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file
-  Bliss:
-  - https://www.mediafire.com/file/2w0smljabpkrjyt/Bliss.ddw/file
-  High_Mountains:
-  - https://www.mediafire.com/file/olrnxmv2p6bv308/High_Mountains.ddw/file
-  Magic_Castle:
-  - https://www.mediafire.com/file/3ddddma4qlllgat/Magic_Castle.ddw/file
-  Win10_XP:
-  - https://www.mediafire.com/file/fl250nxd1uf6use/Win10_XP.ddw/file
-  Windows:
-  - https://www.mediafire.com/file/vy3pmrzdfu8dz1j/Windows.ddw/file
-  Windows_Insider:
-  - https://www.mediafire.com/file/rv8wjk8jmmdet72/Windows_Insider.ddw/file
-  Zelda_Wind_Waker_Outset_Island:
-  - https://www.mediafire.com/file/q18juc7ux86jflt/Zelda_Wind_Waker_Outset_Island.ddw/file
-  BotW_The_Great_Plateau:
-  - https://www.mediafire.com/file/wsr7htcwsn6am7d/BotW_The_Great_Plateau.ddw/file
-  BotW_Dueling_Peaks_Stable:
-  - https://www.mediafire.com/file/c0i78wyb8grutvm/BotW_Dueling_Peaks_Stable.ddw/file
-  BotW_Hateno_Village:
-  - https://www.mediafire.com/file/zp9i07ax66z1hyy/BotW_Hateno_Village.ddw/file
-  BotW_Kakariko_Village:
-  - https://www.mediafire.com/file/cxj8s83tey1nsu9/BotW_Kakariko_Village.ddw/file
-  BotW_Lovers_Pond:
-  - https://www.mediafire.com/file/95p3d27fkk6q45b/BotW_Lovers_Pond.ddw/file
-  BotW_Lurelin_Village:
-  - https://www.mediafire.com/file/bdab1fqyt6fw0ah/BotW_Lurelin_Village.ddw/file
-  Earth_View:
-  - https://www.mediafire.com/file/lvg94m0bg6atk2y/Earth_View.ddw/file
-  Licancabur:
-  - https://www.mediafire.com/file/cg8cuwopdqik9x2/Licancabur.ddw/file
-  Mojave_XP:
-  - https://www.mediafire.com/file/t5uwbz0oh9r6cul/Mojave_XP.ddw/file
-  Castle:
-  - https://www.mediafire.com/file/vem6eztb8icnz5x/Castle.ddw/file
-  Crew2_M4_Canyon:
-  - https://www.mediafire.com/file/4al16dt4itfi5tt/Crew2_M4_Canyon.ddw/file
+  24hr-BigSur-1:
+  - https://www.jetsoncreative.com/ddcatalog/big-sur-1-windd
+  24hr-Earth:
+  - https://www.jetsoncreative.com/ddcatalog/earth-windd
+  24hr-Miami-1:
+  - https://www.jetsoncreative.com/ddcatalog/miami-1-windd
 macos:
   Big_Sur:
   - https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Big_Sur.ddw
@@ -83,8 +35,6 @@ macos:
 paid:
   24hr-AlabamaHills:
   - https://www.jetsoncreative.com/ddcatalog/alabamahills-windd
-  24hr-BigSur-1:
-  - https://www.jetsoncreative.com/ddcatalog/big-sur-1-windd
   24hr-BigSur-2:
   - https://www.jetsoncreative.com/ddcatalog/big-sur-2-windd
   24hr-BigSur-3:
@@ -117,8 +67,6 @@ paid:
   - https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd
   24hr-Cotswolds:
   - https://www.jetsoncreative.com/ddcatalog/cotswolds-windd
-  24hr-Earth:
-  - https://www.jetsoncreative.com/ddcatalog/earth-windd
   24hr-Glacier:
   - https://www.jetsoncreative.com/ddcatalog/glacier-windd
   24hr-GrandTetons:
@@ -137,8 +85,6 @@ paid:
   - https://www.jetsoncreative.com/ddcatalog/los-angeles-2019-windd
   24hr-Malibu:
   - https://www.jetsoncreative.com/ddcatalog/malibu-windd
-  24hr-Miami-1:
-  - https://www.jetsoncreative.com/ddcatalog/miami-1-windd
   24hr-Miami-2:
   - https://www.jetsoncreative.com/ddcatalog/miami-2-windd
   24hr-MojaveDunes:

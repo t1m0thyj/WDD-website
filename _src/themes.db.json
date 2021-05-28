@@ -1,7 +1,7 @@
 {
     "24hr-BigSur-1": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/big-sur-1-windd",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": "24 Hour Big Sur #1",
         "imageCredits": "24 Hour Wallpaper",
         "fileHash": "c8cb96b2da87a72a35ce0d41e5ebc407",
@@ -15,7 +15,7 @@
     },
     "24hr-Earth": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/earth-windd",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": "24 Hour Earth from ISS",
         "imageCredits": "24 Hour Wallpaper",
         "fileHash": "d7e74f9d201088dcee641adf66cf8a40",
@@ -29,7 +29,7 @@
     },
     "24hr-Miami-1": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-1-windd",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": "24 Hour Miami #1",
         "imageCredits": "24 Hour Wallpaper",
         "fileHash": "d6f6a52e89fca631a6cbd69cba6b4dc9",
@@ -43,7 +43,7 @@
     },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "orcH",
         "fileHash": "fbab9db96ae85971cd3c12e8f2c6078a",
@@ -59,7 +59,7 @@
         ]
     },
     "24hr-AlabamaHills": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/alabama-hills-windd",
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/alabamahills-windd",
         "themeType": "paid",
         "displayName": "Alabama Hills",
         "imageCredits": "24 Hour Wallpaper",
@@ -100,9 +100,45 @@
         ],
         "sunPhases": null
     },
+    "Big_Sur": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Big_Sur.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4ded973f2f813b04f2f4564d29578009",
+        "fileSize": 119886081,
+        "dateAdded": "2020-06-24",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Big_Sur_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Big_Sur_Abstract_2.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "76f24ffbabc81deab2e49514c7b6e5ad",
+        "fileSize": 20964241,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "BitDay": {
         "themeUrl": "https://www.mediafire.com/file/0bqp279mw3cb3x3/BitDay.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "BloodyMarvellous",
         "fileHash": "6c8615a007abfcc903bddd5cbcb9c0f4",
@@ -121,7 +157,7 @@
     },
     "Bliss": {
         "themeUrl": "https://www.mediafire.com/file/2w0smljabpkrjyt/Bliss.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "andreitrinidad",
         "fileHash": "eab26b2342a4ea54714946cd5485fcfc",
@@ -140,7 +176,7 @@
     },
     "BotW_Dueling_Peaks_Stable": {
         "themeUrl": "https://www.mediafire.com/file/c0i78wyb8grutvm/BotW_Dueling_Peaks_Stable.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "BotW - Dueling Peaks Stable",
         "imageCredits": "Nintendo",
         "fileHash": "26e57f4bf04c1e6f943bf53c9ec60c89",
@@ -159,7 +195,7 @@
     },
     "BotW_Hateno_Village": {
         "themeUrl": "https://www.mediafire.com/file/zp9i07ax66z1hyy/BotW_Hateno_Village.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "BotW - Hateno Village",
         "imageCredits": "Nintendo",
         "fileHash": "428f41083fabaaca64cff9b18693d234",
@@ -178,7 +214,7 @@
     },
     "BotW_Kakariko_Village": {
         "themeUrl": "https://www.mediafire.com/file/cxj8s83tey1nsu9/BotW_Kakariko_Village.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "BotW - Kakariko Village",
         "imageCredits": "Nintendo",
         "fileHash": "c70cd1dcee5ec0039017fdc66ec62483",
@@ -197,7 +233,7 @@
     },
     "BotW_Lovers_Pond": {
         "themeUrl": "https://www.mediafire.com/file/95p3d27fkk6q45b/BotW_Lovers_Pond.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "BotW - Lover's Pond",
         "imageCredits": "Nintendo",
         "fileHash": "8bf2754e6664164d3f0bea49e778213a",
@@ -216,7 +252,7 @@
     },
     "BotW_Lurelin_Village": {
         "themeUrl": "https://www.mediafire.com/file/bdab1fqyt6fw0ah/BotW_Lurelin_Village.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "BotW - Lurelin Village",
         "imageCredits": "Nintendo",
         "fileHash": "4555617499d2f9398c070dfbe6073c8e",
@@ -235,7 +271,7 @@
     },
     "BotW_The_Great_Plateau": {
         "themeUrl": "https://www.mediafire.com/file/wsr7htcwsn6am7d/BotW_The_Great_Plateau.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "BotW - The Great Plateau",
         "imageCredits": "Nintendo",
         "fileHash": "9f60ba3267a4d5d565d5fe78238422d0",
@@ -310,7 +346,7 @@
     },
     "Castle": {
         "themeUrl": "https://www.mediafire.com/file/vem6eztb8icnz5x/Castle.ddw/file",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Allard Schager/Akhilesh Balaji",
         "fileHash": "78ba5c90ea203b25927f4fa114883d25",
@@ -319,6 +355,25 @@
         "imageSize": [
             4096,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Catalina": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/catalina/Catalina.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "7319c1a3c18a70381885ea7803b7d93e",
+        "fileSize": 107200280,
+        "dateAdded": "2020-08-12",
+        "imageSize": [
+            6016,
+            3384
         ],
         "sunPhases": [
             "sunrise",
@@ -467,9 +522,26 @@
         ],
         "sunPhases": null
     },
+    "Dome": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Dome.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "08922094e13e1592be3ce4cff78ebbd1",
+        "fileSize": 22382886,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Earth_View": {
         "themeUrl": "https://www.mediafire.com/file/lvg94m0bg6atk2y/Earth_View.ddw/file",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Himawari 8",
         "fileHash": "88823d33a81d33cf9747816cce4e05c6",
@@ -488,7 +560,7 @@
     },
     "Firewatch": {
         "themeUrl": "https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Olly Moss",
         "fileHash": "9aedbafa939519953e2a8588465775ac",
@@ -507,7 +579,7 @@
     },
     "Firewatch_Tower": {
         "themeUrl": "https://www.mediafire.com/file/yv0je8geo16a6mj/Firewatch_Tower.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Olly Moss",
         "fileHash": "0db21fd32680892e833facb03757bbc1",
@@ -554,7 +626,7 @@
     },
     "High_Mountains": {
         "themeUrl": "https://www.mediafire.com/file/olrnxmv2p6bv308/High_Mountains.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "High Mountains",
         "imageCredits": "Hexandcube (https://hexandcube.tk)",
         "fileHash": "3d2873076b26d187b99998d1f18a97f5",
@@ -599,7 +671,7 @@
     },
     "iOS_13_Black": {
         "themeUrl": "https://www.mediafire.com/file/t8re8m95wgip8vg/iOS_13_Black.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "095adc7f96847c0278ae6d200824acb1",
@@ -616,7 +688,7 @@
     },
     "iOS_13_Blue": {
         "themeUrl": "https://www.mediafire.com/file/fhllonyn96r7l0o/iOS_13_Blue.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "f964322ac45bd21181da1381a662c0a7",
@@ -633,7 +705,7 @@
     },
     "iOS_13_Green": {
         "themeUrl": "https://www.mediafire.com/file/dkmai7jxgi8ov1m/iOS_13_Green.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "4e1c09fa06560d0f9446cbbe15123875",
@@ -650,7 +722,7 @@
     },
     "iOS_13_Red": {
         "themeUrl": "https://www.mediafire.com/file/hmcf2uz47rfpu86/iOS_13_Red.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Apple",
         "fileHash": "bb79793861229e92bc2dabd3dd94c68c",
@@ -659,6 +731,23 @@
         "imageSize": [
             3208,
             1804
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Iridescence": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Iridescence.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "cd3a68de56958e6e5e94bdb830328dd1",
+        "fileSize": 9543034,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
         ],
         "sunPhases": [
             "day",
@@ -681,7 +770,7 @@
     },
     "Licancabur": {
         "themeUrl": "https://www.mediafire.com/file/cg8cuwopdqik9x2/Licancabur.ddw/file",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "gumoreira",
         "fileHash": "113968765ea80549f352f938be5f504c",
@@ -740,7 +829,7 @@
     },
     "Magic_Castle": {
         "themeUrl": "https://www.mediafire.com/file/3ddddma4qlllgat/Magic_Castle.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "Valerii Siserg",
         "fileHash": "f60206ea7d2a2e66332c4c4623452b13",
@@ -813,9 +902,28 @@
         ],
         "sunPhases": null
     },
+    "Mojave_Desert": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/mojave/Mojave_Desert.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "1927245677fd52007a90de4d5027b2c9",
+        "fileSize": 132672279,
+        "dateAdded": "2020-08-12",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Mojave_XP": {
         "themeUrl": "https://www.mediafire.com/file/t5uwbz0oh9r6cul/Mojave_XP.ddw/file",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "legrisch",
         "fileHash": "a14962b4593392f0aed2f80a92ae6d15",
@@ -944,6 +1052,23 @@
         ],
         "sunPhases": null
     },
+    "Peak": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Peak.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "30c05683489d350f0345098f72c897bb",
+        "fileSize": 16283830,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Polson": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/polson-windd",
         "themeType": "paid",
@@ -1014,6 +1139,25 @@
         ],
         "sunPhases": null
     },
+    "Solar_Gradients": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/mojave/Solar_Gradients.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4f6b8d6d1a5996c09007db6aba408dc8",
+        "fileSize": 58842326,
+        "dateAdded": "2020-08-12",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Tahoe-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd",
         "themeType": "paid",
@@ -1030,7 +1174,7 @@
     },
     "Crew2_M4_Canyon": {
         "themeUrl": "https://www.mediafire.com/file/4al16dt4itfi5tt/Crew2_M4_Canyon.ddw/file",
-        "themeType": "photos",
+        "themeType": "community",
         "displayName": "The Crew 2 BMW M4 in the Canyons",
         "imageCredits": "Ubisoft/MAXYMOK",
         "fileHash": "5e4d3d718055851c7d77b89832bafedf",
@@ -1039,6 +1183,82 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "The_Beach": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/The_Beach.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "07ee7b4b4f12c0681d24a1e93022c332",
+        "fileSize": 59324874,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "The_Cliffs": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/The_Cliffs.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "bcefba4d11cf1844f54fcc79649d403b",
+        "fileSize": 59649222,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "The_Desert": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/The_Desert.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "43bb86cdbb70f10a472ad8e54548aa45",
+        "fileSize": 58617173,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "The_Lake": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/The_Lake.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "2de7102b71e5b3fb1a5c2f2a3e7750a4",
+        "fileSize": 61346189,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
         ],
         "sunPhases": [
             "sunrise",
@@ -1061,6 +1281,23 @@
         ],
         "sunPhases": null
     },
+    "Tree": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Tree.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "051abf2836ec644b5fd700b2e8cc83e4",
+        "fileSize": 16172899,
+        "dateAdded": "2020-10-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-VeryLargeArray": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/vla-windd",
         "themeType": "paid",
@@ -1077,7 +1314,7 @@
     },
     "Win10_XP": {
         "themeUrl": "https://www.mediafire.com/file/fl250nxd1uf6use/Win10_XP.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "TheRealGamer/TRG on YT",
         "fileHash": "f715a2bac7e48f20a15e04deac698abe",
@@ -1096,7 +1333,7 @@
     },
     "Windows": {
         "themeUrl": "https://www.mediafire.com/file/vy3pmrzdfu8dz1j/Windows.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "MSFT",
         "fileHash": "75935e9a9a8bb311d0fe5cbfc9ffee30",
@@ -1113,7 +1350,7 @@
     },
     "Windows_Insider": {
         "themeUrl": "https://www.mediafire.com/file/rv8wjk8jmmdet72/Windows_Insider.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "Windows Insider",
         "imageCredits": "Microsoft",
         "fileHash": "fdb6e7de14d697342577bd6d0b4cb133",
@@ -1172,7 +1409,7 @@
     },
     "Your_Name": {
         "themeUrl": "https://www.mediafire.com/file/2telqk5hrun40vv/Your_Name.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": null,
         "imageCredits": "wallpapyrus",
         "fileHash": "dc1fe8a778b3ed781334d330798ba629",
@@ -1191,7 +1428,7 @@
     },
     "Zelda_Wind_Waker_Outset_Island": {
         "themeUrl": "https://www.mediafire.com/file/q18juc7ux86jflt/Zelda_Wind_Waker_Outset_Island.ddw/file",
-        "themeType": "art",
+        "themeType": "community",
         "displayName": "Zelda: Wind Waker - Outset Island",
         "imageCredits": "Art/.heic by Matt Vince - 'www.mattvince.com/product/zelda-windwaker-dynamic-wallpaper-mac-osx', .ddw by github:@switch64",
         "fileHash": "c2dbb0095adf268695d3fb626bfe6e04",

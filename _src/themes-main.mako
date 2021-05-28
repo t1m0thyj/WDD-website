@@ -124,7 +124,7 @@
                 <div class="card-header" id="heading-paid-photos">
                     <h3 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-paid-photos" aria-expanded="true" aria-controls="collapse-paid-photos">
-                            <i class="fa fa-minus"></i> Photos (${len(paid_theme_data)})
+                            <i class="fa fa-minus"></i> 24 Hour Wallpaper (${len(paid_theme_data)})
                         </button>
                     </h3>
                 </div>

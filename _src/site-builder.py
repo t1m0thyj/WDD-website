@@ -54,7 +54,7 @@ with open("themes-preview.mako", "r") as fileobj:
     themes_preview = Template(fileobj.read())
 
 for theme_id, theme_data in themes_db.items():
-    if theme_data["themeType"] != "paid":
+    if theme_data["sunPhases"] is not None:
         print(".", end="")
         with open(f"../themes/preview_{theme_id}.html", "w", newline="\n") as fileobj:
             fileobj.write(themes_preview.render(themeId=theme_id, **theme_data))
