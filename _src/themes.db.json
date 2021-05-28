@@ -193,6 +193,44 @@
             "night"
         ]
     },
+    "BotW_Eventide_Island": {
+        "themeUrl": "https://www.mediafire.com/file/ro6tx1t4bku28a7/BotW_Eventide_Island.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Eventide Island",
+        "imageCredits": "Nintendo",
+        "fileHash": "658483369c81357d365969a27cd53686",
+        "fileSize": 12528247,
+        "dateAdded": "2021-05-28",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Gerudo_Desert": {
+        "themeUrl": "https://www.mediafire.com/file/l8u0tjdxknzcra8/BotW_Gerudo_Desert.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Gerudo Desert",
+        "imageCredits": "Nintendo",
+        "fileHash": "29d3cc237304ed82bb543db91562a347",
+        "fileSize": 6290181,
+        "dateAdded": "2021-05-28",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BotW_Hateno_Village": {
         "themeUrl": "https://www.mediafire.com/file/zp9i07ax66z1hyy/BotW_Hateno_Village.ddw/file",
         "themeType": "community",
@@ -201,6 +239,25 @@
         "fileHash": "428f41083fabaaca64cff9b18693d234",
         "fileSize": 16414653,
         "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Hyrule_Castle": {
+        "themeUrl": "https://www.mediafire.com/file/hryhfjeiai2do2s/BotW_Hyrule_Castle.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Hyrule Castle",
+        "imageCredits": "Nintendo",
+        "fileHash": "0423a74899b773097b1eaa6967ed660c",
+        "fileSize": 9991147,
+        "dateAdded": "2021-05-28",
         "imageSize": [
             2560,
             1440
@@ -269,6 +326,25 @@
             "night"
         ]
     },
+    "BotW_Temple_of_Time": {
+        "themeUrl": "https://www.mediafire.com/file/u1nrdvfvlh007m9/BotW_Temple_of_Time.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Temple of Time",
+        "imageCredits": "Nintendo",
+        "fileHash": "d226f970b51d2806eb724775926ec4f5",
+        "fileSize": 15324878,
+        "dateAdded": "2021-05-28",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BotW_The_Great_Plateau": {
         "themeUrl": "https://www.mediafire.com/file/wsr7htcwsn6am7d/BotW_The_Great_Plateau.ddw/file",
         "themeType": "community",
@@ -277,6 +353,25 @@
         "fileHash": "9f60ba3267a4d5d565d5fe78238422d0",
         "fileSize": 10887045,
         "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Zoras_Domain": {
+        "themeUrl": "https://www.mediafire.com/file/p1vs2hglv3qgegk/BotW_Zoras_Domain.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Zora's Domain",
+        "imageCredits": "Nintendo",
+        "fileHash": "66d5c58ac05023a3660c21ee8edf5fb5",
+        "fileSize": 13587164,
+        "dateAdded": "2021-05-28",
         "imageSize": [
             2560,
             1440
@@ -536,6 +631,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Dreams": {
+        "themeUrl": "https://www.mediafire.com/file/ax2d647xbwjdytg/Dreams.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "vector_control",
+        "fileHash": "b90db6f674ee3a3d85de53c2cdfa78bd",
+        "fileSize": 8326223,
+        "dateAdded": "2021-05-28",
+        "imageSize": [
+            3440,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -901,6 +1015,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Mojave_XP_Cats": {
+        "themeUrl": "https://www.mediafire.com/file/806vwjpebtgj5tr/Mojave_XP_Cats.ddw/file",
+        "themeType": "community",
+        "displayName": "Mojave XP Cats",
+        "imageCredits": "legrisch, edited by gargakshit",
+        "fileHash": "3409c35a55bd91a7ee0dfb04648e3cfa",
+        "fileSize": 85548384,
+        "dateAdded": "2021-05-28",
+        "imageSize": [
+            4510,
+            2536
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Mojave_Desert": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/mojave/Mojave_Desert.ddw",
@@ -1362,6 +1495,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "XCDE_-_Main_Menu_Screen": {
+        "themeUrl": "https://www.mediafire.com/file/6gsuod7mt108i87/XCDE_-_Main_Menu_Screen.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Monolith Soft",
+        "fileHash": "7c1a93f50c07a6b488acc763a618e95b",
+        "fileSize": 60487945,
+        "dateAdded": "2021-05-28",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },

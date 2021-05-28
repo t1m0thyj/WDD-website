@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 from datetime import datetime
 
@@ -16,10 +17,12 @@ from utils import (
 
 # TODO Automate macOS themes process - take HEIC, make regular & square DDW, gen 50-50 thumbs
 # TODO Implement function to remove themes
+orig_cwd = os.getcwd()
 
 
 def add(theme_type, theme_path):
-    is_local = os.path.isfile(theme_path)
+    is_local = re.match("\w{2,}:", theme_path) is None
+    theme_path = theme_path if not is_local or os.path.isabs(theme_path) else os.path.join(orig_cwd, theme_path)
     ddw_file = theme_path if is_local else mediafire_download(theme_path)
     theme_dir = extract_ddw(ddw_file)
     theme_config = load_theme_config(theme_dir)
@@ -45,7 +48,6 @@ def remove(theme_id):
     pass
 
 
-old_cwd = os.getcwd()
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 if len(sys.argv) > 2:
@@ -54,7 +56,7 @@ if len(sys.argv) > 2:
         type_ = sys.argv[2]
         for path in sys.argv[3:]:
             print(f"+ {type_}\t{path}")
-            add(type_, path if os.path.isabs(path) else os.path.join(old_cwd, path))
+            add(type_, path)
     elif action == "remove":
         for id_ in sys.argv[2:]:
             print(f"- {id_}")
