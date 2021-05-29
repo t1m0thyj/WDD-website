@@ -28,7 +28,7 @@ h2 {
     padding: 3px 5px;
 }
 
-.col-md-4 {
+.col-md-4, .col-xl-3 {
     padding: 8px;
 }
 
@@ -57,4 +57,16 @@ h2 {
 
 .row {
     padding: 0 12px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        max-width: 60%;
+    }
 }

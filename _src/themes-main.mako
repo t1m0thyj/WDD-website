@@ -47,7 +47,7 @@
                 <div id="collapse-free-macos" class="collapse" aria-labelledby="heading-free-macos">
                     <div class="card-body row">
                     % for theme_id, theme_data in macos_theme_data.items():
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xl-3">
                             <div class="img-thumbnail">
                                 % if theme_data["sunPhases"]:
                                 <a href="#" onclick="openPreview('${theme_id}'); return false;">
@@ -86,7 +86,7 @@
                 <div id="collapse-free-community" class="collapse show" aria-labelledby="heading-free-community">
                     <div class="card-body row">
                     % for theme_id, theme_data in community_theme_data.items():
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xl-3">
                             <div class="img-thumbnail">
                                 % if theme_data["sunPhases"]:
                                 <a href="#" onclick="openPreview('${theme_id}'); return false;">
@@ -131,7 +131,7 @@
                 <div id="collapse-paid-photos" class="collapse show" aria-labelledby="heading-paid-photos">
                     <div class="card-body row">
                     % for theme_id, theme_data in paid_theme_data.items():
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xl-3">
                             <div class="img-thumbnail">
                                 <a href="${theme_data['themeUrl']}">
                                     <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
