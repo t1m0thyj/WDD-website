@@ -7,7 +7,7 @@
     <title>WinDynamicDesktop Themes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/main.css">
+    <link rel="stylesheet" href="${basePath}main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 </head>
@@ -55,7 +55,7 @@
                                 <a href="${theme_data['themeUrl']}">
                                 % endif
                                     <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
-                                        <img src="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+                                        <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
                                     </div>
                                     <div class="caption">
                                         % if theme_data["isNew"]:
@@ -94,7 +94,7 @@
                                 <a href="${theme_data['themeUrl']}">
                                 % endif
                                     <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
-                                        <img src="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+                                        <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
                                     </div>
                                     <div class="caption">
                                         % if theme_data["isNew"]:
@@ -135,7 +135,7 @@
                             <div class="img-thumbnail">
                                 <a href="${theme_data['themeUrl']}">
                                     <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
-                                        <img src="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
+                                        <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
                                     </div>
                                     <div class="caption">
                                         % if theme_data["isNew"]:
@@ -168,6 +168,6 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/main.js"></script>
+    <script src="${basePath}main.js"></script>
 </body>
 </html>
