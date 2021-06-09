@@ -24,6 +24,7 @@ class ThemeData:
     ddw_file: str
     theme_dir: str
     theme_config: dict
+    fatal_error: bool
 
 
 def validate_ddw_name(data: ThemeData):
@@ -37,6 +38,7 @@ def validate_ddw_contents(data: ThemeData):
     for i in get_image_ids(data.theme_config):
         expected_files.add(data.theme_config["imageFilename"].replace("*", str(i)))
 
+    data.fatal_error = not all(os.path.isfile(f"{data.theme_dir}/{filename}") for filename in expected_files)
     if set(os.listdir(data.theme_dir)) != expected_files:
         return 'DDW file contains "theme.json" and all image files it references'
 
@@ -114,7 +116,7 @@ class MyClient(discord.Client):
         except:
             errors.append("Theme config is a valid JSON file")
 
-        data = ThemeData(theme_name, theme_url, ddw_file, theme_dir, theme_config)
+        data = ThemeData(theme_name, theme_url, ddw_file, theme_dir, theme_config, False)
         if errors:
             return data, errors
 
@@ -127,6 +129,8 @@ class MyClient(discord.Client):
             validate_image_brightness,
         ):
             errors.append(validator(data))
+            if data.fatal_error:
+                break
 
         return data, [error for error in errors if error]
 
