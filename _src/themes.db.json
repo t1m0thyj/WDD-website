@@ -1073,6 +1073,23 @@
             "night"
         ]
     },
+    "Monterey_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/monterey/Monterey_Abstract.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "029acf112a29db9fa5893fd484f314a2",
+        "fileSize": 12590399,
+        "dateAdded": "2021-06-08",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-MonumentValley": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monument-valley-windd",
         "themeType": "paid",
