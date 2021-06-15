@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WDD Theme",
+  "description": "JSON schema that defines a WinDynamicDesktop theme",
+  "definitions": {
+    "imageList": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "description": "JSON schema URI",
+      "type": "string"
+    },
+    "displayName": {
+      "description": "Theme display name",
+      "type": "string"
+    },
+    "imageFilename": {
+      "description": "Image filename pattern",
+      "type": "string",
+      "pattern": "\\*"
+    },
+    "imageCredits": {
+      "description": "Image credits",
+      "type": "string"
+    },
+    "dayHighlight": {
+      "$ref": "#/definitions/imageList/items/anyOf/0",
+      "description": "Light image number to show in thumbnail"
+    },
+    "nightHighlight": {
+      "$ref": "#/definitions/imageList/items/anyOf/0",
+      "description": "Dark image number to show in thumbnail"
+    },
+    "sunriseImageList": {
+      "$ref": "#/definitions/imageList",
+      "description": "Sunrise image list"
+    },
+    "dayImageList": {
+      "$ref": "#/definitions/imageList",
+      "description": "Day image list"
+    },
+    "sunsetImageList": {
+      "$ref": "#/definitions/imageList",
+      "description": "Sunset image list"
+    },
+    "nightImageList": {
+      "$ref": "#/definitions/imageList",
+      "description": "Night image list"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "imageFilename",
+    "imageCredits",
+    "dayImageList",
+    "nightImageList"
+  ]
+}
