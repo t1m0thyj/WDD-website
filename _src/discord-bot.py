@@ -40,7 +40,7 @@ def validate_ddw_contents(data: ThemeData):
 
     data.fatal_error = not all(os.path.isfile(f"{data.theme_dir}/{filename}") for filename in expected_files)
     if set(os.listdir(data.theme_dir)) != expected_files:
-        return 'DDW file contains "theme.json" and all image files it references'
+        return 'DDW file contains only "theme.json" and all image files it references'
 
 
 def validate_image_credits(data: ThemeData):
