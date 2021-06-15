@@ -1,6 +1,8 @@
+import asyncio
 import os
 import re
 import smtplib
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from email.mime.text import MIMEText
 from io import BytesIO
@@ -89,7 +91,9 @@ class MyClient(discord.Client):
             email_address = re.search("^Email Address: (.+)$", message.content, re.MULTILINE).group(1)
             theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
             theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
-            data, errors = await self.check_theme(theme_name, theme_url)
+
+            loop = asyncio.get_event_loop()
+            data, errors = await loop.run_in_executor(ThreadPoolExecutor(), self.check_theme, theme_name, theme_url)
 
             await self.send_email(errors, email_address, theme_name)
             await message.reply(**self.get_new_message(errors, theme_name))
@@ -97,7 +101,7 @@ class MyClient(discord.Client):
                 approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
                 await approved_channel.send(**self.get_approved_message(data))
 
-    async def check_theme(self, theme_name, theme_url):
+    def check_theme(self, theme_name, theme_url):
         print(f"Checking {theme_name}: {theme_url}")
         errors = []
 
