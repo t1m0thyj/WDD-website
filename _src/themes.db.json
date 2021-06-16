@@ -72,6 +72,25 @@
         ],
         "sunPhases": null
     },
+    "Automation_Hyper_Turning_Left": {
+        "themeUrl": "https://www.mediafire.com/file/sqycbyudbi9d2tg/Automation_Hyper_Turning_Left.ddw/file",
+        "themeType": "community",
+        "displayName": "Automation Hyper Turning Left",
+        "imageCredits": "Dev Sahay",
+        "fileHash": "99d69033682dbadd30a0aea62ce020a5",
+        "fileSize": 39939573,
+        "dateAdded": "2021-06-16",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-BigSur-2": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/big-sur-2-windd",
         "themeType": "paid",
@@ -288,6 +307,25 @@
             "night"
         ]
     },
+    "BotW_Kitano_Bay": {
+        "themeUrl": "https://www.mediafire.com/file/rapmuewlaivc1ow/BotW_Kitano_Bay.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Kitano Bay",
+        "imageCredits": "Nintendo",
+        "fileHash": "bdd7793e7a9c9a8b93868b1f7bbc4b99",
+        "fileSize": 10925278,
+        "dateAdded": "2021-06-16",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BotW_Lovers_Pond": {
         "themeUrl": "https://www.mediafire.com/file/95p3d27fkk6q45b/BotW_Lovers_Pond.ddw/file",
         "themeType": "community",
@@ -315,6 +353,25 @@
         "fileHash": "4555617499d2f9398c070dfbe6073c8e",
         "fileSize": 17722628,
         "dateAdded": "2021-05-07",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "BotW_Rito_Village": {
+        "themeUrl": "https://www.mediafire.com/file/q36vsk2owv6v8ap/BotW_Rito_Village.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Rito Village",
+        "imageCredits": "Nintendo",
+        "fileHash": "09f10532202b8fa679ab6f216e577ce9",
+        "fileSize": 10630190,
+        "dateAdded": "2021-06-16",
         "imageSize": [
             2560,
             1440
@@ -988,6 +1045,23 @@
         ],
         "sunPhases": null
     },
+    "Minimal_Mojave": {
+        "themeUrl": "https://www.mediafire.com/file/kfpsddkg36pwu8p/Minimal_Mojave.ddw/file",
+        "themeType": "community",
+        "displayName": "Minimal Mojave",
+        "imageCredits": "octaviotti",
+        "fileHash": "b036b29004cdaf1362a11200c239ff49",
+        "fileSize": 1188117,
+        "dateAdded": "2021-06-16",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-MojaveDunes": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd",
         "themeType": "paid",
@@ -1509,6 +1583,23 @@
         "imageSize": [
             4092,
             2298
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11": {
+        "themeUrl": "https://www.mediafire.com/file/gdk5bv3se2yt1sr/Windows_11.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "03bde82b676295e868a4ba64e8777f18",
+        "fileSize": 1666711,
+        "dateAdded": "2021-06-16",
+        "imageSize": [
+            3840,
+            2400
         ],
         "sunPhases": [
             "day",
