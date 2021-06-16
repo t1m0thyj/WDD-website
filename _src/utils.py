@@ -53,10 +53,7 @@ def get_temp_dir():
 
 
 def load_theme_config(theme_dir):
-    json_file = next(glob.iglob(theme_dir + "/*.json"), None)
-    if not json_file:
-        return None
-    with open(json_file, "r") as fileobj:
+    with open(next(glob.iglob(theme_dir + "/*.json")), "r") as fileobj:
         return json.load(fileobj)
 
 
