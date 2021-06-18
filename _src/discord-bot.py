@@ -1,4 +1,5 @@
 import asyncio
+import logging
 import os
 import re
 import smtplib
@@ -92,6 +93,7 @@ class MyClient(discord.Client):
             theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
             theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
 
+            logging.info(f"[{theme_name}] Theme submitted")
             loop = asyncio.get_event_loop()
             data, errors = await loop.run_in_executor(ThreadPoolExecutor(), self.check_theme, theme_name, theme_url)
 
@@ -100,9 +102,13 @@ class MyClient(discord.Client):
             if not errors:
                 approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
                 await approved_channel.send(**self.get_approved_message(data))
+                logging.info(f"[{theme_name}] Theme approved")
+            else:
+                for error in errors:
+                    logging.error(f"[{theme_name}] {error}")
+                logging.info(f"[{theme_name}] Theme rejected")
 
     def check_theme(self, theme_name, theme_url):
-        print(f"Checking {theme_name}: {theme_url}")
         errors = []
 
         try:
@@ -194,6 +200,7 @@ class MyClient(discord.Client):
         return {"content": content, "files": files}
 
 
+logging.basicConfig(level=logging.INFO)
 load_dotenv()
 client = MyClient()
 client.run(os.environ["DISCORD_TOKEN"])
