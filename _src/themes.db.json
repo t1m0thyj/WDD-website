@@ -1606,6 +1606,91 @@
             "night"
         ]
     },
+    "Windows_11_Cloth": {
+        "themeUrl": "https://www.mediafire.com/file/mm2na6ffxm7mhqh/Windows+11+Cloth.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "302a2828222d6172055f2beb2332f265",
+        "fileSize": 407793,
+        "dateAdded": "2021-06-18",
+        "imageSize": [
+            2736,
+            1539
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_Dune": {
+        "themeUrl": "https://www.mediafire.com/file/5jbh5b5vgx100fa/Windows_11_Dune.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "02675550f716d7b3570765d77a825a97",
+        "fileSize": 174949,
+        "dateAdded": "2021-06-18",
+        "imageSize": [
+            2736,
+            1539
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_Fabric": {
+        "themeUrl": "https://www.mediafire.com/file/6dapzb8iihisybu/Windows+11+Fabric.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "c257ee1da58110f6c8ebc5a3b9354b47",
+        "fileSize": 989074,
+        "dateAdded": "2021-06-18",
+        "imageSize": [
+            2736,
+            1539
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_Surface": {
+        "themeUrl": "https://www.mediafire.com/file/rfkiynusv807toy/Windows+11+Surface.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "0b7695952d4cb1fea7e6d9b258f3130d",
+        "fileSize": 2436033,
+        "dateAdded": "2021-06-18",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_Waves": {
+        "themeUrl": "https://www.mediafire.com/file/nu28gb6mu5qh2ea/Windows+11+Waves.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "c16c1d214733790eb68bbebb05093c27",
+        "fileSize": 226425,
+        "dateAdded": "2021-06-18",
+        "imageSize": [
+            2736,
+            1539
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "XCDE_-_Main_Menu_Screen": {
         "themeUrl": "https://www.mediafire.com/file/6gsuod7mt108i87/XCDE_-_Main_Menu_Screen.ddw/file",
         "themeType": "community",
