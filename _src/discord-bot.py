@@ -88,25 +88,35 @@ class MyClient(discord.Client):
         print("------")
 
     async def on_message(self, message):
-        if message.channel.id == int(os.environ["DISCORD_CHANNEL_NEW_ID"]) and message.webhook_id is not None:
-            email_address = re.search("^Email Address: (.+)$", message.content, re.MULTILINE).group(1)
-            theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
-            theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
+        if message.channel.id != int(os.environ["DISCORD_CHANNEL_NEW_ID"]):
+            return
 
-            logging.info(f"[{theme_name}] Theme submitted")
-            loop = asyncio.get_event_loop()
-            data, errors = await loop.run_in_executor(ThreadPoolExecutor(), self.check_theme, theme_name, theme_url)
+        webhook_message = None
+        if message.webhook_id is not None:
+            webhook_message = message
+        elif message.mentions and message.mentions[0].id == self.user.id:
+            webhook_message = message.reference.resolved
+        else:
+            return
 
-            await self.send_email(errors, email_address, theme_name)
-            await message.reply(**self.get_new_message(errors, theme_name))
-            if not errors:
-                approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
-                await approved_channel.send(**self.get_approved_message(data))
-                logging.info(f"[{theme_name}] Theme approved")
-            else:
-                for error in errors:
-                    logging.error(f"[{theme_name}] {error}")
-                logging.info(f"[{theme_name}] Theme rejected")
+        email_address = re.search("^Email Address: (.+)$", webhook_message.content, re.MULTILINE).group(1)
+        theme_name = re.search("^Theme Name: (.+)$", webhook_message.content, re.MULTILINE).group(1)
+        theme_url = re.search("^Theme URL: (.+)$", webhook_message.content, re.MULTILINE).group(1)
+
+        logging.info(f"[{theme_name}] Theme submitted")
+        loop = asyncio.get_event_loop()
+        data, errors = await loop.run_in_executor(ThreadPoolExecutor(), self.check_theme, theme_name, theme_url)
+
+        await self.send_email(errors, email_address, theme_name)
+        await message.reply(**self.get_new_message(errors, theme_name))
+        if not errors:
+            approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
+            await approved_channel.send(**self.get_approved_message(data))
+            logging.info(f"[{theme_name}] Theme approved")
+        else:
+            for error in errors:
+                logging.error(f"[{theme_name}] {error}")
+            logging.info(f"[{theme_name}] Theme rejected")
 
     def check_theme(self, theme_name, theme_url):
         errors = []
