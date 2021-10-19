@@ -231,6 +231,25 @@
             "night"
         ]
     },
+    "BotW_Ending_Sahasra_Slope": {
+        "themeUrl": "https://www.mediafire.com/file/kry2cyqrkxeysjb/BotW_Ending_Sahasra_Slope.ddw/file",
+        "themeType": "community",
+        "displayName": "BotW - Ending: Sahasra Slope",
+        "imageCredits": "Nintendo",
+        "fileHash": "0618664f5481ae7d4808a3b2ef0982f3",
+        "fileSize": 14563478,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BotW_Eventide_Island": {
         "themeUrl": "https://www.mediafire.com/file/ro6tx1t4bku28a7/BotW_Eventide_Island.ddw/file",
         "themeType": "community",
