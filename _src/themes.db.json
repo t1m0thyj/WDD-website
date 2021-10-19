@@ -72,6 +72,25 @@
         ],
         "sunPhases": null
     },
+    "Apple_Ocean": {
+        "themeUrl": "https://www.mediafire.com/file/0ayls0c0aa4k4nf/Apple_Ocean.ddw/file",
+        "themeType": "community",
+        "displayName": "Apple Ocean",
+        "imageCredits": "Hoseasack and Kanal3d",
+        "fileHash": "0a901b92ad8744ad45ac2e81ac2bccc2",
+        "fileSize": 71513302,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Automation_Hyper_Turning_Left": {
         "themeUrl": "https://www.mediafire.com/file/sqycbyudbi9d2tg/Automation_Hyper_Turning_Left.ddw/file",
         "themeType": "community",
