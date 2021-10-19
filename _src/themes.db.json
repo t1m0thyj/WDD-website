@@ -748,6 +748,24 @@
             "night"
         ]
     },
+    "Everlasting_Summer_Beach": {
+        "themeUrl": "https://www.mediafire.com/file/369reyn4daob8fc/Everlasting_Summer_Beach.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Soviet Games",
+        "fileHash": "e6d64e92db8330c09009e2f38ecc5837",
+        "fileSize": 1484122,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Firewatch": {
         "themeUrl": "https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file",
         "themeType": "community",
