@@ -119,27 +119,23 @@ class MyClient(discord.Client):
             logging.info(f"[{theme_name}] Theme rejected")
 
     def check_theme(self, theme_name, theme_url):
-        errors = []
-
         try:
             ddw_file = mediafire_download(theme_url)
         except:
-            errors.append("Theme URL is a valid MediaFire link")
+            return None, ["Theme URL is a valid MediaFire link"]
 
         try:
             theme_dir = extract_ddw(ddw_file)
         except:
-            errors.append("DDW file is a valid ZIP archive")
+            return None, ["DDW file is a valid ZIP archive"]
 
         try:
             theme_config = load_theme_config(theme_dir)
         except:
-            errors.append("Theme config is a valid JSON file")
-
-        if errors:
-            return None, errors
+            return None, ["Theme config is a valid JSON file"]
 
         data = ThemeData(theme_name, theme_url, ddw_file, theme_dir, theme_config, False)
+        errors = []
 
         for validator in (
             validate_ddw_name,
