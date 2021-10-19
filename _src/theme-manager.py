@@ -42,6 +42,7 @@ def add(theme_type, theme_path):
     if theme_id.startswith("24hr") and theme_type == "community":
         themes_db[theme_id]["displayName"] = "24 Hour " + themes_db[theme_id]["displayName"]
     save_themes_db(themes_db)
+    print(f"::set-output name=THEME_ID::{theme_id}")
 
 
 def remove(theme_id):
