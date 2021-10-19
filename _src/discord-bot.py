@@ -90,18 +90,14 @@ class MyClient(discord.Client):
     async def on_message(self, message):
         if message.channel.id != int(os.environ["DISCORD_CHANNEL_NEW_ID"]):
             return
-
-        webhook_message = None
-        if message.webhook_id is not None:
-            webhook_message = message
         elif message.mentions and message.mentions[0].id == self.user.id:
-            webhook_message = message.reference.resolved
-        else:
+            message = message.reference.resolved
+        elif message.webhook_id is None:
             return
 
-        email_address = re.search("^Email Address: (.+)$", webhook_message.content, re.MULTILINE).group(1)
-        theme_name = re.search("^Theme Name: (.+)$", webhook_message.content, re.MULTILINE).group(1)
-        theme_url = re.search("^Theme URL: (.+)$", webhook_message.content, re.MULTILINE).group(1)
+        email_address = re.search("^Email Address: (.+)$", message.content, re.MULTILINE).group(1)
+        theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
+        theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
 
         logging.info(f"[{theme_name}] Theme submitted")
         loop = asyncio.get_event_loop()
