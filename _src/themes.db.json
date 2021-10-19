@@ -869,6 +869,25 @@
         ],
         "sunPhases": null
     },
+    "Halo_Cycle": {
+        "themeUrl": "https://www.mediafire.com/file/mqd84i7mbjctvtz/Halo_Cycle.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Halo",
+        "fileHash": "2395cac26e2ae32677a2ff1c8ae96771",
+        "fileSize": 21022092,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "High_Mountains": {
         "themeUrl": "https://www.mediafire.com/file/olrnxmv2p6bv308/High_Mountains.ddw/file",
         "themeType": "community",
