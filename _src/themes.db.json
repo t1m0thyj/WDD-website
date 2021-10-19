@@ -1030,6 +1030,24 @@
             "night"
         ]
     },
+    "LoFiGirl": {
+        "themeUrl": "https://www.mediafire.com/file/axomv90yz203l1a/LoFiGirl.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "EugeneV",
+        "fileHash": "b49165100dd6be704ccbd15c90cf4bbb",
+        "fileSize": 2373301,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-London-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/london-mix-windd",
         "themeType": "paid",
