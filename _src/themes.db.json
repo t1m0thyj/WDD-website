@@ -1396,6 +1396,23 @@
         ],
         "sunPhases": null
     },
+    "Tame_Impala_The_Slow_Rush": {
+        "themeUrl": "https://www.mediafire.com/file/a0r5nfli1e6mkp5/Tame_Impala_The_Slow_Rush.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Neil Krug and Kevin Parker",
+        "fileHash": "c0a3872b69c1874bc3b85e9f70d4568b",
+        "fileSize": 4176281,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Crew2_M4_Canyon": {
         "themeUrl": "https://www.mediafire.com/file/4al16dt4itfi5tt/Crew2_M4_Canyon.ddw/file",
         "themeType": "community",
