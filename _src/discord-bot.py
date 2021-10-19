@@ -136,9 +136,10 @@ class MyClient(discord.Client):
         except:
             errors.append("Theme config is a valid JSON file")
 
-        data = ThemeData(theme_name, theme_url, ddw_file, theme_dir, theme_config, False)
         if errors:
-            return data, errors
+            return None, errors
+
+        data = ThemeData(theme_name, theme_url, ddw_file, theme_dir, theme_config, False)
 
         for validator in (
             validate_ddw_name,
