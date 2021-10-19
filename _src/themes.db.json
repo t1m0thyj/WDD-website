@@ -766,6 +766,24 @@
             "night"
         ]
     },
+    "Everlasting_Summer_House": {
+        "themeUrl": "https://www.mediafire.com/file/d6xvnnod4cgm8l5/Everlasting_Summer_House.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Soviet Games",
+        "fileHash": "73715bfbcbe287ff3961ada6974cdd1c",
+        "fileSize": 2713175,
+        "dateAdded": "2021-10-19",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Firewatch": {
         "themeUrl": "https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file",
         "themeType": "community",
