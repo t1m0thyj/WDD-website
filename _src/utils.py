@@ -4,6 +4,7 @@ import json
 import os
 import re
 import shutil
+import tempfile
 import urllib.request
 import zipfile
 
@@ -13,7 +14,7 @@ import yaml
 
 
 def extract_ddw(ddw_file):
-    out_dir = os.path.join(get_temp_dir(), os.path.splitext(os.path.basename(ddw_file))[0])
+    out_dir = os.path.join(tempfile.gettempdir(), os.path.splitext(os.path.basename(ddw_file))[0])
     if os.path.isdir(out_dir):
         shutil.rmtree(out_dir)
     with zipfile.ZipFile(ddw_file, "r") as fileobj:
@@ -46,10 +47,6 @@ def get_theme_url(theme_type, theme_id):
     with open("themes.yaml", "r") as fileobj:
         themes_yaml = yaml.safe_load(fileobj)
     return themes_yaml[theme_type][theme_id][0]
-
-
-def get_temp_dir():
-    return os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "temp")
 
 
 def load_theme_config(theme_dir):
@@ -106,9 +103,8 @@ def make_thumbnails(theme_config, theme_dir, theme_id):
 
 
 def mediafire_download(theme_url):
-    temp_dir = get_temp_dir()
-    out_file = temp_dir + "/" + re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", theme_url).group(1)
-    os.makedirs(temp_dir, exist_ok=True)
+    out_file = os.path.join(tempfile.gettempdir(),
+        re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", theme_url).group(1))
     with urllib.request.urlopen(theme_url) as fileobj:
         html = fileobj.read()
     soup = BeautifulSoup(html, "html.parser")
