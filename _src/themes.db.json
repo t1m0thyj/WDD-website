@@ -958,6 +958,23 @@
             "night"
         ]
     },
+    "Hello_Red": {
+        "themeUrl": "https://www.mediafire.com/file/0ff0ys3cta4n6wh/Hello_Red.ddw/file",
+        "themeType": "community",
+        "displayName": "Hello Red",
+        "imageCredits": "Apple",
+        "fileHash": "895281f3e267ce6ac71c02779cd14437",
+        "fileSize": 4752243,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            6016,
+            6016
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Hello_Yellow": {
         "themeUrl": "https://www.mediafire.com/file/63tk4hqmm44vclr/Hello_Yellow.ddw/file",
         "themeType": "community",
