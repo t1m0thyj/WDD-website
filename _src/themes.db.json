@@ -1684,6 +1684,25 @@
         ],
         "sunPhases": null
     },
+    "Snowy_Trees": {
+        "themeUrl": "https://www.mediafire.com/file/1te9it9hq3oyh1b/Snowy_Trees.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Converted by Schmanko. Created by DebiPomme",
+        "fileHash": "2e870d1d54f45882597180f38ddc4716",
+        "fileSize": 107787742,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            7680,
+            4320
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Solar_Gradients": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/mojave/Solar_Gradients.ddw",
         "themeType": "macos",
