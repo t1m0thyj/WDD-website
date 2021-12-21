@@ -1463,6 +1463,25 @@
         ],
         "sunPhases": null
     },
+    "Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/you97m5bvk2u33d/Mountains.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "53ab84da3e7b9756c99f9dd5ee8ea223",
+        "fileSize": 3066183,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            7872,
+            4280
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-NewYork": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-windd",
         "themeType": "paid",
