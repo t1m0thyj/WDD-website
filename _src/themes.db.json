@@ -1187,6 +1187,23 @@
         ],
         "sunPhases": null
     },
+    "Leaves": {
+        "themeUrl": "https://www.mediafire.com/file/0vewfqpeewyrakw/Leaves.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "d07667eebbe7678902ec21c61fad2140",
+        "fileSize": 133474,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            7992,
+            4360
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Lexus_LS430": {
         "themeUrl": "https://www.mediafire.com/file/8wy18x7lg32auux/Lexus_LS430.ddw/file",
         "themeType": "community",
