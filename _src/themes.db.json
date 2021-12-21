@@ -212,6 +212,23 @@
             "night"
         ]
     },
+    "BloomSE": {
+        "themeUrl": "https://www.mediafire.com/file/lxuksjvv6mb03cd/BloomSE.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "34e555507e7d6e7254b306650e15bcdb",
+        "fileSize": 22401321,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            8192,
+            4612
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "BotW_Dueling_Peaks_Stable": {
         "themeUrl": "https://www.mediafire.com/file/c0i78wyb8grutvm/BotW_Dueling_Peaks_Stable.ddw/file",
         "themeType": "community",
