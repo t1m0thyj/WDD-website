@@ -1505,6 +1505,25 @@
         ],
         "sunPhases": null
     },
+    "Onion_Skins": {
+        "themeUrl": "https://www.mediafire.com/file/hplue2v3z5stjhw/Onion_Skins.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "sgariepy.3d",
+        "fileHash": "c8d1e404220cc4367f022186f6ff4d4b",
+        "fileSize": 2556382,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Oxenhope": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/oxenhope-windd",
         "themeType": "paid",
