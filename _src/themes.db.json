@@ -2027,6 +2027,25 @@
             "night"
         ]
     },
+    "Windows_Gradient": {
+        "themeUrl": "https://www.mediafire.com/file/xmatcpcr6vlizyh/Windows+Gradient.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "8fd389ef494b91055a67b04e0b2f4168",
+        "fileSize": 6054831,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "XCDE_-_Main_Menu_Screen": {
         "themeUrl": "https://www.mediafire.com/file/6gsuod7mt108i87/XCDE_-_Main_Menu_Screen.ddw/file",
         "themeType": "community",
