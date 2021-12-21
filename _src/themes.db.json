@@ -1187,6 +1187,25 @@
         ],
         "sunPhases": null
     },
+    "Lexus_LS430": {
+        "themeUrl": "https://www.mediafire.com/file/8wy18x7lg32auux/Lexus_LS430.ddw/file",
+        "themeType": "community",
+        "displayName": "Lexus LS430",
+        "imageCredits": "rubdoo",
+        "fileHash": "376c880339081d8763de9606d1f0d466",
+        "fileSize": 2343407,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Licancabur": {
         "themeUrl": "https://www.mediafire.com/file/cg8cuwopdqik9x2/Licancabur.ddw/file",
         "themeType": "community",
