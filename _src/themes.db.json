@@ -1753,6 +1753,23 @@
             "night"
         ]
     },
+    "Windows_11_Sunrise_Fields": {
+        "themeUrl": "https://www.mediafire.com/file/kqbok7jsxp83tty/Windows_11_Sunrise_Fields.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Sunrise Fields",
+        "imageCredits": "Microsoft",
+        "fileHash": "2a21d3045ee176177ed1270c8cab4755",
+        "fileSize": 2441760,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_Insider": {
         "themeUrl": "https://www.mediafire.com/file/rv8wjk8jmmdet72/Windows_Insider.ddw/file",
         "themeType": "community",
