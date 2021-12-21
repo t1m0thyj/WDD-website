@@ -841,6 +841,25 @@
             "night"
         ]
     },
+    "ForestLogoDOF": {
+        "themeUrl": "https://www.mediafire.com/file/01b1eaa7qfalhq1/ForestLogoDOF.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "By Sohrab Hamza. Blender 3.0.0. Foilage models by RenderRides. Created by the .ddw Theme Creator",
+        "fileHash": "d3ffbef4106ac74f6b452570113c34fd",
+        "fileSize": 39074622,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Glacier": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
         "themeType": "paid",
