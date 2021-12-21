@@ -1468,6 +1468,23 @@
         ],
         "sunPhases": null
     },
+    "Rainbow_Bloom_Windows_11_Inspired": {
+        "themeUrl": "https://www.mediafire.com/file/v97fy1hm8skqo3m/Rainbow_Bloom_Windows_11_Inspired.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Harole Ethan",
+        "fileHash": "651484f9665c1af48657ce84f5c7d95b",
+        "fileSize": 16096725,
+        "dateAdded": "2021-12-21",
+        "imageSize": [
+            8000,
+            5000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-SanFrancisco": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
         "themeType": "paid",
