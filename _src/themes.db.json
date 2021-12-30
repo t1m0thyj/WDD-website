@@ -27,14 +27,14 @@
         ],
         "sunPhases": null
     },
-    "24hr-Miami-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-1-windd",
+    "24hr-Monterey-Bay-1": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-bay-1-windd",
         "themeType": "community",
-        "displayName": "24 Hour Miami #1",
+        "displayName": "24 Hour Monterey Bay #1",
         "imageCredits": "24 Hour Wallpaper",
-        "fileHash": "d6f6a52e89fca631a6cbd69cba6b4dc9",
-        "fileSize": 148082085,
-        "dateAdded": "2020-11-06",
+        "fileHash": "76682ad10c62f8f143326a2d8787e66e",
+        "fileSize": 204624369,
+        "dateAdded": "2021-12-28",
         "imageSize": [
             5120,
             2880
@@ -545,6 +545,34 @@
         "fileHash": "e7ad8922c0dd749499f474fd14c01d49",
         "fileSize": 145345578,
         "dateAdded": "2020-11-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Canyonlands-1": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/canyonlands-1-windd",
+        "themeType": "paid",
+        "displayName": "Canyonlands #1",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "300b00694ed95f450a0cfaa8b1309603",
+        "fileSize": 252715875,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Canyonlands-2": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/canyonlands-2-windd",
+        "themeType": "paid",
+        "displayName": "Canyonlands #2",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "b14262a59b7ecaaa6de356ec9ca3d41f",
+        "fileSize": 228797510,
+        "dateAdded": "2021-12-28",
         "imageSize": [
             5120,
             2880
@@ -1333,6 +1361,20 @@
         ],
         "sunPhases": null
     },
+    "24hr-Miami-1": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-1-windd",
+        "themeType": "paid",
+        "displayName": "Miami #1",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "d6f6a52e89fca631a6cbd69cba6b4dc9",
+        "fileSize": 148082085,
+        "dateAdded": "2020-11-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
     "24hr-Miami-2": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-2-windd",
         "themeType": "paid",
@@ -1449,6 +1491,62 @@
             "night"
         ]
     },
+    "24hr-Monterey-Bay-2": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-bay-2-windd",
+        "themeType": "paid",
+        "displayName": "Monterey Bay #2",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "f682597b9d8b39c9f616b9b43485141f",
+        "fileSize": 221013831,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Monterey-Hills-1": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-hills-1-windd",
+        "themeType": "paid",
+        "displayName": "Monterey Hills #1",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "41808283e5adcd6568010799c610adc4",
+        "fileSize": 198474657,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Monterey-Hills-2": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-hills-2-windd",
+        "themeType": "paid",
+        "displayName": "Monterey Hills #2",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "5d8c333d4984377499164ca6178f8b54",
+        "fileSize": 200085515,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-Monterey-Hills-3": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-hills-3-windd",
+        "themeType": "paid",
+        "displayName": "Monterey Hills #3",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "c159172a9417de80b7b6dfb078294425",
+        "fileSize": 165961401,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
     "Monterey_Abstract": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/monterey/Monterey_Abstract.ddw",
         "themeType": "macos",
@@ -1499,6 +1597,20 @@
             "night"
         ]
     },
+    "24hr-NewOrleans": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/neworleans-windd",
+        "themeType": "paid",
+        "displayName": "New Orleans",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "3aa9eda5584626fc518fe660e4af2e86",
+        "fileSize": 157215613,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
     "24hr-NewYork": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-windd",
         "themeType": "paid",
@@ -1521,6 +1633,20 @@
         "fileHash": "3153a291561d41d65815b257f9531d94",
         "fileSize": 126139881,
         "dateAdded": "2019-10-06",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-NewYork-Maiden": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-maiden-windd",
+        "themeType": "paid",
+        "displayName": "New York Maiden Lane",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "b5acea195f885639bfa3bf3de06e4b44",
+        "fileSize": 176752096,
+        "dateAdded": "2021-12-25",
         "imageSize": [
             5120,
             2880
@@ -1923,6 +2049,48 @@
         "fileHash": "9e17118b9808abfad09545478b77f044",
         "fileSize": 82296326,
         "dateAdded": "2019-10-24",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-WashingtonMonument": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/washingtonmonument-windd",
+        "themeType": "paid",
+        "displayName": "Washington Monument",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "697b8162e1ecb7ad0639679f05e3c14b",
+        "fileSize": 173528481,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-WhiteSands-1": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/whitesands-1-windd",
+        "themeType": "paid",
+        "displayName": "White Sands #1",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "71ca1622c32688c7a9d2c5b63d84dec1",
+        "fileSize": 194947515,
+        "dateAdded": "2021-12-25",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
+    "24hr-WhiteSands-2": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/whitesands-2-windd",
+        "themeType": "paid",
+        "displayName": "White Sands #2",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "9b1e83bee8216c33661974de89dd5220",
+        "fileSize": 196438249,
+        "dateAdded": "2021-12-28",
         "imageSize": [
             5120,
             2880

@@ -3,8 +3,8 @@ community:
   - https://www.jetsoncreative.com/ddcatalog/big-sur-1-windd
   24hr-Earth:
   - https://www.jetsoncreative.com/ddcatalog/earth-windd
-  24hr-Miami-1:
-  - https://www.jetsoncreative.com/ddcatalog/miami-1-windd
+  24hr-Monterey-Bay-1:
+  - https://www.jetsoncreative.com/ddcatalog/monterey-bay-1-windd
 macos:
   Big_Sur:
   - https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Big_Sur.ddw
@@ -49,6 +49,10 @@ paid:
   - https://www.jetsoncreative.com/ddcatalog/buenos-aires-2-windd
   24hr-BuenosAires-3:
   - https://www.jetsoncreative.com/ddcatalog/buenos-aires-3-windd
+  24hr-Canyonlands-1:
+  - https://www.jetsoncreative.com/ddcatalog/canyonlands-1-windd
+  24hr-Canyonlands-2:
+  - https://www.jetsoncreative.com/ddcatalog/canyonlands-2-windd
   24hr-Catalina-Mix:
   - https://www.jetsoncreative.com/ddcatalog/catalina-mix-windd
   24hr-CatalinaAvalonLeft:
@@ -87,16 +91,30 @@ paid:
   - https://www.jetsoncreative.com/ddcatalog/los-angeles-2019-windd
   24hr-Malibu:
   - https://www.jetsoncreative.com/ddcatalog/malibu-windd
+  24hr-Miami-1:
+  - https://www.jetsoncreative.com/ddcatalog/miami-1-windd
   24hr-Miami-2:
   - https://www.jetsoncreative.com/ddcatalog/miami-2-windd
   24hr-MojaveDunes:
   - https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd
   24hr-MojaveMount:
   - https://www.jetsoncreative.com/ddcatalog/mojave-mount-windd
+  24hr-Monterey-Bay-2:
+  - https://www.jetsoncreative.com/ddcatalog/monterey-bay-2-windd
+  24hr-Monterey-Hills-1:
+  - https://www.jetsoncreative.com/ddcatalog/monterey-hills-1-windd
+  24hr-Monterey-Hills-2:
+  - https://www.jetsoncreative.com/ddcatalog/monterey-hills-2-windd
+  24hr-Monterey-Hills-3:
+  - https://www.jetsoncreative.com/ddcatalog/monterey-hills-3-windd
   24hr-MonumentValley:
   - https://www.jetsoncreative.com/ddcatalog/monument-valley-windd
+  24hr-NewOrleans:
+  - https://www.jetsoncreative.com/ddcatalog/neworleans-windd
   24hr-NewYork:
   - https://www.jetsoncreative.com/ddcatalog/new-york-windd
+  24hr-NewYork-Maiden:
+  - https://www.jetsoncreative.com/ddcatalog/new-york-maiden-windd
   24hr-NewYorkWinter:
   - https://www.jetsoncreative.com/ddcatalog/nyc-winter-windd
   24hr-NewZealand-Mix:
@@ -125,6 +143,12 @@ paid:
   - https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd
   24hr-VeryLargeArray:
   - https://www.jetsoncreative.com/ddcatalog/vla-windd
+  24hr-WashingtonMonument:
+  - https://www.jetsoncreative.com/ddcatalog/washingtonmonument-windd
+  24hr-WhiteSands-1:
+  - https://www.jetsoncreative.com/ddcatalog/whitesands-1-windd
+  24hr-WhiteSands-2:
+  - https://www.jetsoncreative.com/ddcatalog/whitesands-2-windd
   24hr-Yosemite-Mix:
   - https://www.jetsoncreative.com/ddcatalog/yosemite-mix-windd
   24hr-YosemiteLukens:

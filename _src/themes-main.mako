@@ -54,7 +54,7 @@
                                 % else:
                                 <a href="${theme_data['themeUrl']}">
                                 % endif
-                                    <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
+                                    <div class="alternating-image" style="background-image: url('${basePath}thumbnails/${theme_id}_day.png');">
                                         <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
                                     </div>
                                     <div class="caption">
@@ -93,7 +93,7 @@
                                 % else:
                                 <a href="${theme_data['themeUrl']}">
                                 % endif
-                                    <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
+                                    <div class="alternating-image" style="background-image: url('${basePath}thumbnails/${theme_id}_day.png');">
                                         <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
                                     </div>
                                     <div class="caption">
@@ -134,7 +134,7 @@
                         <div class="col-md-4 col-xl-3">
                             <div class="img-thumbnail">
                                 <a href="${theme_data['themeUrl']}">
-                                    <div class="alternating-image" style="background-image: url('thumbnails/${theme_id}_day.png');">
+                                    <div class="alternating-image" style="background-image: url('${basePath}thumbnails/${theme_id}_day.png');">
                                         <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
                                     </div>
                                     <div class="caption">
