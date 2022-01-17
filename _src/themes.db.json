@@ -1990,6 +1990,23 @@
             "night"
         ]
     },
+    "Surface_Laptop_Sandstone": {
+        "themeUrl": "https://www.mediafire.com/file/n8d4wsm2vpe2t72/Surface+Laptop+Sandstone.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "9485ab16a9ffa73d43b0c2dc1d449f6f",
+        "fileSize": 2154307,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Surface_Neo": {
         "themeUrl": "https://www.mediafire.com/file/pqk0riwc7prqdcb/Surface_Neo.ddw/file",
         "themeType": "community",
