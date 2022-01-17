@@ -2782,6 +2782,25 @@
             "night"
         ]
     },
+    "Windows_11_TransGradient": {
+        "themeUrl": "https://www.mediafire.com/file/0osh8s2sv7gtoix/Windows+11+TransGradient.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "a4e78430c8e295704ac20f4a85a536b9",
+        "fileSize": 1088339,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3464,
+            1934
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Windows_11_Waves": {
         "themeUrl": "https://www.mediafire.com/file/nu28gb6mu5qh2ea/Windows+11+Waves.ddw/file",
         "themeType": "community",
