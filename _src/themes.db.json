@@ -1497,6 +1497,23 @@
         ],
         "sunPhases": null
     },
+    "MicrosoftOpera": {
+        "themeUrl": "https://www.mediafire.com/file/us0t7g4je2wbqkz/MicrosoftOpera.ddw/file",
+        "themeType": "community",
+        "displayName": "Microsoft Opera",
+        "imageCredits": "Microsoft",
+        "fileHash": "0a9f49d7dd2e19ee32eb80e8e0571a19",
+        "fileSize": 273945,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Minimal_Mojave": {
         "themeUrl": "https://www.mediafire.com/file/kfpsddkg36pwu8p/Minimal_Mojave.ddw/file",
         "themeType": "community",
