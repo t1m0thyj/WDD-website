@@ -608,6 +608,25 @@
         ],
         "sunPhases": null
     },
+    "Candle": {
+        "themeUrl": "https://www.mediafire.com/file/xw6bna3octrzn8p/Candle.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "f8169f187a0d686516f51ad859146118",
+        "fileSize": 2621925,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3476,
+            1948
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Canyonlands-1": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/canyonlands-1-windd",
         "themeType": "paid",
