@@ -993,6 +993,23 @@
         ],
         "sunPhases": null
     },
+    "Goodbye_Windows_10": {
+        "themeUrl": "https://www.mediafire.com/file/tsc1u8u323ehxdx/Goodbye+Windows+10.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "514ad342713c0cb63adfe605dcd0cf0e",
+        "fileSize": 2144301,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-GrandTetons": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/grand-tetons-windd",
         "themeType": "paid",
