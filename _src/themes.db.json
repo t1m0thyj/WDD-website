@@ -41,6 +41,25 @@
         ],
         "sunPhases": null
     },
+    "3D_Windows": {
+        "themeUrl": "https://www.mediafire.com/file/n0n68qza9ilq5zj/3D+Windows.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "bea4e12cb01121ceace5b1521c54e36c",
+        "fileSize": 6233219,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            7184,
+            4456
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
         "themeType": "community",
