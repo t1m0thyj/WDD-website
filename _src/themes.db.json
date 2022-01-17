@@ -2430,6 +2430,23 @@
             "night"
         ]
     },
+    "Windows365": {
+        "themeUrl": "https://www.mediafire.com/file/org8u4zfjys0fd4/Windows365.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows365",
+        "imageCredits": "Microsoft",
+        "fileHash": "0489d0433249527be76e2af426ce19cf",
+        "fileSize": 11276417,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_11": {
         "themeUrl": "https://www.mediafire.com/file/gdk5bv3se2yt1sr/Windows_11.ddw/file",
         "themeType": "community",
