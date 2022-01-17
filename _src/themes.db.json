@@ -2854,6 +2854,25 @@
             "night"
         ]
     },
+    "Winter_house": {
+        "themeUrl": "https://www.mediafire.com/file/f6e8oi11cyl0ymy/Winter_house.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "insta@L4efka",
+        "fileHash": "ae5404bace28dccb918b45c3a15969c4",
+        "fileSize": 17414330,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "XCDE_-_Main_Menu_Screen": {
         "themeUrl": "https://www.mediafire.com/file/6gsuod7mt108i87/XCDE_-_Main_Menu_Screen.ddw/file",
         "themeType": "community",
