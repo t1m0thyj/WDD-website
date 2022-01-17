@@ -79,6 +79,25 @@
             "night"
         ]
     },
+    "A3D_Tulip": {
+        "themeUrl": "https://www.mediafire.com/file/67saimrghf73inb/A3D+Tulip.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "2e42190cdb40399ce5184b2ceb34e877",
+        "fileSize": 3771591,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            7984,
+            4448
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
         "themeType": "community",
