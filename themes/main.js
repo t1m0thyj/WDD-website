@@ -2,7 +2,6 @@
 var basePath = 'https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/';
 var isLoading = false;
 var themesPerPage = 30;
-var threeMonthsAgo = moment().subtract(3, 'months');
 
 var thumbnailTemplate = `<div class="img-thumbnail">
     {{#sunPhases.length}}
@@ -31,7 +30,7 @@ var thumbnailTemplate = `<div class="img-thumbnail">
 
 function loadThumbnail(themeId) {
     var themeData = themesDb[themeId];
-    themeData.isNew = moment(themeData.dateAdded) > threeMonthsAgo;
+    themeData.isNew = moment().diff(themeData.dateAdded, 'months', true) < 1;
     themeData.themeId = themeId;
     $('#theme_' + themeId).html(Mustache.render(thumbnailTemplate, themeData));
 }

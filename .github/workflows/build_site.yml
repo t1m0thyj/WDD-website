@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r _src/requirements.txt
 
-      - name: Add Site
+      - name: Add Theme
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: python _src/theme-manager.py add community ${{ github.event.inputs.theme-url }}
 
