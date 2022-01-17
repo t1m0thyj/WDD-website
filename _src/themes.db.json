@@ -869,6 +869,23 @@
             "night"
         ]
     },
+    "Dynamic_Vista": {
+        "themeUrl": "https://www.mediafire.com/file/fcueygwwmnqe2qo/Dynamic+Vista.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "55c3cd5abc15afdeebddc2f62c91cc7d",
+        "fileSize": 4369716,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            7952,
+            4456
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Earth_View": {
         "themeUrl": "https://www.mediafire.com/file/lvg94m0bg6atk2y/Earth_View.ddw/file",
         "themeType": "community",
