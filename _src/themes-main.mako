@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container mb-4">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
             <a class="navbar-brand" href="index.html">WDD Themes</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,23 +55,17 @@
         <div class="text-center">
             <h2>Featured Themes</h2>
         </div>
-        <h3>Free</h3>
+        <h3 class="mt-2">Free<a class="btn btn-primary mr-2 pull-right" href="free.html">Browse all ${numFree} free themes</a></h3>
         <div class="row">
             % for theme_id in featuredFree:
             <div id="theme_${theme_id}" class="col-md-4"></div>
             % endfor
         </div>
-        <div class="text-center">
-            <a class="btn btn-primary mb-2 mt-2" href="free.html">Browse all ${numFree} free themes</a>
-        </div>
-        <h3>Paid</h3>
+        <h3 class="mt-4">Paid<a class="btn btn-primary mr-2 pull-right" href="paid.html">Browse all ${numPaid} paid themes</a></h3>
         <div class="row">
             % for theme_id in featuredPaid:
             <div id="theme_${theme_id}" class="col-md-4"></div>
             % endfor
-        </div>
-        <div class="text-center">
-            <a class="btn btn-primary mb-4 mt-2" href="paid.html">Browse all ${numPaid} paid themes</a>
         </div>
         % else:
         % if pageType == "paid":
@@ -83,7 +77,7 @@
             <i class="fa fa-info-circle"></i> The wallpapers listed below are bundled with macOS and available for download in WinDynamicDesktop.
         </div>
         % endif
-        <div class="form-inline">
+        <div class="form-inline mb-2">
             <input id="optionFilter" class="form-control mr-sm-3" type="search" placeholder="Search..." oninput="loadThumbnailGrid('${pageType}');">
             <label class="mr-sm-2" for="optionSort">Sort by:</label>
             <div class="form-group ml-2 ml-sm-0 mt-2 mt-sm-0">
@@ -96,7 +90,7 @@
             <span id="pageDescription" class="ml-auto"></span>
         </div>
         <div id="thumbnailGrid" class="row"></div>
-        <ul id="pageButtons" class="pagination justify-content-center"></ul>
+        <ul id="pageButtons" class="pagination justify-content-center mt-2"></ul>
         % endif
     </div>
     <div id="previewModal" class="modal fade" tabindex="-1">
