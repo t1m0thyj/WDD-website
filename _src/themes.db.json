@@ -2326,6 +2326,23 @@
             "night"
         ]
     },
+    "Windows_Layers": {
+        "themeUrl": "https://www.mediafire.com/file/zokatboygyl5lwz/Windows+Layers.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "2537a2393e6c230817235b089b162878",
+        "fileSize": 603425,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "XCDE_-_Main_Menu_Screen": {
         "themeUrl": "https://www.mediafire.com/file/6gsuod7mt108i87/XCDE_-_Main_Menu_Screen.ddw/file",
         "themeType": "community",
