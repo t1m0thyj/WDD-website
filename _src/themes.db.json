@@ -1229,6 +1229,25 @@
             "night"
         ]
     },
+    "Hotel_Soechi_Medan": {
+        "themeUrl": "https://www.mediafire.com/file/5zk6r8b0ok19m0d/Hotel+Soechi+Medan.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "5f93e0cdf0be4fae79ec6e1c8495b425",
+        "fileSize": 2994502,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            2020,
+            1108
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Iceland-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/iceland-mix-windd",
         "themeType": "paid",
