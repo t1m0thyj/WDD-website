@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <div class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="free.html">Free</a>
+                        <a class="nav-link active" href="free.html">Free</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="paid.html">Paid</a>
@@ -39,30 +39,20 @@
                 </div>
             </div>
         </nav>
-        <div class="text-center">
-            <h2>Featured Themes</h2>
+        <div class="form-inline">
+            <input id="optionFilter" class="form-control mr-sm-3" type="search" placeholder="Search..." oninput="loadThumbnailGrid('free');">
+            <label class="mr-sm-2" for="optionSort">Sort by:</label>
+            <div class="form-group ml-2 ml-sm-0 mt-2 mt-sm-0">
+                <select id="optionSort" class="form-control mr-sm-2" onchange="loadThumbnailGrid('free');">
+                    <option>Name</option>
+                    <option>Date Added</option>
+                    <option>Most Popular</option>
+                </select>
+            </div>
+            <span id="pageDescription" class="ml-auto"></span>
         </div>
-        <h3>Free</h3>
-        <div class="row">
-            <div id="theme_24hr-Monterey-Bay-1" class="col-md-4"></div>
-            <div id="theme_24hr-BigSur-1" class="col-md-4"></div>
-            <div id="theme_24hr-Earth" class="col-md-4"></div>
-            <div id="theme_BitDay" class="col-md-4"></div>
-            <div id="theme_Firewatch" class="col-md-4"></div>
-            <div id="theme_Windows_11" class="col-md-4"></div>
-        </div>
-        <div class="text-center">
-            <a class="btn btn-primary mb-2 mt-2" href="free.html">Browse all 72 free themes</a>
-        </div>
-        <h3>Paid</h3>
-        <div class="row">
-            <div id="theme_24hr-Canyonlands-1" class="col-md-4"></div>
-            <div id="theme_24hr-Monterey-Hills-1" class="col-md-4"></div>
-            <div id="theme_24hr-WhiteSands-1" class="col-md-4"></div>
-        </div>
-        <div class="text-center">
-            <a class="btn btn-primary mb-4 mt-2" href="paid.html">Browse all 60 paid themes</a>
-        </div>
+        <div id="thumbnailGrid" class="row"></div>
+        <ul id="pageButtons" class="pagination justify-content-center"></ul>
     </div>
     <div id="previewModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -83,7 +73,7 @@
     <script src="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/main.js"></script>
     <script type="text/javascript">
     $(function() {
-        ['24hr-Monterey-Bay-1', '24hr-BigSur-1', '24hr-Earth', 'BitDay', 'Firewatch', 'Windows_11', '24hr-Canyonlands-1', '24hr-Monterey-Hills-1', '24hr-WhiteSands-1'].map(loadThumbnail);
+        loadThumbnailGrid('free');
     });
     </script>
 </body>
