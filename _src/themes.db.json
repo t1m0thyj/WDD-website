@@ -2243,6 +2243,23 @@
         ],
         "sunPhases": null
     },
+    "Wharariki_Beach": {
+        "themeUrl": "https://www.mediafire.com/file/amb16l03o5c32vn/Wharariki+Beach.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "3d30df0100ef35c4bb430b41aa4db5a5",
+        "fileSize": 8849434,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            7976,
+            4456
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-WhiteSands-1": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/whitesands-1-windd",
         "themeType": "paid",
