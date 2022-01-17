@@ -2374,6 +2374,23 @@
             "night"
         ]
     },
+    "Tri_Leaves_#2": {
+        "themeUrl": "https://www.mediafire.com/file/8k1uvhy55vh0jjb/Tri+Leaves+#2.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "f5e467871f4ec0f0eaf50a85b31a6e2e",
+        "fileSize": 1544076,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            4128,
+            2322
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-VeryLargeArray": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/vla-windd",
         "themeType": "paid",
