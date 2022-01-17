@@ -867,6 +867,23 @@
             "night"
         ]
     },
+    "Fakuran_Design": {
+        "themeUrl": "https://www.mediafire.com/file/1wlraxgrk8b4tzo/Fakuran+Design.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Unsplash",
+        "fileHash": "4f48743b81b0d57cb40a87d51223874b",
+        "fileSize": 4212449,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            4096,
+            3112
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Firewatch": {
         "themeUrl": "https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file",
         "themeType": "community",
