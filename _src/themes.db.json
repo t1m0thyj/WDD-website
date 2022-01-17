@@ -1884,6 +1884,25 @@
         ],
         "sunPhases": null
     },
+    "Sky_View": {
+        "themeUrl": "https://www.mediafire.com/file/ky25xa82e4yaicr/Sky+View.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "8036bf40a37d6607addbc22cf86ba720",
+        "fileSize": 26617798,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            4265,
+            2136
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Snowy_Trees": {
         "themeUrl": "https://www.mediafire.com/file/1te9it9hq3oyh1b/Snowy_Trees.ddw/file",
         "themeType": "community",
