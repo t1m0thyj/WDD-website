@@ -7,7 +7,7 @@
     <title>${displayName} | WinDynamicDesktop Themes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="${basePath}preview.css">
+    <link rel="stylesheet" href="${basePath}themes/preview.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 </head>
@@ -39,7 +39,7 @@
             % else:
             <div class="carousel-item">
             % endif
-                <img src="${basePath}previews/${themeId}_${sunPhases[i]}.jpg" alt="${sunPhases[i].capitalize()}">
+                <img src="${basePath}images/previews/${themeId}_${sunPhases[i]}.jpg" alt="${sunPhases[i].capitalize()}">
             </div>
         % endfor
         </div>
@@ -51,6 +51,6 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-    <script src="${basePath}preview.js"></script>
+    <script src="${basePath}themes/preview.js"></script>
 </body>
 </html>

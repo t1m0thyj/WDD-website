@@ -79,7 +79,7 @@ def make_previews(theme_config, theme_dir, theme_id):
     for phase, filename in image_filenames.items():
         img = Image.open(f"{theme_dir}/{filename}")
         img = resize_16x9(img, 1920)
-        img.save(f"../themes/previews/{theme_id}_{phase}.jpg", quality=75)
+        img.save(f"../images/previews/{theme_id}_{phase}.jpg", quality=75)
 
     return list(image_filenames.keys())
 
@@ -93,11 +93,11 @@ def make_thumbnails(theme_config, theme_dir, theme_id):
     img1 = Image.open(f"{theme_dir}/{light_image_filename}")
     w, h = img1.size
     img1 = resize_16x9(img1, 384)
-    img1.save(f"../themes/thumbnails/{theme_id}_day.png")
+    img1.save(f"../images/thumbnails/{theme_id}_day.png")
 
     img2 = Image.open(f"{theme_dir}/{dark_image_filename}")
     img2 = resize_16x9(img2, 384)
-    img2.save(f"../themes/thumbnails/{theme_id}_night.png")
+    img2.save(f"../images/thumbnails/{theme_id}_night.png")
 
     return (w, h)
 

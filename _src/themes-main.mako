@@ -7,8 +7,10 @@
     <title>WinDynamicDesktop Themes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="${basePath}main.css">
+    <link rel="stylesheet" href="${basePath}themes/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -21,10 +23,25 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <div class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#free">Free</a>
+                        % if pageType == "free":
+                        <a class="nav-link active" href="free.html">Free</a>
+                        % else:
+                        <a class="nav-link" href="free.html">Free</a>
+                        % endif
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#paid">Paid</a>
+                        % if pageType == "paid":
+                        <a class="nav-link active" href="paid.html">Paid</a>
+                        % else:
+                        <a class="nav-link" href="paid.html">Paid</a>
+                        % endif
+                    </li>
+                    <li class="nav-item">
+                        % if pageType == "macos":
+                        <a class="nav-link active" href="macos.html">macOS</a>
+                        % else:
+                        <a class="nav-link" href="macos.html">macOS</a>
+                        % endif
                     </li>
                 </div>
                 <div class="navbar-nav ml-auto">
@@ -34,124 +51,53 @@
                 </div>
             </div>
         </nav>
-        <a name="free" class="h2-anchor"></a><h2>Free</h2>
-        <div class="accordion">
-            <div class="card">
-                <div class="card-header" id="heading-free-macos">
-                    <h3 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-macos" aria-expanded="false" aria-controls="collapse-free-macos">
-                            <i class="fa fa-plus"></i> macOS (${len(macos_theme_data)})
-                        </button>
-                    </h3>
-                </div>
-                <div id="collapse-free-macos" class="collapse" aria-labelledby="heading-free-macos">
-                    <div class="card-body row">
-                    % for theme_id, theme_data in macos_theme_data.items():
-                        <div class="col-md-4 col-xl-3">
-                            <div class="img-thumbnail">
-                                % if theme_data["sunPhases"]:
-                                <a href="#" onclick="openPreview('${theme_id}'); return false;">
-                                % else:
-                                <a href="${theme_data['themeUrl']}">
-                                % endif
-                                    <div class="alternating-image" style="background-image: url('${basePath}thumbnails/${theme_id}_day.png');">
-                                        <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
-                                    </div>
-                                    <div class="caption">
-                                        % if theme_data["isNew"]:
-                                        <small class="label-new">NEW </small>
-                                        % endif
-                                        ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
-                                    </div>
-                                </a>
-                                % if theme_data["sunPhases"]:
-                                <a id="download_${theme_id}" class="caption-button" href="${theme_data['themeUrl']}" title="Download (${theme_data['fileSize']} MB)"><i class="fa fa-download"></i></a>
-                                % else:
-                                <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
-                                % endif
-                            </div>
-                        </div>
-                    % endfor
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="heading-free-community">
-                    <h3 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-free-community" aria-expanded="true" aria-controls="collapse-free-community">
-                            <i class="fa fa-minus"></i> Community (${len(community_theme_data)})
-                        </button>
-                    </h3>
-                </div>
-                <div id="collapse-free-community" class="collapse show" aria-labelledby="heading-free-community">
-                    <div class="card-body row">
-                    % for theme_id, theme_data in community_theme_data.items():
-                        <div class="col-md-4 col-xl-3">
-                            <div class="img-thumbnail">
-                                % if theme_data["sunPhases"]:
-                                <a href="#" onclick="openPreview('${theme_id}'); return false;">
-                                % else:
-                                <a href="${theme_data['themeUrl']}">
-                                % endif
-                                    <div class="alternating-image" style="background-image: url('${basePath}thumbnails/${theme_id}_day.png');">
-                                        <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
-                                    </div>
-                                    <div class="caption">
-                                        % if theme_data["isNew"]:
-                                        <small class="label-new">NEW </small>
-                                        % endif
-                                        ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
-                                    </div>
-                                </a>
-                                % if theme_data["sunPhases"]:
-                                <a id="download_${theme_id}" class="caption-button" href="${theme_data['themeUrl']}" title="Download (${theme_data['fileSize']} MB)"><i class="fa fa-download"></i></a>
-                                % else:
-                                <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
-                                % endif
-                            </div>
-                        </div>
-                    % endfor
-                    </div>
-                </div>
-            </div>
+        % if pageType == "home":
+        <div class="text-center">
+            <h2>Featured Themes</h2>
         </div>
-        <a name="paid" class="h2-anchor"></a><h2>Paid</h2>
+        <h3>Free</h3>
+        <div class="row">
+            % for theme_id in featuredFree:
+            <div id="theme_${theme_id}" class="col-md-4"></div>
+            % endfor
+        </div>
+        <div class="text-center">
+            <a class="btn btn-primary mb-2 mt-2" href="free.html">Browse all ${numFree} free themes</a>
+        </div>
+        <h3>Paid</h3>
+        <div class="row">
+            % for theme_id in featuredPaid:
+            <div id="theme_${theme_id}" class="col-md-4"></div>
+            % endfor
+        </div>
+        <div class="text-center">
+            <a class="btn btn-primary mb-4 mt-2" href="paid.html">Browse all ${numPaid} paid themes</a>
+        </div>
+        % else:
+        % if pageType == "paid":
         <div class="alert alert-info" role="alert">
             <i class="fa fa-info-circle"></i> The paid wallpapers listed below can be purchased in bundles for a 50% discount from <a href="https://www.jetsoncreative.com/24hourwindows/#paid">24 Hour Wallpaper <i class="fa fa-external-link"></i></a>.
         </div>
-        <div class="accordion">
-            <div class="card">
-                <div class="card-header" id="heading-paid-photos">
-                    <h3 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-paid-photos" aria-expanded="true" aria-controls="collapse-paid-photos">
-                            <i class="fa fa-minus"></i> 24 Hour Wallpaper (${len(paid_theme_data)})
-                        </button>
-                    </h3>
-                </div>
-                <div id="collapse-paid-photos" class="collapse show" aria-labelledby="heading-paid-photos">
-                    <div class="card-body row">
-                    % for theme_id, theme_data in paid_theme_data.items():
-                        <div class="col-md-4 col-xl-3">
-                            <div class="img-thumbnail">
-                                <a href="${theme_data['themeUrl']}">
-                                    <div class="alternating-image" style="background-image: url('${basePath}thumbnails/${theme_id}_day.png');">
-                                        <img src="${basePath}thumbnails/${theme_id}_night.png" alt="${theme_data['displayName']}">
-                                    </div>
-                                    <div class="caption">
-                                        % if theme_data["isNew"]:
-                                        <small class="label-new">NEW </small>
-                                        % endif
-                                        ${theme_data["displayName"]}<small> (${theme_data["imageSize"]})</small>
-                                    </div>
-                                </a>
-                                <a href="${theme_data['themeUrl']}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
-                            </div>
-                        </div>
-                    % endfor
-                    </div>
-                </div>
-            </div>
+        % elif pageType == "macos":
+        <div class="alert alert-info" role="alert">
+            <i class="fa fa-info-circle"></i> The wallpapers listed below are bundled with macOS and available for download in WinDynamicDesktop.
         </div>
+        % endif
+        <div class="form-inline">
+            <input id="optionFilter" class="form-control mr-sm-3" type="search" placeholder="Search..." oninput="loadThumbnailGrid('${pageType}');">
+            <label class="mr-sm-2" for="optionSort">Sort by:</label>
+            <div class="form-group ml-2 ml-sm-0 mt-2 mt-sm-0">
+                <select id="optionSort" class="form-control mr-sm-2" onchange="loadThumbnailGrid('${pageType}');">
+                    <option>Name</option>
+                    <option>Date Added</option>
+                    <option>Most Popular</option>
+                </select>
+            </div>
+            <span id="pageDescription" class="ml-auto"></span>
+        </div>
+        <div id="thumbnailGrid" class="row"></div>
+        <ul id="pageButtons" class="pagination justify-content-center"></ul>
+        % endif
     </div>
     <div id="previewModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -168,6 +114,16 @@
             </div>
         </div>
     </div>
-    <script src="${basePath}main.js"></script>
+    <script src="${basePath}themes/themes.db.js"></script>
+    <script src="${basePath}themes/main.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        % if pageType == "home":
+        ${list(featuredFree + featuredPaid)}.map(loadThumbnail);
+        % else:
+        loadThumbnailGrid('${pageType}');
+        % endif
+    });
+    </script>
 </body>
 </html>
