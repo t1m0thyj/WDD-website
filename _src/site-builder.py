@@ -6,10 +6,10 @@ from mako.template import Template
 
 from utils import load_themes_db
 
-BASE_PATH = "../"
 # BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/"
-# if len(sys.argv) > 1 and sys.argv[1] == "dev":
-#     BASE_PATH = "../"
+BASE_PATH = "/"
+if len(sys.argv) > 1 and sys.argv[1] == "dev":
+    BASE_PATH = "../"
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 themes_db = load_themes_db()
@@ -75,7 +75,8 @@ for theme_id, theme_data in themes_db.items():
         with open(f"../themes/preview/{theme_id}.html", "w", newline="\n") as fileobj:
             fileobj.write(
                 themes_preview.render(
-                    basePath=BASE_PATH if BASE_PATH.startswith("http") else (BASE_PATH + "../"),
+                    # TODO fix isabs = false for https url
+                    basePath=BASE_PATH if os.path.isabs(BASE_PATH) else (BASE_PATH + "../"),
                     themeId=theme_id,
                     **theme_data
                 )

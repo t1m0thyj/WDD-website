@@ -7,7 +7,7 @@
     <title>WinDynamicDesktop Themes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="themes/main.css">
+    <link rel="stylesheet" href="${basePath}themes/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"></script>
@@ -114,8 +114,8 @@
             </div>
         </div>
     </div>
-    <script src="themes/themes.db.js"></script>
-    <script src="themes/main.js"></script>
+    <script src="${basePath}themes/themes.db.js"></script>
+    <script src="${basePath}themes/main.js"></script>
     <script type="text/javascript">
     $(function() {
         % if pageType == "home":
