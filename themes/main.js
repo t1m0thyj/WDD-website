@@ -1,4 +1,5 @@
-var basePath = document.currentScript.getAttribute('src').slice(0, -14);
+// var basePath = document.currentScript.getAttribute('src').slice(0, -14);
+var basePath = 'https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/';
 var isLoading = false;
 var themesPerPage = 30;
 var threeMonthsAgo = moment().subtract(3, 'months');
