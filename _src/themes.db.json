@@ -1547,6 +1547,25 @@
         ],
         "sunPhases": null
     },
+    "Monterey_Lone_Cypress": {
+        "themeUrl": "https://www.mediafire.com/file/wnr47isrz3n2qkg/Monterey_Lone_Cypress.ddw/file",
+        "themeType": "community",
+        "displayName": "Monterey Lone Cypress",
+        "imageCredits": "Vyncher",
+        "fileHash": "728451fa24670b349aa1df8a5817c975",
+        "fileSize": 69548045,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            6048,
+            3402
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Monterey_Abstract": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/monterey/Monterey_Abstract.ddw",
         "themeType": "macos",
