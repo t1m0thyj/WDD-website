@@ -1359,6 +1359,25 @@
         ],
         "sunPhases": null
     },
+    "Leaf": {
+        "themeUrl": "https://www.mediafire.com/file/1kn2tfaakrnwq9v/Leaf.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "c4b9481010ed86be6464143c5aea5cba",
+        "fileSize": 8224936,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3476,
+            1948
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Leaves": {
         "themeUrl": "https://www.mediafire.com/file/0vewfqpeewyrakw/Leaves.ddw/file",
         "themeType": "community",
