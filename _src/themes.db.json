@@ -1939,6 +1939,23 @@
             "night"
         ]
     },
+    "Surface_Laptop_3": {
+        "themeUrl": "https://www.mediafire.com/file/p0v4jwbtvlwit8o/Surface+Laptop+3.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "bbcaa5486f2acc362eeef50ffa03140e",
+        "fileSize": 2021449,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Tahoe-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd",
         "themeType": "paid",
