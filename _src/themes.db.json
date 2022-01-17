@@ -1973,6 +1973,23 @@
         ],
         "sunPhases": null
     },
+    "Pantone_Color_of_the_Year_2022": {
+        "themeUrl": "https://www.mediafire.com/file/nhci6g1vnjnx5yv/Pantone_Color_of_the_Year_2022.ddw/file",
+        "themeType": "community",
+        "displayName": "Pantone Color of the Year 2022",
+        "imageCredits": "Microsoft, Pantone",
+        "fileHash": "79a6cd0bdd53f972a03ae6d6eb399857",
+        "fileSize": 2123429,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Paris-1": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-1-windd",
         "themeType": "paid",
