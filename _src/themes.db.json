@@ -1176,6 +1176,23 @@
             "night"
         ]
     },
+    "Hills_3D": {
+        "themeUrl": "https://www.mediafire.com/file/6fi4kiv0nlbiqjf/Hills+3D.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "e67c028afbad7940d3f24614c7415885",
+        "fileSize": 2125183,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            7984,
+            4488
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Iceland-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/iceland-mix-windd",
         "themeType": "paid",
