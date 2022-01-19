@@ -1,5 +1,4 @@
-// var basePath = document.currentScript.getAttribute('src').slice(0, -14);
-var basePath = 'https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/';
+var basePath = document.currentScript.getAttribute('src').slice(0, -14);
 var isLoading = false;
 var themesPerPage = 30;
 
@@ -10,8 +9,8 @@ var thumbnailTemplate = `<div class="img-thumbnail">
     {{^sunPhases.length}}
     <a href="{{themeUrl}}">
     {{/sunPhases.length}}
-        <div class="alternating-image" style="background-image: url('${basePath}images/thumbnails/{{themeId}}_day.png');">
-            <img src="${basePath}images/thumbnails/{{themeId}}_night.png" alt="{{displayName}}">
+        <div class="alternating-image" style="background-image: url('${basePath}images/thumbnails/{{themeIdEncoded}}_day.png');">
+            <img src="${basePath}images/thumbnails/{{themeIdEncoded}}_night.png" alt="{{displayName}}">
         </div>
         <div class="caption">
             {{#isNew}}
@@ -32,7 +31,8 @@ function loadThumbnail(themeId) {
     var themeData = themesDb[themeId];
     themeData.isNew = moment().diff(themeData.dateAdded, 'months', true) < 1;
     themeData.themeId = themeId;
-    $('#theme_' + themeId).html(Mustache.render(thumbnailTemplate, themeData));
+    themeData.themeIdEncoded = encodeURIComponent(themeId);
+    $('#theme_' + $.escapeSelector(themeId)).html(Mustache.render(thumbnailTemplate, themeData));
 }
 
 function loadThumbnailGrid(themeType, pageNumber) {
@@ -68,9 +68,10 @@ function loadThumbnailGrid(themeType, pageNumber) {
 }
 
 function openPreview(themeId) {
-    $('#previewFrame').attr('src', 'preview/' + themeId + '.html');
-    $('#downloadButton').html('<i class="fa fa-download"></i> ' + $('#download_' + themeId).attr('title'));
-    $('#downloadButton').attr('href', $('#download_' + themeId).attr('href'));
+    var downloadLink = $('#download_' + $.escapeSelector(themeId));
+    $('#previewFrame').attr('src', 'preview/' + encodeURIComponent(themeId) + '.html');
+    $('#downloadButton').html('<i class="fa fa-download"></i> ' + downloadLink.attr('title'));
+    $('#downloadButton').attr('href', downloadLink.attr('href'));
     $('#previewModal').modal();
 }
 

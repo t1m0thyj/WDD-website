@@ -39,8 +39,7 @@
             % else:
             <div class="carousel-item">
             % endif
-                ## <img src="${basePath}images/previews/${themeId}_${sunPhases[i]}.jpg" alt="${sunPhases[i].capitalize()}">
-                <img src="https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/images/previews/${themeId}_${sunPhases[i]}.jpg" alt="${sunPhases[i].capitalize()}">
+                <img src="${basePath}images/previews/${themeIdEncoded}_${sunPhases[i]}.jpg" alt="${sunPhases[i].capitalize()}">
             </div>
         % endfor
         </div>

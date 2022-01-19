@@ -1,13 +1,13 @@
 import json
 import os
 import sys
+import urllib.parse
 
 from mako.template import Template
 
 from utils import load_themes_db
 
-# BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/"
-BASE_PATH = "/"
+BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/"
 if len(sys.argv) > 1 and sys.argv[1] == "dev":
     BASE_PATH = "../"
 
@@ -77,9 +77,8 @@ for theme_id, theme_data in themes_db.items():
         with open(f"../themes/preview/{theme_id}.html", "w", newline="\n") as fileobj:
             fileobj.write(
                 themes_preview.render(
-                    # TODO fix isabs = false for https url
-                    basePath=BASE_PATH if os.path.isabs(BASE_PATH) else (BASE_PATH + "../"),
-                    themeId=theme_id,
+                    basePath=BASE_PATH if not BASE_PATH.startswith(".") else (BASE_PATH + "../"),
+                    themeIdEncoded=urllib.parse.quote(theme_id),
                     **theme_data
                 )
             )
