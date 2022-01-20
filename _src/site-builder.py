@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-import urllib.parse
 
 from mako.template import Template
 
@@ -78,7 +77,7 @@ for theme_id, theme_data in themes_db.items():
             fileobj.write(
                 themes_preview.render(
                     basePath=BASE_PATH if not BASE_PATH.startswith(".") else (BASE_PATH + "../"),
-                    themeIdEncoded=urllib.parse.quote(theme_id),
+                    themeId=theme_id,
                     **theme_data
                 )
             )
