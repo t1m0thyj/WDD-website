@@ -28,6 +28,9 @@ def add(theme_type, theme_path):
     theme_config = load_theme_config(theme_dir)
     themes_db = load_themes_db()
     theme_id = os.path.splitext(os.path.basename(ddw_file))[0].replace(" " if is_local else "+", "_")
+    if "#" in theme_id:
+        theme_config["displayName"] = theme_id.replace("_", " ")
+        theme_id = theme_id.replace("#", "")
     themes_db[theme_id] = {
         "themeUrl": theme_path if not is_local else get_theme_url(theme_type, theme_id),
         "themeType": theme_type,
