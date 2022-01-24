@@ -18,3 +18,5 @@ jobs:
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.2.0
+        with:
+          args: --verbose --no-progress '**/*.html'
