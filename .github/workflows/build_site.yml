@@ -47,5 +47,4 @@ jobs:
           commit_message: ${{ env.COMMIT_MESSAGE }}
 
       - name: Purge CDN Cache
-        if: ${{ github.event_name == 'workflow_dispatch' }}
         run: curl https://purge.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/themes.db.js
