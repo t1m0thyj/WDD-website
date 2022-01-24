@@ -60,6 +60,25 @@
             "night"
         ]
     },
+    "A3D_Modern_Estate": {
+        "themeUrl": "https://www.mediafire.com/file/2rmjbqs51tso20r/A3D+Modern+Estate.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "dd146387aefcdabc1f37c0ac9678212d",
+        "fileSize": 2579981,
+        "dateAdded": "2022-01-24",
+        "imageSize": [
+            7992,
+            4360
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "A3D_Sunflower": {
         "themeUrl": "https://www.mediafire.com/file/4pht6bf9tffbvoj/A3D+Sunflower.ddw/file",
         "themeType": "community",
