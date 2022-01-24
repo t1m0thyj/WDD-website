@@ -2201,6 +2201,25 @@
             "night"
         ]
     },
+    "Resident_Evil_Village": {
+        "themeUrl": "https://www.mediafire.com/file/q122mwunhqbiosj/Resident_Evil_Village.ddw/file",
+        "themeType": "community",
+        "displayName": "Resident Evil Village",
+        "imageCredits": "Capcom",
+        "fileHash": "6fb96aac6e369058c0e271850474a136",
+        "fileSize": 36948912,
+        "dateAdded": "2022-01-24",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-SanFrancisco": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
         "themeType": "paid",
