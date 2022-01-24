@@ -4,3 +4,4 @@ mako
 Pillow
 python-dotenv
 pyyaml
+requests

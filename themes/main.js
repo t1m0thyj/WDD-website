@@ -7,7 +7,7 @@ var thumbnailTemplate = `<div class="img-thumbnail">
     <a href="#" onclick="openPreview('{{themeId}}'); return false;">
     {{/sunPhases.length}}
     {{^sunPhases.length}}
-    <a href="{{themeUrl}}">
+    <a href="{{themeUrl}}" onclick="clickCounter('{{themeId}}');">
     {{/sunPhases.length}}
         <div class="alternating-image" style="background-image: url('${basePath}images/thumbnails/{{themeId}}_day.png');">
             <img src="${basePath}images/thumbnails/{{themeId}}_night.png" alt="{{displayName}}">
@@ -20,12 +20,19 @@ var thumbnailTemplate = `<div class="img-thumbnail">
         </div>
     </a>
     {{#sunPhases.length}}
-    <a id="download_{{themeId}}" class="caption-button" href="{{themeUrl}}" title="Download ({{fileSize}} MB)"><i class="fa fa-download"></i></a>
+    <a id="download_{{themeId}}" class="caption-button" href="{{themeUrl}}" onclick="clickCounter('{{themeId}}');" title="Download ({{fileSize}} MB)"><i class="fa fa-download"></i></a>
     {{/sunPhases.length}}
     {{^sunPhases.length}}
-    <a href="{{themeUrl}}" class="caption-button" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
+    <a href="{{themeUrl}}" class="caption-button" onclick="clickCounter('{{themeId}}');" target="_blank" title="Open in new tab"><i class="fa fa-external-link"></i></a>
     {{/sunPhases.length}}
 </div>`;
+
+function clickCounter(themeId) {
+    if (window.location.protocol === 'file:') return;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://api.countapi.xyz/hit/windd.info/' + themeId);
+    xhr.send();
+}
 
 function loadThumbnail(themeId) {
     var themeData = themesDb[themeId];
@@ -46,7 +53,7 @@ function loadThumbnailGrid(themeType, pageNumber) {
     if (sortIndex === 1) {
         themeIds = themeIds.concat().sort((a, b) => moment(themesDb[b].dateAdded).diff(themesDb[a].dateAdded));
     } else if (sortIndex === 2) {
-        alert("Not yet implemented");
+        themeIds = themeIds.concat().sort((a, b) => themesDb[b].clickCount - themesDb[a].clickCount);
     }
     var themeCount = themeIds.length;
     renderPageButtons(pageNumber, Math.ceil(themeCount / themesPerPage), themeType);
@@ -70,6 +77,7 @@ function openPreview(themeId) {
     $('#previewFrame').attr('src', 'preview/' + themeId + '.html');
     $('#downloadButton').html('<i class="fa fa-download"></i> ' + $('#download_' + themeId).attr('title'));
     $('#downloadButton').attr('href', $('#download_' + themeId).attr('href'));
+    $('#downloadButton').click(function() { clickCounter(themeId); });
     $('#previewModal').modal();
 }
 
