@@ -904,6 +904,23 @@
             "night"
         ]
     },
+    "Dynamic_8": {
+        "themeUrl": "https://www.mediafire.com/file/gnyttg6h1i8xqtc/Dynamic+8.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "ce89c9ba91337f9fea6e5ad56f9c60a9",
+        "fileSize": 248074,
+        "dateAdded": "2022-01-24",
+        "imageSize": [
+            3794,
+            2133
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Dynamic_Vista": {
         "themeUrl": "https://www.mediafire.com/file/fcueygwwmnqe2qo/Dynamic+Vista.ddw/file",
         "themeType": "community",
@@ -2557,23 +2574,6 @@
             "night"
         ]
     },
-    "Tri-Angles": {
-        "themeUrl": "https://www.mediafire.com/file/g0r2t4r6kofuutv/Tri-Angles.ddw/file",
-        "themeType": "community",
-        "displayName": null,
-        "imageCredits": "Shubham-Dhage",
-        "fileHash": "1f51a427d56333bdbb2de7f261f26edf",
-        "fileSize": 265468,
-        "dateAdded": "2022-01-17",
-        "imageSize": [
-            3840,
-            2160
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
     "Tri_Leaves_1": {
         "themeUrl": "https://www.mediafire.com/file/u8z53rqm7be960t/Tri+Leaves+#1.ddw/file",
         "themeType": "community",
@@ -2619,6 +2619,23 @@
         "imageSize": [
             4128,
             2322
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Tri-Angles": {
+        "themeUrl": "https://www.mediafire.com/file/g0r2t4r6kofuutv/Tri-Angles.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Shubham-Dhage",
+        "fileHash": "1f51a427d56333bdbb2de7f261f26edf",
+        "fileSize": 265468,
+        "dateAdded": "2022-01-17",
+        "imageSize": [
+            3840,
+            2160
         ],
         "sunPhases": [
             "day",
