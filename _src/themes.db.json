@@ -2897,6 +2897,25 @@
             "night"
         ]
     },
+    "Windows_Gradient_Extended": {
+        "themeUrl": "https://www.mediafire.com/file/snqhvyqg2i8ke4n/Windows+Gradient+Extended.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows Gradient Extended",
+        "imageCredits": "Aron",
+        "fileHash": "3f1833e7736abc6819d4361498f3ee04",
+        "fileSize": 10038293,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Windows_Insider": {
         "themeUrl": "https://www.mediafire.com/file/rv8wjk8jmmdet72/Windows_Insider.ddw/file",
         "themeType": "community",
