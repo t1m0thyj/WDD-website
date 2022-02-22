@@ -2156,6 +2156,25 @@
             "night"
         ]
     },
+    "Polastic": {
+        "themeUrl": "https://www.mediafire.com/file/8x6mm85ay1slesm/Polastic.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "7420c819f5c905f831c776f9fc6792a5",
+        "fileSize": 3407031,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            7992,
+            4360
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Polson": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/polson-windd",
         "themeType": "paid",
