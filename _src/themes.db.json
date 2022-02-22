@@ -2194,6 +2194,23 @@
             "night"
         ]
     },
+    "Pixel_Blocks": {
+        "themeUrl": "https://www.mediafire.com/file/l8kiostwhxnqtnc/Pixel+Blocks.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Genrole Caspe",
+        "fileHash": "7c14fa3badc80f1519f4847347e48bd0",
+        "fileSize": 2059013,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Polastic": {
         "themeUrl": "https://www.mediafire.com/file/8x6mm85ay1slesm/Polastic.ddw/file",
         "themeType": "community",
