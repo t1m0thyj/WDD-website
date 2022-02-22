@@ -2914,6 +2914,25 @@
             "night"
         ]
     },
+    "Windows_11_Bloom": {
+        "themeUrl": "https://www.mediafire.com/file/5vj0i35h65qz45s/Windows_11_Bloom.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "1c1ca8295e6b0b699724c771ba2c4e82",
+        "fileSize": 16475677,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            4000,
+            1674
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Windows_11_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/mm2na6ffxm7mhqh/Windows+11+Cloth.ddw/file",
         "themeType": "community",
