@@ -1710,6 +1710,25 @@
             "night"
         ]
     },
+    "Minimal_Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/lzrqfi3uir84b0f/Minimal+Mountains.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "075d65b8c8a6b4ae05f1684d5eb40548",
+        "fileSize": 649002,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            6780,
+            3686
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-MojaveDunes": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd",
         "themeType": "paid",
