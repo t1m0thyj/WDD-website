@@ -1906,6 +1906,25 @@
             "night"
         ]
     },
+    "Monty": {
+        "themeUrl": "https://www.mediafire.com/file/ehz2n3jcl12oqqg/Monty.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "2d797f18038801305f2f50c051903c10",
+        "fileSize": 5397015,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            3440,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-MonumentValley": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monument-valley-windd",
         "themeType": "paid",
