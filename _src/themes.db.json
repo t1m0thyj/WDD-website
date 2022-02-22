@@ -1502,6 +1502,23 @@
             "night"
         ]
     },
+    "Leaves_2": {
+        "themeUrl": "https://www.mediafire.com/file/ch5ekifit48o3x0/Leaves+#2.ddw/file",
+        "themeType": "community",
+        "displayName": "Leaves #2",
+        "imageCredits": "Aron",
+        "fileHash": "ce0fce8fe84d8d3a938b5a893cef89a8",
+        "fileSize": 107285,
+        "dateAdded": "2022-02-22",
+        "imageSize": [
+            7744,
+            4304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Lexus_LS430": {
         "themeUrl": "https://www.mediafire.com/file/8wy18x7lg32auux/Lexus_LS430.ddw/file",
         "themeType": "community",
