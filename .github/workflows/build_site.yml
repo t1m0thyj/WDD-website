@@ -41,7 +41,7 @@ jobs:
 
       - name: Add Theme
         if: ${{ github.event_name == 'workflow_dispatch' }}
-        run: python _src/theme-manager.py add community ${{ github.event.inputs.theme-url }}
+        run: python _src/theme-manager.py add community "${{ github.event.inputs.theme-url }}"
 
       - name: Rebuild Site
         run: python _src/site-builder.py
