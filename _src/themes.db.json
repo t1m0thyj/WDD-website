@@ -1471,6 +1471,25 @@
             "night"
         ]
     },
+    "Island": {
+        "themeUrl": "https://www.mediafire.com/file/jjro8iodc0qgctw/Island.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "30b50c0c9c8b34d1bf69fff1b2a77c5d",
+        "fileSize": 7473875,
+        "dateAdded": "2022-02-23",
+        "imageSize": [
+            7992,
+            4360
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-JoshuaTree": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/joshua-tree-windd",
         "themeType": "paid",
