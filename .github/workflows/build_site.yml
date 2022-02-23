@@ -27,6 +27,8 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
 
       - name: Setup Python
         uses: actions/setup-python@v2
