@@ -2330,6 +2330,25 @@
             "night"
         ]
     },
+    "Road_Mountain": {
+        "themeUrl": "https://www.mediafire.com/file/i59t5om8jb9qkei/Road_Mountain.ddw/file",
+        "themeType": "community",
+        "displayName": "Road Mountain",
+        "imageCredits": "DAXCR YT",
+        "fileHash": "932581fb2b3b5dec96f6842c7780e944",
+        "fileSize": 5930246,
+        "dateAdded": "2022-02-23",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-SanFrancisco": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
         "themeType": "paid",
