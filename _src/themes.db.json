@@ -2051,6 +2051,25 @@
             "night"
         ]
     },
+    "Mountains_5": {
+        "themeUrl": "https://www.mediafire.com/file/wfmawsyz569brx7/Mountains+#5.ddw/file",
+        "themeType": "community",
+        "displayName": "Mountains #5",
+        "imageCredits": "Aron",
+        "fileHash": "93383a6a639271110cdfe33b41114401",
+        "fileSize": 4514465,
+        "dateAdded": "2022-02-23",
+        "imageSize": [
+            7992,
+            4360
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-NewOrleans": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/neworleans-windd",
         "themeType": "paid",
