@@ -3037,6 +3037,23 @@
             "night"
         ]
     },
+    "Windows_11_Love": {
+        "themeUrl": "https://www.mediafire.com/file/xz8jajqlqn5w1kw/Windows+11+Love.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "84bcf3ff2ab1b4548cb6f5e66c56e9e9",
+        "fileSize": 6960806,
+        "dateAdded": "2022-02-23",
+        "imageSize": [
+            3456,
+            2010
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_11_Snow": {
         "themeUrl": "https://www.mediafire.com/file/gx73d737itpxxdf/Windows+11+Snow.ddw/file",
         "themeType": "community",
