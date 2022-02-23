@@ -41,6 +41,25 @@
         ],
         "sunPhases": null
     },
+    "3D_House": {
+        "themeUrl": "https://www.mediafire.com/file/xntbl8h7yktbgr6/3D+House.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "f294607d266fb842fb50dfb693acb491",
+        "fileSize": 5734786,
+        "dateAdded": "2022-02-23",
+        "imageSize": [
+            7872,
+            4280
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "3D_Windows": {
         "themeUrl": "https://www.mediafire.com/file/n0n68qza9ilq5zj/3D+Windows.ddw/file",
         "themeType": "community",
