@@ -906,6 +906,25 @@
             "night"
         ]
     },
+    "DyingLight2_24H": {
+        "themeUrl": "https://www.mediafire.com/file/cwfuqoxgrx1qors/DyingLight2_24H.ddw/file",
+        "themeType": "community",
+        "displayName": "Dying Light 2 - City",
+        "imageCredits": "Dying Light 2",
+        "fileHash": "827cf4dce4d28c868480ca32ae225888",
+        "fileSize": 7066516,
+        "dateAdded": "2022-02-23",
+        "imageSize": [
+            3440,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Dynamic_7": {
         "themeUrl": "https://www.mediafire.com/file/db6ws5b9mec8v9d/Dynamic+7.ddw/file",
         "themeType": "community",
