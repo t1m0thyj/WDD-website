@@ -23,11 +23,7 @@ jobs:
 
     steps:
       - name: Wait for Build
-        uses: fountainhead/action-wait-for-check@v1.0.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          checkName: build
-          intervalSeconds: 5
+        uses: ahmadnassri/action-workflow-queue@v1
 
       - name: Checkout
         uses: actions/checkout@v2
