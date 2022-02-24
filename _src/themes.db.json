@@ -2975,6 +2975,25 @@
             "night"
         ]
     },
+    "Windows_11_Rise_and_Fall": {
+        "themeUrl": "https://www.mediafire.com/file/tz2xvnn54o2ctca/Windows+11+Rise+&+Fall.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Rise & Fall",
+        "imageCredits": "Aron",
+        "fileHash": "5308375679468e6c931d15d216344ce0",
+        "fileSize": 2891626,
+        "dateAdded": "2022-02-24",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Windows_11_Sunrise_Fields": {
         "themeUrl": "https://www.mediafire.com/file/kqbok7jsxp83tty/Windows_11_Sunrise_Fields.ddw/file",
         "themeType": "community",
