@@ -37,12 +37,13 @@ def validate_ddw_name(data: ThemeData):
 
 
 def validate_ddw_contents(data: ThemeData):
-    expected_files = set(["theme.json"])
+    actual_files = set(os.listdir(data.theme_dir))
+    expected_files = set([next((f for f in actual_files if f.endswith(".json")), "theme.json")])
     for i in get_image_ids(data.theme_config):
         expected_files.add(data.theme_config["imageFilename"].replace("*", str(i)))
 
     data.fatal_error = not all(os.path.isfile(f"{data.theme_dir}/{filename}") for filename in expected_files)
-    if set(os.listdir(data.theme_dir)) != expected_files:
+    if expected_files != actual_files:
         return 'DDW file contains only "theme.json" and all image files it references'
 
 
