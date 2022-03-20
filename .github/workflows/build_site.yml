@@ -49,6 +49,7 @@ jobs:
       - name: Publish Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          commit_author: GitHub Actions <actions@github.com>
           commit_message: ${{ env.COMMIT_MESSAGE }}
 
       - name: Purge CDN Cache
