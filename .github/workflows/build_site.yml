@@ -46,13 +46,10 @@ jobs:
       - name: Rebuild Site
         run: python _src/site-builder.py
 
-      - name: Configure Git
-        if: ${{ github.event_name != 'workflow_dispatch' }}
-        run: echo "INPUT_COMMIT_AUTHOR=GitHub Actions <actions@github.com>" >> $GITHUB_ENV
-
       - name: Publish Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          commit_author: ${{ github.event_name != 'workflow_dispatch' && 'GitHub Actions <actions@github.com>' || '${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>' }}
           commit_message: ${{ env.COMMIT_MESSAGE }}
 
       - name: Purge CDN Cache
