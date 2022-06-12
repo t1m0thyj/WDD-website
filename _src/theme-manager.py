@@ -34,6 +34,8 @@ def add(theme_type, theme_path):
     if "&" in theme_id:
         theme_config["displayName"] = theme_config.get("displayName", theme_id.replace("_", " "))
         theme_id = theme_id.replace("&", "and")
+    if theme_id in themes_db:
+        raise ValueError(f"Theme already exists in database: {theme_id}")
     themes_db[theme_id] = {
         "themeUrl": theme_path if not is_local else get_theme_url(theme_type, theme_id),
         "themeType": theme_type,
