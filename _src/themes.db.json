@@ -1799,6 +1799,25 @@
         ],
         "sunPhases": null
     },
+    "Macro": {
+        "themeUrl": "https://www.mediafire.com/file/wtbpep7yvqy0p6d/Macro.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "2bc54faa0acdd5f3d9b88792f978e65b",
+        "fileSize": 1547747,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Magic_Castle": {
         "themeUrl": "https://www.mediafire.com/file/3ddddma4qlllgat/Magic_Castle.ddw/file",
         "themeType": "community",
