@@ -1799,6 +1799,25 @@
         ],
         "sunPhases": null
     },
+    "Mac_OS_X_Panther": {
+        "themeUrl": "https://www.mediafire.com/file/xsczvzzradke755/Mac+OS+X+Panther.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Aron",
+        "fileHash": "43c54d187120dcc1b15a799cc4c9355d",
+        "fileSize": 28320407,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            5120,
+            3200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Macro": {
         "themeUrl": "https://www.mediafire.com/file/wtbpep7yvqy0p6d/Macro.ddw/file",
         "themeType": "community",
