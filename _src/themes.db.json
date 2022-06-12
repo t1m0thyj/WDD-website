@@ -136,6 +136,25 @@
             "night"
         ]
     },
+    "A3D_Windows_11_Hero": {
+        "themeUrl": "https://www.mediafire.com/file/irgbjznrpwsul69/A3D_Windows_11_Hero.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "f10108e3a34a40cdcc2558fef29d90a6",
+        "fileSize": 1337780,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            6769,
+            3693
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
         "themeType": "community",
