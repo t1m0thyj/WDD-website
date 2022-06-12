@@ -3475,6 +3475,23 @@
             "night"
         ]
     },
+    "Windows_11_XP": {
+        "themeUrl": "https://www.mediafire.com/file/kxomnyeql18y4he/Windows+11+XP.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "bb864ed7276db1bc2e0c26a291da8b61",
+        "fileSize": 957954,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_Color_Flow": {
         "themeUrl": "https://www.mediafire.com/file/qa5wsopk82yp87w/Windows_Color_Flow.ddw/file",
         "themeType": "community",
