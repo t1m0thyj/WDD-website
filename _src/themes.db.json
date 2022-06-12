@@ -880,6 +880,23 @@
         ],
         "sunPhases": null
     },
+    "Chroma_Red": {
+        "themeUrl": "https://www.mediafire.com/file/e9d7b9046bmsshg/Chroma_Red.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "38186d1f4a31d3cb5b87c25d9c63cfca",
+        "fileSize": 433635,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            4000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Colorado-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd",
         "themeType": "paid",
