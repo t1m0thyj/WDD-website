@@ -3238,6 +3238,23 @@
             "night"
         ]
     },
+    "Windows_11_The_Fabric_of_Light": {
+        "themeUrl": "https://www.mediafire.com/file/vhpqv1ribj67asp/Windows+11+The+Fabric+of+Light.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "93146c37ea27c6930868bde4981df513",
+        "fileSize": 3562467,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            7992,
+            4360
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_11_TransGradient": {
         "themeUrl": "https://www.mediafire.com/file/0osh8s2sv7gtoix/Windows+11+TransGradient.ddw/file",
         "themeType": "community",
