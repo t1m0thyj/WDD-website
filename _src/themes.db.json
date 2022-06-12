@@ -210,6 +210,25 @@
             "night"
         ]
     },
+    "Abstract_Windows_11_pack": {
+        "themeUrl": "https://www.mediafire.com/file/w18uizw2vn5ndh8/Abstract_Windows_11_pack.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "8306629864672f1f6d2ec90c25c55197",
+        "fileSize": 2322312,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3841,
+            2400
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Adwaita": {
         "themeUrl": "https://www.mediafire.com/file/xeefo58rwoa9tfe/Adwaita.ddw/file",
         "themeType": "community",
