@@ -41,6 +41,25 @@
         ],
         "sunPhases": null
     },
+    "24-Hour_Windows_12": {
+        "themeUrl": "https://www.mediafire.com/file/hmsr8wqbjah72pl/24-Hour_Windows_12.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "11sree on Deviantart, Edited By Aron",
+        "fileHash": "717d59c9acd37b28c98eafdb369c5ed2",
+        "fileSize": 13948340,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            10240,
+            5760
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "3D_House": {
         "themeUrl": "https://www.mediafire.com/file/xntbl8h7yktbgr6/3D+House.ddw/file",
         "themeType": "community",
