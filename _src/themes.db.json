@@ -880,6 +880,23 @@
         ],
         "sunPhases": null
     },
+    "Chroma_Blue": {
+        "themeUrl": "https://www.mediafire.com/file/ypbga6aa9wuker4/Chroma_Blue.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "877045ea7792be21b85b45d34bcb0826",
+        "fileSize": 438588,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            4000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Chroma_Red": {
         "themeUrl": "https://www.mediafire.com/file/e9d7b9046bmsshg/Chroma_Red.ddw/file",
         "themeType": "community",
