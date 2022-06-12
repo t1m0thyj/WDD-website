@@ -1326,6 +1326,23 @@
             "night"
         ]
     },
+    "Hello_Grey": {
+        "themeUrl": "https://www.mediafire.com/file/kgvfk6u6yw1o87z/Hello_Grey.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "a51a771d806d2d133fc45f5b8d0b29aa",
+        "fileSize": 3429583,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            6016,
+            6016
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "High_Mountains": {
         "themeUrl": "https://www.mediafire.com/file/olrnxmv2p6bv308/High_Mountains.ddw/file",
         "themeType": "community",
