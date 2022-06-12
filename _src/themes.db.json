@@ -2866,6 +2866,23 @@
             "night"
         ]
     },
+    "Ventura_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/ventura/Ventura_Abstract.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4bbcdc3b9e26083c661db25d00de694f",
+        "fileSize": 13305409,
+        "dateAdded": "2022-06-07",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-VeryLargeArray": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/vla-windd",
         "themeType": "paid",
