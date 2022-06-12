@@ -155,6 +155,25 @@
             "night"
         ]
     },
+    "Abstract": {
+        "themeUrl": "https://www.mediafire.com/file/o8w9kkypkuui9r5/Abstract.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "998e2f0d9e207dcbe71876de7ea2a964",
+        "fileSize": 17373531,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            2560,
+            1600
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
         "themeType": "community",
