@@ -3083,6 +3083,25 @@
         ],
         "sunPhases": null
     },
+    "White_Fabric": {
+        "themeUrl": "https://www.mediafire.com/file/iv6mvnmlzzy4q8o/White+Fabric.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "b1f82f92fabbccf90a27cabbcc9979aa",
+        "fileSize": 2777953,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Win10_XP": {
         "themeUrl": "https://www.mediafire.com/file/fl250nxd1uf6use/Win10_XP.ddw/file",
         "themeType": "community",
