@@ -1482,6 +1482,25 @@
             "night"
         ]
     },
+    "Hotel_Room": {
+        "themeUrl": "https://www.mediafire.com/file/e0sd3b3a5121ht5/Hotel+Room.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "2c68b2f3dcc592e0e7f2da876b86549b",
+        "fileSize": 135999256,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            7000,
+            3936
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Hotel_Soechi_Medan": {
         "themeUrl": "https://www.mediafire.com/file/5zk6r8b0ok19m0d/Hotel+Soechi+Medan.ddw/file",
         "themeType": "community",
