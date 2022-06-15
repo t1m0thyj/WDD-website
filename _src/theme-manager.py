@@ -50,9 +50,6 @@ def add(theme_type, theme_path):
     if theme_id.startswith("24hr") and theme_type == "community":
         themes_db[theme_id]["displayName"] = "24 Hour " + themes_db[theme_id]["displayName"]
     save_themes_db(themes_db)
-    if os.environ.get("GITHUB_ENV"):
-        with open(os.environ["GITHUB_ENV"], 'a') as fileobj:
-            fileobj.write(f"COMMIT_MESSAGE=Add {theme_id} theme\n")
 
 
 def remove(theme_id):
@@ -65,7 +62,11 @@ if len(sys.argv) > 2:
     action = sys.argv[1]
     if action == "add":
         type_ = sys.argv[2]
-        for path in sys.argv[3:]:
+        theme_paths = sys.argv[3:]
+        if not theme_paths:
+            with open("new-themes.csv", 'r') as fileobj:
+                theme_paths = [line.strip() for line in fileobj if not line.startswith("#")]
+        for path in theme_paths:
             print(f"+ {type_}\t{path}")
             add(type_, path)
     elif action == "remove":

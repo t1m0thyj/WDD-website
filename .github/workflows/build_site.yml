@@ -8,27 +8,16 @@ on:
       - '_src/**'
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:
-    inputs:
-      theme-url:
-        description: 'Enter the theme URL'
-        required: true
 
 jobs:
   build:
     name: Site Builder
     runs-on: ubuntu-latest
-    env:
-      COMMIT_MESSAGE: 'Update themes website'
+    concurrency: site-builder-${{ github.ref }}
 
     steps:
-      - name: Wait for Build
-        uses: ahmadnassri/action-workflow-queue@v1
-
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          ref: ${{ github.ref }}
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -39,18 +28,14 @@ jobs:
       - name: Install Dependencies
         run: pip install -r _src/requirements.txt
 
-      - name: Add Theme
-        if: ${{ github.event_name == 'workflow_dispatch' }}
-        run: python _src/theme-manager.py add community "${{ github.event.inputs.theme-url }}"
-
       - name: Rebuild Site
         run: python _src/site-builder.py
 
       - name: Publish Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_author: ${{ github.event_name != 'workflow_dispatch' && 'GitHub Actions <actions@github.com>' || '${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>' }}
-          commit_message: ${{ env.COMMIT_MESSAGE }}
+          commit_author: 'GitHub Actions <actions@github.com>'
+          commit_message: 'Update themes website'
 
       - name: Purge CDN Cache
         run: curl https://purge.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/themes.db.js

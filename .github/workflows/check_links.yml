@@ -1,0 +1,22 @@
+name: Link Checker
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  test:
+    name: Link Checker
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.2.0
+        with:
+          args: --verbose --no-progress themes/*.html themes/preview/*.html

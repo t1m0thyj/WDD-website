@@ -41,25 +41,6 @@
         ],
         "sunPhases": null
     },
-    "24-Hour_Windows_12": {
-        "themeUrl": "https://www.mediafire.com/file/hmsr8wqbjah72pl/24-Hour_Windows_12.ddw/file",
-        "themeType": "community",
-        "displayName": null,
-        "imageCredits": "11sree on Deviantart, Edited By Aron",
-        "fileHash": "717d59c9acd37b28c98eafdb369c5ed2",
-        "fileSize": 13948340,
-        "dateAdded": "2022-06-12",
-        "imageSize": [
-            10240,
-            5760
-        ],
-        "sunPhases": [
-            "sunrise",
-            "day",
-            "sunset",
-            "night"
-        ]
-    },
     "3D_House": {
         "themeUrl": "https://www.mediafire.com/file/xntbl8h7yktbgr6/3D+House.ddw/file",
         "themeType": "community",
@@ -193,6 +174,25 @@
             "night"
         ]
     },
+    "Abstract_Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/fwcbxbsfw6w8wwi/Abstract_Mountains.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Mountains",
+        "imageCredits": "Nalassai",
+        "fileHash": "68f63be011f156ec48f6ea15a0afc5b4",
+        "fileSize": 14506167,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            5120,
+            3200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
         "themeType": "community",
@@ -291,6 +291,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Base": {
+        "themeUrl": "https://www.mediafire.com/file/wh4mnnuxl0haskk/Base.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "2b69b9aeddecc701a2a4f7b13a0d0c2b",
+        "fileSize": 14141443,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3476,
+            1867
         ],
         "sunPhases": [
             "sunrise",
@@ -415,6 +434,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Blue_Fabric": {
+        "themeUrl": "https://www.mediafire.com/file/q3ig891efx3whya/Blue+Fabric.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "763fec92aa027be094e026dac9a7a929",
+        "fileSize": 3571427,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -985,6 +1023,23 @@
         ],
         "sunPhases": null
     },
+    "ColorStrip": {
+        "themeUrl": "https://www.mediafire.com/file/9rafum246izkdw4/ColorStrip.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "ColorStrip by Mihun",
+        "fileHash": "e6ced525d238df779d3aa5dc25d9a61a",
+        "fileSize": 5111922,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            7680,
+            4320
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Cotswolds": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/cotswolds-windd",
         "themeType": "paid",
@@ -1124,6 +1179,23 @@
             "night"
         ]
     },
+    "Element_Blues": {
+        "themeUrl": "https://www.mediafire.com/file/p3t2zegyzhf2mqc/Element_Blues.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Google, Rutger Paulusse",
+        "fileHash": "79787dafa79451cda83fc178d7c68f5a",
+        "fileSize": 819602,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Everlasting_Summer_Beach": {
         "themeUrl": "https://www.mediafire.com/file/369reyn4daob8fc/Everlasting_Summer_Beach.ddw/file",
         "themeType": "community",
@@ -1157,6 +1229,23 @@
         "sunPhases": [
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Everscale": {
+        "themeUrl": "https://www.mediafire.com/file/dyxskphdd8l8qi7/Everscale.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "akspic by Anton Gavva & Mihun",
+        "fileHash": "d9e44dabb9737e2feece1ec5773d4f94",
+        "fileSize": 7671224,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            7680,
+            4320
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -1482,6 +1571,25 @@
             "night"
         ]
     },
+    "Hotel_Room_2": {
+        "themeUrl": "https://www.mediafire.com/file/rwjypmvol9yd3we/Hotel+Room+#2.ddw/file",
+        "themeType": "community",
+        "displayName": "Hotel Room #2",
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "bd054da321068adc24f178d95f3d0f72",
+        "fileSize": 46001954,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            2064
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Hotel_Room": {
         "themeUrl": "https://www.mediafire.com/file/e0sd3b3a5121ht5/Hotel+Room.ddw/file",
         "themeType": "community",
@@ -1517,6 +1625,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Ice_Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/t1ucbo3axp9265s/Ice+Mountains.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "fe8b16bdd97e305cf2b98c7c52da6dd4",
+        "fileSize": 140796,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            6669,
+            3748
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -1669,6 +1794,25 @@
         ],
         "sunPhases": null
     },
+    "Landscape_2": {
+        "themeUrl": "https://www.mediafire.com/file/71lal19ivum9eug/Landscape+2.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Nalassai",
+        "fileHash": "8b6a2f0b03f0c99e5b38399cd9cab37e",
+        "fileSize": 9166167,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            5120,
+            3200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Leaf": {
         "themeUrl": "https://www.mediafire.com/file/1kn2tfaakrnwq9v/Leaf.ddw/file",
         "themeType": "community",
@@ -1818,6 +1962,23 @@
         ],
         "sunPhases": null
     },
+    "LowPolyWin_": {
+        "themeUrl": "https://www.mediafire.com/file/ifj6hbgpwthig0j/LowPolyWin_.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "iCloudFy",
+        "fileHash": "9a2ccc73551bd5cc9a7bc856cba7033c",
+        "fileSize": 273332,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Mac_OS_X_Panther": {
         "themeUrl": "https://www.mediafire.com/file/xsczvzzradke755/Mac+OS+X+Panther.ddw/file",
         "themeType": "community",
@@ -1834,6 +1995,74 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "MacbookPro2_blue": {
+        "themeUrl": "https://www.mediafire.com/file/qzaauu1po7nsljm/MacbookPro2_blue.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "c50fbc76ff790244c49fcc670568443b",
+        "fileSize": 5545531,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "MacbookPro2_red": {
+        "themeUrl": "https://www.mediafire.com/file/2kfmf8fva6lr1je/MacbookPro2_red.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "669ac627d7afc0162a413ffadf0c51a9",
+        "fileSize": 5893551,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "MacbookPro_blue": {
+        "themeUrl": "https://www.mediafire.com/file/jv3zp3io80vso1z/MacbookPro_blue.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "3f5df90fddfc7796fd36d861c3924f6d",
+        "fileSize": 5436854,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "MacbookPro_red": {
+        "themeUrl": "https://www.mediafire.com/file/5qd4j6s29btn5lc/MacbookPro_red.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "8565422362c44575badeb9698a652f08",
+        "fileSize": 5767312,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -1942,6 +2171,97 @@
         "fileHash": "0a9f49d7dd2e19ee32eb80e8e0571a19",
         "fileSize": 273945,
         "dateAdded": "2022-01-17",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_Windows_11": {
+        "themeUrl": "https://www.mediafire.com/file/q1i53xbwfoa2ibd/Microsoft+Windows+11.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Aron",
+        "fileHash": "00211f148677e2f64ca95d9444e9bfba",
+        "fileSize": 1493848,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Minecraft_24Hr": {
+        "themeUrl": "https://www.mediafire.com/file/n5gfx69mh4p8n62/Minecraft_24Hr.ddw/file",
+        "themeType": "community",
+        "displayName": "Minecraft 24Hr",
+        "imageCredits": "MinC",
+        "fileHash": "a21d50df21bf39836b804bfd158cce8b",
+        "fileSize": 93222208,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            5760,
+            3050
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Minecraft_Scape_1": {
+        "themeUrl": "https://www.mediafire.com/file/cwr07vlvue47qar/Minecraft+Scape+#1.ddw/file",
+        "themeType": "community",
+        "displayName": "Minecraft Scape #1",
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "4b4efb7502a38f7d28964c044d6a7c7f",
+        "fileSize": 9208459,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            2250
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Minecraft_1": {
+        "themeUrl": "https://www.mediafire.com/file/nxd693v7emk5ut8/Minecraft_1.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Mojang",
+        "fileHash": "d78a23fb18baf19f6b40b8ba3c8a4824",
+        "fileSize": 7767668,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Minecraft_2": {
+        "themeUrl": "https://www.mediafire.com/file/qfmxdgcsdms0kn8/Minecraft_2.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Mojang",
+        "fileHash": "fcf97be054d564bcca7c28a1860a385d",
+        "fileSize": 4625441,
+        "dateAdded": "2022-06-12",
         "imageSize": [
             1920,
             1080
@@ -2164,6 +2484,25 @@
             "night"
         ]
     },
+    "Monterey_Windows": {
+        "themeUrl": "https://www.mediafire.com/file/43zpukljgiqiyc0/Monterey+Windows.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "96e1e353c8a9e28a71636608897fe86d",
+        "fileSize": 27614593,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            2250
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Monty": {
         "themeUrl": "https://www.mediafire.com/file/ehz2n3jcl12oqqg/Monty.ddw/file",
         "themeType": "community",
@@ -2311,6 +2650,25 @@
             "night"
         ]
     },
+    "Nature_Leaves_1": {
+        "themeUrl": "https://www.mediafire.com/file/lud2ceettz7lrjf/Nature+Leaves+#1.ddw/file",
+        "themeType": "community",
+        "displayName": "Nature Leaves #1",
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "eb03608b3ab3b0675b4760743cc51938",
+        "fileSize": 6244636,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            2250
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-NewOrleans": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/neworleans-windd",
         "themeType": "paid",
@@ -2397,6 +2755,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Opera_Mihun": {
+        "themeUrl": "https://www.mediafire.com/file/bb1r3jese0g1s3c/Opera_Mihun.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "OperaMihun",
+        "fileHash": "14e5ed42bcade515cc44b2aacc5aa6b9",
+        "fileSize": 339571,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -3069,6 +3444,25 @@
             "night"
         ]
     },
+    "Uplink": {
+        "themeUrl": "https://www.mediafire.com/file/31b0xzimldtngtp/Uplink.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "006a9059bbbab1e5c7cfb46b14e287ca",
+        "fileSize": 1324405,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Ventura_Abstract": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/ventura/Ventura_Abstract.ddw",
         "themeType": "macos",
@@ -3169,6 +3563,25 @@
         "dateAdded": "2022-06-12",
         "imageSize": [
             3840,
+            2400
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "White_Flow": {
+        "themeUrl": "https://www.mediafire.com/file/or3d6ukja7erzai/White+Flow.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "336fd5ca455946fb4af738ab81ab4f82",
+        "fileSize": 4069749,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3841,
             2400
         ],
         "sunPhases": [
@@ -3300,6 +3713,82 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Windows_10_Cave": {
+        "themeUrl": "https://www.mediafire.com/file/uef5krbz872v0u3/Windows+10+Cave.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "bf8463bfd200f129ad32057833df7969",
+        "fileSize": 7949387,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Windows_10_Infinity": {
+        "themeUrl": "https://www.mediafire.com/file/ajzb2hkbmm3jo7u/Windows+10+Infinity.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "e61e99d20c0c0eff6ff672c2ce399984",
+        "fileSize": 37710561,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4000,
+            2500
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Windows_10_Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/bkszuexlwwnx7pa/Windows+10+Mountains.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "c1672eda5c45682401ad2775c41b3ec8",
+        "fileSize": 27652642,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Windows_10_Plane": {
+        "themeUrl": "https://www.mediafire.com/file/ijghsdvx9n3we87/Windows+10+Plane.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Aron",
+        "fileHash": "818a70167784a1081d069ae6f2328656",
+        "fileSize": 14451953,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -3561,6 +4050,61 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Windows_Liquid_Dune": {
+        "themeUrl": "https://www.mediafire.com/file/nywzo04np8rd01c/Windows_Liquid_Dune.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Error_exe, LAW",
+        "fileHash": "63c27741ebdecf4e2a6cdcd2ed797132",
+        "fileSize": 298963,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Windows_Sweep": {
+        "themeUrl": "https://www.mediafire.com/file/e9dep9r9wyd4hs3/Windows_Sweep.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Harole Ethan",
+        "fileHash": "a6299d67c0736969a24068637d76bf95",
+        "fileSize": 25589298,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Winter_Cabin": {
+        "themeUrl": "https://www.mediafire.com/file/zvtc6u6a7ts9vh4/Winter_Cabin.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Paige Canetto",
+        "fileHash": "3511d86d80636f83b338b79eea22a308",
+        "fileSize": 15318165,
+        "dateAdded": "2022-06-12",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
