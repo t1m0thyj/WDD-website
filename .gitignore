@@ -1,6 +1,7 @@
 .idea
 .vscode
 downloads/
+new-themes.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
