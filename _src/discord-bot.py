@@ -3,6 +3,7 @@ import logging
 import os
 import re
 import smtplib
+import traceback
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from email.mime.text import MIMEText
@@ -96,26 +97,29 @@ class MyClient(discord.Client):
         elif message.webhook_id is None:
             return
 
-        email_address = re.search("^Email Address: (.+)$", message.content, re.MULTILINE).group(1)
-        theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
-        theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
+        try:
+            email_address = re.search("^Email Address: (.+)$", message.content, re.MULTILINE).group(1)
+            theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
+            theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
 
-        logging.info(f"[{theme_name}] Theme submitted")
-        loop = asyncio.get_event_loop()
-        data, errors = await loop.run_in_executor(ThreadPoolExecutor(), self.check_theme, theme_name, theme_url)
+            logging.info(f"[{theme_name}] Theme submitted")
+            loop = asyncio.get_event_loop()
+            data, errors = await loop.run_in_executor(ThreadPoolExecutor(), self.check_theme, theme_name, theme_url)
 
-        await self.send_email(errors, email_address, theme_name)
-        await message.reply(**self.get_new_message(errors, theme_name))
-        if not errors:
-            approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
-            await approved_channel.send(**self.get_approved_message(data))
-            with open("new-themes.csv", 'a') as fileobj:
-                fileobj.writelines([theme_url])
-            logging.info(f"[{theme_name}] Theme approved")
-        else:
-            for error in errors:
-                logging.error(f"[{theme_name}] {error}")
-            logging.info(f"[{theme_name}] Theme rejected")
+            await self.send_email(errors, email_address, theme_name)
+            await message.reply(**self.get_new_message(errors, theme_name))
+            if not errors:
+                approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
+                await approved_channel.send(**self.get_approved_message(data))
+                with open("new-themes.csv", 'a') as fileobj:
+                    fileobj.writelines([theme_url])
+                logging.info(f"[{theme_name}] Theme approved")
+            else:
+                for error in errors:
+                    logging.error(f"[{theme_name}] {error}")
+                logging.info(f"[{theme_name}] Theme rejected")
+        except:
+            await (await self.application_info()).owner.send(f"```\n{traceback.format_exc()}\n```")
 
     def check_theme(self, theme_name, theme_url):
         try:
