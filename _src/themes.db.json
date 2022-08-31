@@ -280,6 +280,25 @@
             "night"
         ]
     },
+    "Arcade_Showdown": {
+        "themeUrl": "https://www.mediafire.com/file/3p6m08u91sovjkp/Arcade_Showdown.ddw/file",
+        "themeType": "community",
+        "displayName": "Arcade Showdown",
+        "imageCredits": "PapertKitty",
+        "fileHash": "27e7b270e1d275b63953813bf8d56b89",
+        "fileSize": 10814272,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            1920,
+            1081
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Automation_Hyper_Turning_Left": {
         "themeUrl": "https://www.mediafire.com/file/sqycbyudbi9d2tg/Automation_Hyper_Turning_Left.ddw/file",
         "themeType": "community",
@@ -310,6 +329,25 @@
         "imageSize": [
             3476,
             1867
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Bedroom": {
+        "themeUrl": "https://www.mediafire.com/file/7kpa4mydrtc14qf/Bedroom.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "2ae9afaababf29e045c98d0229456372",
+        "fileSize": 16073357,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            4608,
+            3072
         ],
         "sunPhases": [
             "sunrise",
@@ -1090,6 +1128,23 @@
             "night"
         ]
     },
+    "Dreamy_Bedroom": {
+        "themeUrl": "https://www.mediafire.com/file/4w1fgk49udm40tq/Dreamy_Bedroom.ddw/file",
+        "themeType": "community",
+        "displayName": "Dreamy Bedroom",
+        "imageCredits": "@Broc En Roll Arts",
+        "fileHash": "8cf15b5ba99a1dfa755bd31b693734ce",
+        "fileSize": 7231262,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            5332,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "DyingLight2_24H": {
         "themeUrl": "https://www.mediafire.com/file/cwfuqoxgrx1qors/DyingLight2_24H.ddw/file",
         "themeType": "community",
@@ -1266,6 +1321,25 @@
             "night"
         ]
     },
+    "Fields": {
+        "themeUrl": "https://www.mediafire.com/file/t9g7x4lm8xng17y/Fields.ddw/file",
+        "themeType": "community",
+        "displayName": "Fields",
+        "imageCredits": "@ninopiamonte",
+        "fileHash": "3c3f9e5573839bd6423dbfd243322767",
+        "fileSize": 39225228,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            4000,
+            2250
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Firewatch": {
         "themeUrl": "https://www.mediafire.com/file/plhuk4uhzj6140q/Firewatch.ddw/file",
         "themeType": "community",
@@ -1367,6 +1441,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Guppy_Aquarium": {
+        "themeUrl": "https://www.mediafire.com/file/wxjasaclvitxasg/Guppy+Aquarium.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "40790a3725471a6d000ff7aee0960c64",
+        "fileSize": 37801831,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            3000,
+            1687
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Halo_Cycle": {
         "themeUrl": "https://www.mediafire.com/file/mqd84i7mbjctvtz/Halo_Cycle.ddw/file",
@@ -1658,6 +1751,23 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Ignite": {
+        "themeUrl": "https://www.mediafire.com/file/pm2dc6xzs9spmmm/Ignite.ddw/file",
+        "themeType": "community",
+        "displayName": "Ignite",
+        "imageCredits": "Windows",
+        "fileHash": "30463e80825b27a529231fdd71e7c61a",
+        "fileSize": 2577619,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "Insider_7_Years": {
         "themeUrl": "https://www.mediafire.com/file/syyrv1y5vv6sjxj/Insider+7+Years.ddw/file",
@@ -1961,6 +2071,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Low_Poly_Tortoise": {
+        "themeUrl": "https://www.mediafire.com/file/fz1b3dp1vp2pbk7/Low+Poly+Tortoise.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "82cdf08d5ee905c83e4856ab1f757d0f",
+        "fileSize": 9142593,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            3000,
+            1633
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "LowPolyWin_": {
         "themeUrl": "https://www.mediafire.com/file/ifj6hbgpwthig0j/LowPolyWin_.ddw/file",
@@ -3261,6 +3390,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "The_Algorithm_Brute_Force": {
+        "themeUrl": "https://www.mediafire.com/file/qq7ede8xfwvmr3p/The_Algorithm_Brute_Force.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Alex One",
+        "fileHash": "1035b96692a5f8b63b2640fad8301fc2",
+        "fileSize": 7914232,
+        "dateAdded": "2022-08-31",
+        "imageSize": [
+            1920,
+            1080
         ],
         "sunPhases": [
             "sunrise",
