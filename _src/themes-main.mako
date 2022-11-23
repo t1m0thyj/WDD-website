@@ -108,7 +108,7 @@
             </div>
         </div>
     </div>
-    <script src="${basePath}themes/themes.db.js"></script>
+    <script src="${basePath}themes/${themesDbFile}"></script>
     <script src="${basePath}themes/main.js"></script>
     <script type="text/javascript">
     $(function() {
