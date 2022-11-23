@@ -98,9 +98,10 @@ class MyClient(discord.Client):
             return
 
         try:
-            email_address = re.search("^Email Address: (.+)$", message.content, re.MULTILINE).group(1)
-            theme_name = re.search("^Theme Name: (.+)$", message.content, re.MULTILINE).group(1)
-            theme_url = re.search("^Theme URL: (.+)$", message.content, re.MULTILINE).group(1)
+            embed = message.embeds[0].to_dict()
+            email_address = embed["footer"]["text"]
+            theme_name = embed["fields"][0]["value"]
+            theme_url = embed["fields"][1]["value"]
 
             logging.info(f"[{theme_name}] Theme submitted")
             loop = asyncio.get_event_loop()
@@ -212,5 +213,7 @@ class MyClient(discord.Client):
 
 logging.basicConfig(level=logging.INFO)
 load_dotenv()
-client = MyClient()
+intents = discord.Intents.default()
+intents.message_content = True
+client = MyClient(intents=intents)
 client.run(os.environ["DISCORD_TOKEN"])
