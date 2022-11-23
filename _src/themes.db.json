@@ -41,6 +41,23 @@
         ],
         "sunPhases": null
     },
+    "24_Hour_Moon": {
+        "themeUrl": "https://www.mediafire.com/file/27kk1lihwygz6ex/24_Hour_Moon.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "NASA",
+        "fileHash": "1f5b1a052fdeb08a3c0f4cbaa344f3e0",
+        "fileSize": 151527393,
+        "dateAdded": "2022-11-23",
+        "imageSize": [
+            5760,
+            3240
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "3D_House": {
         "themeUrl": "https://www.mediafire.com/file/xntbl8h7yktbgr6/3D+House.ddw/file",
         "themeType": "community",
@@ -827,6 +844,25 @@
         "imageSize": [
             3476,
             1948
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Candle_2": {
+        "themeUrl": "https://www.mediafire.com/file/fr7cqz41473xbs7/Candle+#2.ddw/file",
+        "themeType": "community",
+        "displayName": "Candle #2",
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "163f570aadbb848336a62c04ae8d2a68",
+        "fileSize": 2222581,
+        "dateAdded": "2022-11-23",
+        "imageSize": [
+            7992,
+            4360
         ],
         "sunPhases": [
             "sunrise",
@@ -2400,6 +2436,25 @@
             "night"
         ]
     },
+    "Minecraft_Mangrove": {
+        "themeUrl": "https://www.mediafire.com/file/f080icvjzxb78lr/Minecraft_Mangrove.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "@JanluOfficial on Twitter",
+        "fileHash": "dd74902623e71c984570f98274811499",
+        "fileSize": 14437288,
+        "dateAdded": "2022-11-23",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Minimal_Mojave": {
         "themeUrl": "https://www.mediafire.com/file/kfpsddkg36pwu8p/Minimal_Mojave.ddw/file",
         "themeType": "community",
@@ -2898,6 +2953,23 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Origami_Ventura": {
+        "themeUrl": "https://www.mediafire.com/file/69imako5wfz9py5/Origami+Ventura.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Dynamic Aero",
+        "fileHash": "827cf1b5c87a88f936cd112ee7d31b3f",
+        "fileSize": 940810,
+        "dateAdded": "2022-11-23",
+        "imageSize": [
+            6016,
+            3384
         ],
         "sunPhases": [
             "day",
@@ -3805,6 +3877,23 @@
         "imageSize": [
             3840,
             2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_365_Abstract": {
+        "themeUrl": "https://www.mediafire.com/file/ufndbbmxa3xdwh9/Windows_365_Abstract.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 365 Abstract",
+        "imageCredits": "Microsoft",
+        "fileHash": "f2a40dc1a3639de56c905f8e1cafd828",
+        "fileSize": 1380899,
+        "dateAdded": "2022-11-23",
+        "imageSize": [
+            3840,
+            2160
         ],
         "sunPhases": [
             "day",
