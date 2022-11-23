@@ -36,6 +36,3 @@ jobs:
         with:
           commit_author: 'GitHub Actions <actions@github.com>'
           commit_message: 'Update themes website'
-
-      - name: Purge CDN Cache
-        run: curl https://purge.jsdelivr.net/gh/t1m0thyj/WDD-website/themes/themes.db.js

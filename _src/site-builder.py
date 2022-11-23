@@ -1,8 +1,10 @@
+import glob
 import json
 import os
 import sys
 
 import requests
+import shortuuid
 from mako.template import Template
 
 from utils import load_themes_db
@@ -16,6 +18,7 @@ themes_db = load_themes_db()
 
 for html_file in os.listdir("../themes/preview"):
     os.remove(f"../themes/preview/{html_file}")
+os.remove(next(glob.iglob("../themes/themes.*.js")))
 
 print("Generating HTML files", end="")
 
@@ -38,7 +41,8 @@ for theme_id, theme_data in themes_db.items():
     else:
         theme_data["imageSize"] = "HD"
 
-with open("../themes/themes.db.js", "w", newline="\n") as fileobj:
+themes_db_file = f"themes.{shortuuid.uuid()[:8]}.js"
+with open(f"../themes/{themes_db_file}", "w", newline="\n") as fileobj:
     fileobj.write(f"var themesDb={json.dumps(themes_db)};")
 
 with open("themes-main.mako", "r") as fileobj:
@@ -55,7 +59,8 @@ with open("../themes/index.html", "w", newline="\n") as fileobj:
             featuredPaid=("24hr-Canyonlands-1", "24hr-CatalinaLittleHarbor", "24hr-WhiteSands-2",
                 "24hr-YosemiteLukens", "24hr-MojaveDunes", "24hr-HighSierra"),
             numFree=len([td for td in themes_db.values() if td["themeType"] == "free"]),
-            numPaid=len([td for td in themes_db.values() if td["themeType"] == "paid"])
+            numPaid=len([td for td in themes_db.values() if td["themeType"] == "paid"]),
+            themesDbFile=themes_db_file
         )
     )
 
@@ -65,7 +70,8 @@ for theme_type in ("free", "paid", "macos"):
         fileobj.write(
             themes_main.render(
                 basePath=BASE_PATH,
-                pageType=theme_type
+                pageType=theme_type,
+                themesDbFile=themes_db_file
             )
         )
 
