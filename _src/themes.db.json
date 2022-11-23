@@ -41,23 +41,6 @@
         ],
         "sunPhases": null
     },
-    "24_Hour_Moon": {
-        "themeUrl": "https://www.mediafire.com/file/27kk1lihwygz6ex/24_Hour_Moon.ddw/file",
-        "themeType": "community",
-        "displayName": null,
-        "imageCredits": "NASA",
-        "fileHash": "1f5b1a052fdeb08a3c0f4cbaa344f3e0",
-        "fileSize": 151527393,
-        "dateAdded": "2022-11-23",
-        "imageSize": [
-            5760,
-            3240
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
     "3D_House": {
         "themeUrl": "https://www.mediafire.com/file/xntbl8h7yktbgr6/3D+House.ddw/file",
         "themeType": "community",
@@ -2719,6 +2702,23 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Moon": {
+        "themeUrl": "https://www.mediafire.com/file/27kk1lihwygz6ex/24_Hour_Moon.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "NASA",
+        "fileHash": "1f5b1a052fdeb08a3c0f4cbaa344f3e0",
+        "fileSize": 151527393,
+        "dateAdded": "2022-11-23",
+        "imageSize": [
+            5760,
+            3240
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "Motion_Flow": {
         "themeUrl": "https://www.mediafire.com/file/8bkpxzyamdpx9b0/Motion+Flow.ddw/file",
