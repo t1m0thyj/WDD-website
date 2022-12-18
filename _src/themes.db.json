@@ -299,6 +299,25 @@
             "night"
         ]
     },
+    "Arnoia-peq": {
+        "themeUrl": "https://www.mediafire.com/file/7khi29xldoahc41/Arnoia-peq.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Jsus",
+        "fileHash": "99a3e6ca7a013c249ef5fed787731794",
+        "fileSize": 13668999,
+        "dateAdded": "2022-12-18",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Automation_Hyper_Turning_Left": {
         "themeUrl": "https://www.mediafire.com/file/sqycbyudbi9d2tg/Automation_Hyper_Turning_Left.ddw/file",
         "themeType": "community",
@@ -1110,6 +1129,23 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Daft_Punk": {
+        "themeUrl": "https://www.mediafire.com/file/opogbqexbcamt1f/Daft_Punk.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Daft Punk",
+        "fileHash": "8c3796fcf0e331280431f131fcba2d46",
+        "fileSize": 1357781,
+        "dateAdded": "2022-12-18",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "Dome": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Dome.ddw",
@@ -3841,6 +3877,40 @@
         "imageSize": [
             1920,
             1200
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_Education_Planets": {
+        "themeUrl": "https://www.mediafire.com/file/yhj7ort0chv3abn/Windows_11_Education_Planets.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Education Planets",
+        "imageCredits": "Microsoft",
+        "fileHash": "555ec0912c47bd097bd0818dc5bfc933",
+        "fileSize": 996064,
+        "dateAdded": "2022-12-18",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_Education_Sunset": {
+        "themeUrl": "https://www.mediafire.com/file/zg14f1glg9m9z2q/Windows_11_Education_Sunset.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Education Sunset",
+        "imageCredits": "Microsoft",
+        "fileHash": "1347143d51496fa0f760c38c7e7674f0",
+        "fileSize": 1802101,
+        "dateAdded": "2022-12-18",
+        "imageSize": [
+            3840,
+            2400
         ],
         "sunPhases": [
             "day",
