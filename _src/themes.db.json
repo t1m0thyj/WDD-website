@@ -193,6 +193,25 @@
             "night"
         ]
     },
+    "Abstract_Sleepy_Mountains": {
+        "themeUrl": "https://www.mediafire.com/file/hzc3ktqkxtwlr1y/Abstract_Sleepy_Mountains.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Sleepy Mountains",
+        "imageCredits": "AnAceCase",
+        "fileHash": "d25314d57f8d1104c0bf5c169042c330",
+        "fileSize": 8369066,
+        "dateAdded": "2023-01-03",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract_Cloth": {
         "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
         "themeType": "community",

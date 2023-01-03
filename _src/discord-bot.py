@@ -78,9 +78,11 @@ def validate_image_brightness(data: ThemeData):
         img_stat = ImageStat.Stat(img)
         image_data[i] = img_stat.mean[0]
 
-    brightest_id = max(image_data, key=image_data.get)
-    darkest_id = min(image_data, key=image_data.get)
-    if brightest_id not in data.theme_config["dayImageList"] or darkest_id not in data.theme_config["nightImageList"]:
+    brightest_ids = [k for k, v in image_data.items() if k in data.theme_config["dayImageList"] and
+        v == max(image_data.values())]
+    darkest_ids = [k for k, v in image_data.items() if k in data.theme_config["nightImageList"] and
+        v == min(image_data.values())]
+    if not brightest_ids or not darkest_ids:
         return "Brightest image is shown at noon and darkest image is shown at midnight"
 
 
