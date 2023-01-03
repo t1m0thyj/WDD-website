@@ -1414,6 +1414,25 @@
             "night"
         ]
     },
+    "Firewatch-Lakeside": {
+        "themeUrl": "https://www.mediafire.com/file/ks28gbzq3q4d42f/Firewatch-Lakeside.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Louis Coyle: Photographer/Screenshotter, Campo Santo: Firewatch Game Developers",
+        "fileHash": "3200532b837acdfa5599d98d1a645b9e",
+        "fileSize": 1825123,
+        "dateAdded": "2023-01-03",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Firewatch_Tower": {
         "themeUrl": "https://www.mediafire.com/file/yv0je8geo16a6mj/Firewatch_Tower.ddw/file",
         "themeType": "community",
