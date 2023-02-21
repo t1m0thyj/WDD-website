@@ -155,6 +155,25 @@
             "night"
         ]
     },
+    "AbandonPortalDoor": {
+        "themeUrl": "https://www.mediafire.com/file/nvfmurrgnebzuvz/AbandonPortalDoor.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Minecraft_CrystalYan",
+        "fileHash": "57f9d584528e8ac5f84b7d84610e352f",
+        "fileSize": 30572665,
+        "dateAdded": "2023-02-21",
+        "imageSize": [
+            2462,
+            1566
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract": {
         "themeUrl": "https://www.mediafire.com/file/o8w9kkypkuui9r5/Abstract.ddw/file",
         "themeType": "community",
@@ -1166,6 +1185,44 @@
             "night"
         ]
     },
+    "Destiny_2_Day-Night_Cycle_FULL_Version": {
+        "themeUrl": "https://www.mediafire.com/file/vn5mq1e6vvnwarv/Destiny_2_Day-Night_Cycle_FULL_Version.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Bungie - MRCS",
+        "fileHash": "e81bb2816c7e73507a427189e3b36d72",
+        "fileSize": 275647405,
+        "dateAdded": "2023-02-21",
+        "imageSize": [
+            3440,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Destiny_2_Day-Night_Cycle_LITE_Version": {
+        "themeUrl": "https://www.mediafire.com/file/vfbn1hp8qt81wdf/Destiny_2_Day-Night_Cycle_LITE_Version.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Bungie - MRCS",
+        "fileHash": "dc76eddb6699d5b2f59dadc3d8aa1459",
+        "fileSize": 29341402,
+        "dateAdded": "2023-02-21",
+        "imageSize": [
+            3440,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Dome": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Dome.ddw",
         "themeType": "macos",
@@ -1515,6 +1572,23 @@
         "imageSize": [
             1920,
             1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Gradient_dark": {
+        "themeUrl": "https://www.mediafire.com/file/xtsumf751hsipwa/Gradient_dark.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "John Xionidis",
+        "fileHash": "0e28988373ac647bdb2ee87ed7281adb",
+        "fileSize": 14593492,
+        "dateAdded": "2023-02-21",
+        "imageSize": [
+            3840,
+            2400
         ],
         "sunPhases": [
             "day",
@@ -3140,6 +3214,23 @@
             "night"
         ]
     },
+    "Persona5_theme": {
+        "themeUrl": "https://www.mediafire.com/file/w60odllokb8issk/Persona5_theme.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Atlus, Sega",
+        "fileHash": "1d00d1cabb74ba5f25e8bf567b3eedcd",
+        "fileSize": 4064254,
+        "dateAdded": "2023-02-21",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Pixel_Blocks": {
         "themeUrl": "https://www.mediafire.com/file/l8kiostwhxnqtnc/Pixel+Blocks.ddw/file",
         "themeType": "community",
@@ -3218,6 +3309,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "RedWoodsLake": {
+        "themeUrl": "https://www.mediafire.com/file/p0fh6ux0yahsfbg/RedWoodsLake.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Minecraft_CrystalYan",
+        "fileHash": "01fba3628226dbd3292b4eaf2ac3535e",
+        "fileSize": 19026851,
+        "dateAdded": "2023-02-21",
+        "imageSize": [
+            2462,
+            1566
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
