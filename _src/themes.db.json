@@ -232,12 +232,12 @@
         ]
     },
     "Abstract_Cloth": {
-        "themeUrl": "https://www.mediafire.com/file/1lsf5skwys5sns1/Abstract_Cloth.ddw/file",
+        "themeUrl": "https://www.mediafire.com/file/zlot4uiqpeb6t9d/Abstract_Cloth.ddw/file",
         "themeType": "community",
         "displayName": null,
-        "imageCredits": "orcH",
-        "fileHash": "fbab9db96ae85971cd3c12e8f2c6078a",
-        "fileSize": 4000227,
+        "imageCredits": "Harole Ethan",
+        "fileHash": "abeba22ced24d988e5a10820f21c9dcf",
+        "fileSize": 4000235,
         "dateAdded": "2021-04-21",
         "imageSize": [
             3840,
@@ -1323,6 +1323,23 @@
         "imageSize": [
             3794,
             2133
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Dynamic_Graphics": {
+        "themeUrl": "https://www.mediafire.com/file/1r87m4nygpp6klk/Dynamic_Graphics.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "orbinary",
+        "fileHash": "9d955d91d5fede941c5d6616097bebb9",
+        "fileSize": 756033,
+        "dateAdded": "2023-03-25",
+        "imageSize": [
+            2448,
+            1440
         ],
         "sunPhases": [
             "day",
