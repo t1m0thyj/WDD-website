@@ -11,10 +11,11 @@ from utils import load_themes_db
 
 DEV_BUILD = len(sys.argv) > 1 and sys.argv[1] == "dev"
 BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/" if not DEV_BUILD else "../"
-COUNT_API = "https://api.countapi.xyz/get/windd.info/" if not DEV_BUILD else None
+COUNT_API = "https://script.google.com/macros/s/AKfycbzUm3ztw4b0rDQrXdLtZoONcqc8n8NYqOf2eK85G9pWgyyugnz3vf1wSjm72kDQptFU/exec" if not DEV_BUILD else None
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 themes_db = load_themes_db()
+count_api_data = requests.get(COUNT_API).json() if COUNT_API else {}
 
 for html_file in os.listdir("../themes/preview"):
     os.remove(f"../themes/preview/{html_file}")
@@ -26,7 +27,7 @@ for theme_id, theme_data in themes_db.items():
     theme_data["displayName"] = theme_data.get("displayName") or theme_id.replace("_", " ")
     theme_data["fileSize"] = round(theme_data["fileSize"] / 1024 / 1024, 2)
     theme_data["themeType"] = theme_data["themeType"] if theme_data["themeType"] != "community" else "free"
-    theme_data["clickCount"] = (COUNT_API and requests.get(COUNT_API + theme_id).json()["value"]) or 0
+    theme_data["clickCount"] = count_api_data.get(theme_id) or theme_data.get("clickCount", 0)
 
     if theme_data["imageSize"][1] >= 4320:
         theme_data["imageSize"] = "8k"
