@@ -30,8 +30,8 @@ var thumbnailTemplate = `<div class="img-thumbnail">
 function clickCounter(themeId) {
     if (window.location.protocol === 'file:') return;
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://api.countapi.xyz/hit/windd.info/' + themeId);
-    xhr.send();
+    xhr.open('POST', 'https://script.google.com/macros/s/AKfycbzUm3ztw4b0rDQrXdLtZoONcqc8n8NYqOf2eK85G9pWgyyugnz3vf1wSjm72kDQptFU/exec');
+    xhr.send(themeId);
 }
 
 function loadThumbnail(themeId) {
