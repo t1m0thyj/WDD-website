@@ -3485,6 +3485,23 @@
             "night"
         ]
     },
+    "Sonoma_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/sonoma/Sonoma_Abstract.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4ff111242c49f365c242994f03db179e",
+        "fileSize": 12331029,
+        "dateAdded": "2023-06-09",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Surface_Family": {
         "themeUrl": "https://www.mediafire.com/file/2k80ztqdlo83ux3/Surface+Family.ddw/file",
         "themeType": "community",
