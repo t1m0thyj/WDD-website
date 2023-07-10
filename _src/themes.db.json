@@ -515,6 +515,23 @@
             "night"
         ]
     },
+    "Bliss_Redesign": {
+        "themeUrl": "https://www.mediafire.com/file/g6s6tkzdk3y6z7f/Bliss_Redesign.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft Design",
+        "fileHash": "75e5ced18a92288dc032208ad7be77da",
+        "fileSize": 12740880,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            4089,
+            2726
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "BloomSE": {
         "themeUrl": "https://www.mediafire.com/file/lxuksjvv6mb03cd/BloomSE.ddw/file",
         "themeType": "community",
@@ -2493,6 +2510,91 @@
             "night"
         ]
     },
+    "Microsoft_BluePurple": {
+        "themeUrl": "https://www.mediafire.com/file/6ahrwxmuznocwqq/Microsoft_BluePurple.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "98ed7314fffd75f26d26d5b1b751bdd6",
+        "fileSize": 10301650,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_GreenBlue": {
+        "themeUrl": "https://www.mediafire.com/file/y597b3deh98hjrt/Microsoft_GreenBlue.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "dfa11cacb51205a9abbf125dbb2fb759",
+        "fileSize": 10076747,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_Orange": {
+        "themeUrl": "https://www.mediafire.com/file/1r3ps6apba4y2cq/Microsoft_Orange.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "a3419c5ac8e220599d5e0b3e216ff0c1",
+        "fileSize": 9271071,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_PinkOrange": {
+        "themeUrl": "https://www.mediafire.com/file/vri2o4ecyxkeq63/Microsoft_PinkOrange.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "7be434f050256d443ecdc06939f54c5b",
+        "fileSize": 10285706,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_Purple": {
+        "themeUrl": "https://www.mediafire.com/file/vvnwewvprxj3mfv/Microsoft_Purple.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "c6ddc6da6c86a777156dc0027c54f6c2",
+        "fileSize": 10629297,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Microsoft_Windows_11": {
         "themeUrl": "https://www.mediafire.com/file/q1i53xbwfoa2ibd/Microsoft+Windows+11.ddw/file",
         "themeType": "community",
@@ -2509,6 +2611,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Microsoft_Yellow": {
+        "themeUrl": "https://www.mediafire.com/file/lmqcbwjv5le5met/Microsoft_Yellow.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "ae827b1129cc3732f7aab73cd875fcfb",
+        "fileSize": 10398569,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -3797,6 +3916,23 @@
         ],
         "sunPhases": null
     },
+    "Tokyo_Street": {
+        "themeUrl": "https://www.mediafire.com/file/pvvq84bcnidbh2a/Tokyo_Street.ddw/file",
+        "themeType": "community",
+        "displayName": "Tokyo Street",
+        "imageCredits": "Arseniy Chebynkin",
+        "fileHash": "0ab37e114d9f2306526ee6acd4723061",
+        "fileSize": 1820910,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Tree": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Tree.ddw",
         "themeType": "macos",
@@ -4632,6 +4768,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Yosemite": {
+        "themeUrl": "https://www.mediafire.com/file/0kx46q2nfbhypev/Yosemite.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "c2a64d12b742fdbbdd827aca842fc6ed",
+        "fileSize": 39483587,
+        "dateAdded": "2023-07-10",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
