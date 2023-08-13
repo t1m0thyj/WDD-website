@@ -1140,6 +1140,23 @@
             "night"
         ]
     },
+    "Coastline": {
+        "themeUrl": "https://www.mediafire.com/file/cdxa8fun2mv6qqs/Coastline.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Unsplash-Marco Xu,Edited-Mihun",
+        "fileHash": "d6e81653fe4596f882419ce70f9a07cc",
+        "fileSize": 45027070,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            5120
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Colorado-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd",
         "themeType": "paid",
@@ -1554,6 +1571,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Follow_Me": {
+        "themeUrl": "https://www.mediafire.com/file/nbq2wrrh50iql3b/Follow_Me.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "d9f1dd0de7bf7f41d5a8faa43f7666d4",
+        "fileSize": 23511420,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            5120,
+            2880
         ],
         "sunPhases": [
             "sunrise",
@@ -1987,6 +2023,23 @@
             "night"
         ]
     },
+    "ios-15": {
+        "themeUrl": "https://www.mediafire.com/file/1usf5bj6erlfk1z/ios-15.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "56824925852bfa86864d69ccb214c039",
+        "fileSize": 8815877,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            2916,
+            2916
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "iOS_13_Black": {
         "themeUrl": "https://www.mediafire.com/file/t8re8m95wgip8vg/iOS_13_Black.ddw/file",
         "themeType": "community",
@@ -2049,6 +2102,23 @@
         "imageSize": [
             3208,
             1804
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "ipad-pro-liquid": {
+        "themeUrl": "https://www.mediafire.com/file/dfnh1x3hywm11p4/ipad-pro-liquid.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "f245dbb365d77b6116426ddd6a6b9eda",
+        "fileSize": 8562268,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            3208,
+            3208
         ],
         "sunPhases": [
             "day",
@@ -2390,6 +2460,40 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "MacOS_Rancho_Cucamonga": {
+        "themeUrl": "https://www.mediafire.com/file/4akw9nl0uxi6uiz/MacOS_Rancho_Cucamonga.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "0c514fd16ed19876ecec22ab96adea08",
+        "fileSize": 11373756,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            4321
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "MacProAbstract": {
+        "themeUrl": "https://www.mediafire.com/file/68zr0p0f0suhwx4/MacProAbstract.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "71a1ea60d2e27cc57fc356751a0c4780",
+        "fileSize": 15270622,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            4320
         ],
         "sunPhases": [
             "day",
@@ -3448,6 +3552,23 @@
             "night"
         ]
     },
+    "Rancho_Cucamonga_NoTree": {
+        "themeUrl": "https://www.mediafire.com/file/tb2n87h237d755l/Rancho_Cucamonga_NoTree.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple, Edited By Mihun",
+        "fileHash": "9c06d48153af98c0930eee0380b2b4b3",
+        "fileSize": 34137401,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            6016,
+            3385
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "RedWoodsLake": {
         "themeUrl": "https://www.mediafire.com/file/p0fh6ux0yahsfbg/RedWoodsLake.ddw/file",
         "themeType": "community",
@@ -3546,6 +3667,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Shadow_Gambit_The_Cursed_Crew_Marley": {
+        "themeUrl": "https://www.mediafire.com/file/w4h2ibvuv9ai7n2/Shadow_Gambit_The_Cursed_Crew_Marley.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Mimimi Games GmbH",
+        "fileHash": "e9a3e48d14eae116313b149e099ef0c9",
+        "fileSize": 26986467,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Sky_View": {
         "themeUrl": "https://www.mediafire.com/file/ky25xa82e4yaicr/Sky+View.ddw/file",
@@ -3751,6 +3891,23 @@
         "imageSize": [
             4500,
             3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "SurfaceX": {
+        "themeUrl": "https://www.mediafire.com/file/ym933bo16sjnkdm/SurfaceX.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "6fcc3efd78f697ca26487a89a47f5c6a",
+        "fileSize": 6608456,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            3840,
+            2160
         ],
         "sunPhases": [
             "day",
@@ -4068,6 +4225,23 @@
         ],
         "sunPhases": null
     },
+    "Vestrahorn": {
+        "themeUrl": "https://www.mediafire.com/file/xu089o3d0lq3r5q/Vestrahorn.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "wallpapers.com-wpsadm,Edited-Mihun",
+        "fileHash": "5158c4b4b651eb4eb466b1cdb54309b9",
+        "fileSize": 8507430,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-WashingtonMonument": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/washingtonmonument-windd",
         "themeType": "paid",
@@ -4181,6 +4355,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "win11": {
+        "themeUrl": "https://www.mediafire.com/file/oqaokvvkrb88bc3/win11.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "0a3a5cf37cc871d7e3ea37f50caab0f5",
+        "fileSize": 235466,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            4320
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -4318,6 +4509,23 @@
         "imageSize": [
             4092,
             2298
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows11SE": {
+        "themeUrl": "https://www.mediafire.com/file/6jdi5zgfi3rsh4m/Windows11SE.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "c67f433edd8f65935acd93835fa218bb",
+        "fileSize": 7635864,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            4320
         ],
         "sunPhases": [
             "day",
@@ -4708,6 +4916,23 @@
         "imageSize": [
             4500,
             3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "WindowsHome": {
+        "themeUrl": "https://www.mediafire.com/file/2nujynzlr982qs6/WindowsHome.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "b7048b7dd2cce92935c422958de2fc0a",
+        "fileSize": 15224808,
+        "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            4320
         ],
         "sunPhases": [
             "day",
