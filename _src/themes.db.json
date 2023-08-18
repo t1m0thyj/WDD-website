@@ -174,6 +174,25 @@
             "night"
         ]
     },
+    "Above_It_All": {
+        "themeUrl": "https://www.mediafire.com/file/noj0jbb3qa8qo5s/Above_It_All.ddw/file",
+        "themeType": "community",
+        "displayName": "Above It All",
+        "imageCredits": "Mirror's Edge - DICE/EA",
+        "fileHash": "068fbdafb14456880450024b3d329fb0",
+        "fileSize": 43079909,
+        "dateAdded": "2023-08-18",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Abstract": {
         "themeUrl": "https://www.mediafire.com/file/o8w9kkypkuui9r5/Abstract.ddw/file",
         "themeType": "community",
@@ -2807,6 +2826,25 @@
             "night"
         ]
     },
+    "Minecraft_Ice_Valley_2": {
+        "themeUrl": "https://www.mediafire.com/file/ag9zehvfy3cts4e/Minecraft_Ice_Valley_2.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Created by Rudranil",
+        "fileHash": "36be3c3e78b3a9be04db851a5f6bb9ce",
+        "fileSize": 60638300,
+        "dateAdded": "2023-08-18",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Minecraft_Mangrove": {
         "themeUrl": "https://www.mediafire.com/file/f080icvjzxb78lr/Minecraft_Mangrove.ddw/file",
         "themeType": "community",
@@ -3520,6 +3558,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Prairie_Peaks": {
+        "themeUrl": "https://www.mediafire.com/file/ilfbpqa1cc0iy3d/Prairie_Peaks.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Sky:Children of the Light",
+        "fileHash": "e4f4cd37dee316d0f5dd87d564c89440",
+        "fileSize": 11867864,
+        "dateAdded": "2023-08-18",
+        "imageSize": [
+            4096,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "24hr-PyramidLake-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/pyramid-lake-mix-windd",
