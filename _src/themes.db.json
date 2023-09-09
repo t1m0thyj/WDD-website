@@ -3279,6 +3279,25 @@
             "night"
         ]
     },
+    "Neon_Pacman": {
+        "themeUrl": "https://www.mediafire.com/file/4w9c0zrhtrv22jm/Neon_Pacman.ddw/file",
+        "themeType": "community",
+        "displayName": "Neon Pacman",
+        "imageCredits": "@karavaichek",
+        "fileHash": "3e9d0cb4bea4de18fabd7ff09908b2bf",
+        "fileSize": 84155414,
+        "dateAdded": "2023-09-09",
+        "imageSize": [
+            3842,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-NewOrleans": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/neworleans-windd",
         "themeType": "paid",
@@ -3623,6 +3642,24 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Rectify11": {
+        "themeUrl": "https://www.mediafire.com/file/kkhbge1rw2clpum/Rectify11.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "The Rectify11 Team",
+        "fileHash": "3fd26d3fa8e5adfe49507450eb1875a3",
+        "fileSize": 11571077,
+        "dateAdded": "2023-09-09",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
             "night"
         ]
     },
