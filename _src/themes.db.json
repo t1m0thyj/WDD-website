@@ -337,6 +337,23 @@
             "night"
         ]
     },
+    "Apple_theme": {
+        "themeUrl": "https://www.mediafire.com/file/ag70avr8abzanmm/Apple_theme.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4bc08d764945a850492ec035550d086b",
+        "fileSize": 1447704,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Arcade_Showdown": {
         "themeUrl": "https://www.mediafire.com/file/3p6m08u91sovjkp/Arcade_Showdown.ddw/file",
         "themeType": "community",
@@ -526,6 +543,25 @@
         "imageSize": [
             5120,
             2880
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Bliss_Original": {
+        "themeUrl": "https://www.mediafire.com/file/3rs3uyxqac3z4xs/Bliss_Original.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Theme created by Marc Frank, Image by Charles O'Rear",
+        "fileHash": "d760fca52b23e2bd8d4d68acac5d4e52",
+        "fileSize": 633573695,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            4510,
+            2537
         ],
         "sunPhases": [
             "sunrise",
@@ -1221,6 +1257,24 @@
         ],
         "sunPhases": null
     },
+    "Cutefish_OS_Wallpapers": {
+        "themeUrl": "https://www.mediafire.com/file/n5ztsgzb2dvguu6/Cutefish_OS_Wallpapers.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "CuteFish OS by Marshi",
+        "fileHash": "f81860ac7c30f406f55908acdeb241fd",
+        "fileSize": 1127697,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            4200,
+            2500
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "night"
+        ]
+    },
     "Daft_Punk": {
         "themeUrl": "https://www.mediafire.com/file/opogbqexbcamt1f/Daft_Punk.ddw/file",
         "themeType": "community",
@@ -1232,6 +1286,23 @@
         "imageSize": [
             1920,
             1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Desert": {
+        "themeUrl": "https://www.mediafire.com/file/jsvqgj96a1obmjs/Desert.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Walid Ahmad & Edited By Mihun",
+        "fileHash": "2717def2145a2e7bae138c7b15fafaeb",
+        "fileSize": 30180593,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            5325,
+            3068
         ],
         "sunPhases": [
             "day",
@@ -1649,6 +1720,24 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Good_Win11_theme": {
+        "themeUrl": "https://www.mediafire.com/file/jheqbcbwzfgqc5n/Good_Win11_theme.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4a4b6ce3a67d6fdb6f2ddaecaf30db0c",
+        "fileSize": 33202958,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Goodbye_Windows_10": {
         "themeUrl": "https://www.mediafire.com/file/tsc1u8u323ehxdx/Goodbye+Windows+10.ddw/file",
@@ -2392,6 +2481,23 @@
         "imageSize": [
             1920,
             1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "M2_MacBook_Pro_Green": {
+        "themeUrl": "https://www.mediafire.com/file/phdrdcao91xtjzb/M2_MacBook_Pro_Green.ddw/file",
+        "themeType": "community",
+        "displayName": "M2 MacBook Pro",
+        "imageCredits": "Apple",
+        "fileHash": "dd60005c7e5f16a615e8904d86de7e29",
+        "fileSize": 7167126,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            6016,
+            6016
         ],
         "sunPhases": [
             "day",
@@ -3748,6 +3854,25 @@
         ],
         "sunPhases": null
     },
+    "Sea_Minimalism": {
+        "themeUrl": "https://www.mediafire.com/file/5usdoubuxv1gvzt/Sea_Minimalism.ddw/file",
+        "themeType": "community",
+        "displayName": "Sea Minimalism",
+        "imageCredits": "@karavaichek",
+        "fileHash": "cf6b3559da238b90c74590d18ed9e64a",
+        "fileSize": 18559953,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Seattle-Mix": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/seattle-mix-windd",
         "themeType": "paid",
@@ -3849,6 +3974,23 @@
         "imageSize": [
             6016,
             3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Spider__Man": {
+        "themeUrl": "https://www.mediafire.com/file/imbcnhdzc90u7qw/Spider__Man.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Spider-Man",
+        "fileHash": "b71bbf00e7b02681d2b2b67688150422",
+        "fileSize": 635389,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            3840,
+            2160
         ],
         "sunPhases": [
             "day",
@@ -4463,6 +4605,23 @@
         "imageSize": [
             7680,
             4320
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Win11Bloom23H2": {
+        "themeUrl": "https://www.mediafire.com/file/0b1tzoy1t7pm7ds/Win11Bloom23H2.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft, Edited By Mihun",
+        "fileHash": "878c7f3489b0df58e7d24e12172df114",
+        "fileSize": 11306624,
+        "dateAdded": "2023-09-30",
+        "imageSize": [
+            5120,
+            2880
         ],
         "sunPhases": [
             "day",
