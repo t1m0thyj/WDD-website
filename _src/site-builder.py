@@ -19,7 +19,9 @@ count_api_data = requests.get(COUNT_API).json() if COUNT_API else {}
 
 for html_file in os.listdir("../themes/preview"):
     os.remove(f"../themes/preview/{html_file}")
-os.remove(next(glob.iglob("../themes/themes.*.js")))
+themes_db_file = next(glob.iglob("../themes/themes.*.js"), None)
+if themes_db_file:
+    os.remove(themes_db_file)
 
 print("Generating HTML files", end="")
 
@@ -42,7 +44,7 @@ for theme_id, theme_data in themes_db.items():
     else:
         theme_data["imageSize"] = "HD"
 
-themes_db_file = f"themes.{shortuuid.uuid()[:8]}.js"
+themes_db_file = f"themes.{shortuuid.uuid()[:8]}.js" if not DEV_BUILD else "themes.db.js"
 with open(f"../themes/{themes_db_file}", "w", newline="\n") as fileobj:
     fileobj.write(f"var themesDb={json.dumps(themes_db)};")
 
