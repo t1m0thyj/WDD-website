@@ -34,12 +34,17 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
+          exclude_assets: '.github,_src'
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-      
+          user_name: 'Github Actions'
+          user_email: 'actions@github.com'
+
       - name: Publish Changes
         if: ${{ github.event_name == 'schedule' }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_author: 'GitHub Actions <actions@github.com>'
-          commit_message: 'Update theme download counts'
+          commit_message: 'Update download counts'
+          commit_user_name: 'Github Actions'
+          commit_user_email: 'actions@github.com'
