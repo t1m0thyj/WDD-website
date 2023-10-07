@@ -1,0 +1,44 @@
+name: Site Builder
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    concurrency: build-site-${{ github.ref }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event_name == 'push' && github.ref || 'gh-pages' }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: pip install -r _src/requirements.txt
+
+      - name: Rebuild Site
+        run: python _src/site-builder.py
+
+      - name: Deploy to GH Pages
+        if: ${{ github.event_name == 'push' }}
+        run: npx gh-pages -d . -u "GitHub Actions <actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Publish Changes
+        if: ${{ github.event_name == 'schedule' }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_author: 'GitHub Actions <actions@github.com>'
+          commit_message: 'Update theme download counts'

@@ -42,7 +42,7 @@ for theme_id, theme_data in themes_db.items():
     else:
         theme_data["imageSize"] = "HD"
 
-themes_db_file = f"themes.{shortuuid.uuid()[:8]}.js"
+themes_db_file = f"themes.{shortuuid.uuid()[:8]}.js" if not DEV_BUILD else "themes.db.js"
 with open(f"../themes/{themes_db_file}", "w", newline="\n") as fileobj:
     fileobj.write(f"var themesDb={json.dumps(themes_db)};")
 

@@ -2,6 +2,7 @@
 .vscode
 downloads/
 new-themes.csv
+themes.db.js
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
