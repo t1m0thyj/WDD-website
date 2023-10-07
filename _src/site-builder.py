@@ -10,7 +10,7 @@ from mako.template import Template
 from utils import load_themes_db
 
 DEV_BUILD = len(sys.argv) > 1 and sys.argv[1] == "dev"
-BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website/" if not DEV_BUILD else "../"
+BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website@gh-pages/" if not DEV_BUILD else "../"
 COUNT_API = "https://script.google.com/macros/s/AKfycbzUm3ztw4b0rDQrXdLtZoONcqc8n8NYqOf2eK85G9pWgyyugnz3vf1wSjm72kDQptFU/exec" if not DEV_BUILD else None
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
