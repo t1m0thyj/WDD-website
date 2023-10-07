@@ -19,7 +19,9 @@ count_api_data = requests.get(COUNT_API).json() if COUNT_API else {}
 
 for html_file in os.listdir("../themes/preview"):
     os.remove(f"../themes/preview/{html_file}")
-os.remove(next(glob.iglob("../themes/themes.*.js")))
+themes_db_file = next(glob.iglob("../themes/themes.*.js"), None)
+if themes_db_file:
+    os.remove(themes_db_file)
 
 print("Generating HTML files", end="")
 
