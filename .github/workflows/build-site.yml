@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event_name == 'push' && github.ref || 'gh-pages' }}
 
       - name: Setup Python
         uses: actions/setup-python@v3
@@ -31,20 +29,11 @@ jobs:
         run: python _src/site-builder.py
 
       - name: Deploy to GH Pages
-        if: ${{ github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
+          commit_message: 'Update themes website'
           exclude_assets: '.github,_src'
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
           user_name: 'Github Actions'
           user_email: 'actions@github.com'
-
-      - name: Publish Changes
-        if: ${{ github.event_name == 'schedule' }}
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_author: 'GitHub Actions <actions@github.com>'
-          commit_message: 'Update download counts'
-          commit_user_name: 'Github Actions'
-          commit_user_email: 'actions@github.com'
