@@ -1470,6 +1470,25 @@
             "night"
         ]
     },
+    "Dynamic_Minecraft_Landscape": {
+        "themeUrl": "https://www.mediafire.com/file/2dayp7yuxa96bs1/Dynamic_Minecraft_Landscape.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "MikoSushi",
+        "fileHash": "ccbcbd3365c4a95b717111a7158a5066",
+        "fileSize": 98478327,
+        "dateAdded": "2023-11-03",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Dynamic_Vista": {
         "themeUrl": "https://www.mediafire.com/file/fcueygwwmnqe2qo/Dynamic+Vista.ddw/file",
         "themeType": "community",
@@ -1721,6 +1740,25 @@
         ],
         "sunPhases": null
     },
+    "Golden_Gate_Bridge": {
+        "themeUrl": "https://www.mediafire.com/file/nq131g8blkcuufc/Golden_Gate_Bridge.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Golden Gate Bridge",
+        "fileHash": "a8ed221ea27699490cb8cca24988728d",
+        "fileSize": 14960004,
+        "dateAdded": "2023-11-03",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Good_Win11_theme": {
         "themeUrl": "https://www.mediafire.com/file/jheqbcbwzfgqc5n/Good_Win11_theme.ddw/file",
         "themeType": "community",
@@ -1786,6 +1824,23 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Guadalupe": {
+        "themeUrl": "https://www.mediafire.com/file/3rwiieb71dzgjem/Guadalupe.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "BernardoJBP, Edited By Alempsar",
+        "fileHash": "cbadaa0e2332d9e15631947f1007f820",
+        "fileSize": 15095352,
+        "dateAdded": "2023-11-03",
+        "imageSize": [
+            2560,
+            1706
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "Guppy_Aquarium": {
         "themeUrl": "https://www.mediafire.com/file/wxjasaclvitxasg/Guppy+Aquarium.ddw/file",
@@ -5183,6 +5238,23 @@
         "fileHash": "b7048b7dd2cce92935c422958de2fc0a",
         "fileSize": 15224808,
         "dateAdded": "2023-08-13",
+        "imageSize": [
+            7680,
+            4320
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "WindowsXP_theme": {
+        "themeUrl": "https://www.mediafire.com/file/fed0rrzy0jb0c3g/WindowsXP_theme.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "0ba871d0788b2cd5f8a66608e56f7718",
+        "fileSize": 320874,
+        "dateAdded": "2023-11-03",
         "imageSize": [
             7680,
             4320
