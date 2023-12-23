@@ -3025,6 +3025,25 @@
             "night"
         ]
     },
+    "MinecraftCavesCliffs2East": {
+        "themeUrl": "https://www.mediafire.com/file/h9lq2opz70f33uh/MinecraftCavesCliffs2East.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Nono",
+        "fileHash": "d6cbb486aedebdf5e95432daecd30df9",
+        "fileSize": 340516085,
+        "dateAdded": "2023-12-23",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Minimal_Mojave": {
         "themeUrl": "https://www.mediafire.com/file/kfpsddkg36pwu8p/Minimal_Mojave.ddw/file",
         "themeType": "community",
@@ -3702,6 +3721,24 @@
             3000
         ],
         "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Plastic_Beach": {
+        "themeUrl": "https://www.mediafire.com/file/pplmptsxgyb3x6j/Plastic_Beach.ddw/file",
+        "themeType": "community",
+        "displayName": "Plastic Beach",
+        "imageCredits": "Gorillaz",
+        "fileHash": "73a066518266e83ccbbe5e284c6ff724",
+        "fileSize": 10745451,
+        "dateAdded": "2023-12-23",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
             "day",
             "night"
         ]
