@@ -2446,6 +2446,63 @@
             "night"
         ]
     },
+    "LofiAlex": {
+        "themeUrl": "https://www.mediafire.com/file/lx1tnkctjh5o8ve/LofiAlex.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "156ddb75641b9e06f4d080486082c739",
+        "fileSize": 13439422,
+        "dateAdded": "2024-01-31",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "LofiAlexandra": {
+        "themeUrl": "https://www.mediafire.com/file/e6m863b8p2ny74p/LofiAlexandra.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "9a9a48b65293b8a4e82b659e96a742e7",
+        "fileSize": 9195305,
+        "dateAdded": "2024-01-31",
+        "imageSize": [
+            2880,
+            1620
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "LofiDino": {
+        "themeUrl": "https://www.mediafire.com/file/2cpatny5hif9aoy/LofiDino.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "08580f8ccd1d8532d6f1b7e1341d1ce9",
+        "fileSize": 5412035,
+        "dateAdded": "2024-01-31",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "LoFiGirl": {
         "themeUrl": "https://www.mediafire.com/file/axomv90yz203l1a/LoFiGirl.ddw/file",
         "themeType": "community",
@@ -3022,6 +3079,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Minecraft_Mountain_Landscape": {
+        "themeUrl": "https://www.mediafire.com/file/x2dt715h1e15uek/Minecraft_Mountain_Landscape.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Mojang, DiamondIsntHere, RRe36, Futhorka",
+        "fileHash": "c51e4fb7ae4e77d22765eac3ab6abad7",
+        "fileSize": 83085026,
+        "dateAdded": "2024-01-31",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
