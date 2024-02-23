@@ -3044,6 +3044,40 @@
             "night"
         ]
     },
+    "Minecraft_Cherry_Blossom_Sky_Island(24h)": {
+        "themeUrl": "https://www.mediafire.com/file/lcft1f3h366rz5x/Minecraft_Cherry_Blossom_Sky_Island(24h).ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Futhorka",
+        "fileHash": "9ec2fd81c5411211ec21e2357f7f74ea",
+        "fileSize": 75699078,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Minecraft_Forest_Lake": {
+        "themeUrl": "https://www.mediafire.com/file/og8ckgoa2hloppg/Minecraft_Forest_Lake.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Futhorka",
+        "fileHash": "c22c1cb7a8bd093fe0f7604ac349d0d4",
+        "fileSize": 93443930,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Minecraft_Ice_Valley_2": {
         "themeUrl": "https://www.mediafire.com/file/ag9zehvfy3cts4e/Minecraft_Ice_Valley_2.ddw/file",
         "themeType": "community",
@@ -3060,6 +3094,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Minecraft_Island": {
+        "themeUrl": "https://www.mediafire.com/file/4bph42o3i5w54uq/Minecraft_Island.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Futhorka",
+        "fileHash": "f3ed0c276ffeefcdb72ae4fec8b3d683",
+        "fileSize": 68448220,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -3096,6 +3147,42 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Minecraft_Winter": {
+        "themeUrl": "https://www.mediafire.com/file/nubzqfsfe5ajjyi/Minecraft_Winter.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Futhorka",
+        "fileHash": "87f93497b757c25b5786192925568d5e",
+        "fileSize": 83059385,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Minecraft_With_Shaders": {
+        "themeUrl": "https://www.mediafire.com/file/mfhb4ua4ktba0kb/Minecraft_With_Shaders.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "created by tereyagburak",
+        "fileHash": "fc866d0bac829a3d543e23fb680ace7c",
+        "fileSize": 13578858,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -3932,6 +4019,23 @@
         "sunPhases": [
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Red11": {
+        "themeUrl": "https://www.mediafire.com/file/p5a0zoojckomxuq/Red11.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "created by tereyagburak Using GIMP",
+        "fileHash": "85cb9a23eb1447ac479034ae7d350da3",
+        "fileSize": 3415480,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -4945,6 +5049,23 @@
         "imageSize": [
             7680,
             4320
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows12_Concept": {
+        "themeUrl": "https://www.mediafire.com/file/3rt6idk04fwy8g7/Windows12_Concept.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Windows12",
+        "fileHash": "ab25fd540176275f96ea703b95bf894e",
+        "fileSize": 723349,
+        "dateAdded": "2024-02-23",
+        "imageSize": [
+            3840,
+            2160
         ],
         "sunPhases": [
             "day",
