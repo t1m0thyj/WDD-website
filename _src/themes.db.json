@@ -2281,6 +2281,40 @@
         ],
         "sunPhases": null
     },
+    "Grid_Green": {
+        "themeUrl": "https://www.mediafire.com/file/kaw67cwbhckkbar/Grid_Green.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "8317fc3dcdcdc3a52572525d09408ed9",
+        "fileSize": 16796870,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Grid_Magenta": {
+        "themeUrl": "https://www.mediafire.com/file/yg92zaq7kpzto7a/Grid_Magenta.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "0f0486e3226a7039b07794b3a8857113",
+        "fileSize": 17896287,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "GroovyGorilla": {
         "themeUrl": "https://www.mediafire.com/file/ksr87isw35lhtj6/GroovyGorilla.ddw/file",
         "themeType": "community",
