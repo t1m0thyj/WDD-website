@@ -1011,6 +1011,25 @@
         ],
         "sunPhases": null
     },
+    "Carvan": {
+        "themeUrl": "https://www.mediafire.com/file/sbadyqnyfguet2w/Carvan.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "7e9dc94eaf482cb0184e5f9ebe6bd8b9",
+        "fileSize": 13404111,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3024,
+            1964
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Castle": {
         "themeUrl": "https://www.mediafire.com/file/vem6eztb8icnz5x/Castle.ddw/file",
         "themeType": "community",
@@ -1195,6 +1214,177 @@
             "night"
         ]
     },
+    "ChromeOSBlues": {
+        "themeUrl": "https://www.mediafire.com/file/akukywpid5sssld/ChromeOSBlues.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "4a77a15fddc12f9b4c890c243e628e5b",
+        "fileSize": 4487389,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSEarth": {
+        "themeUrl": "https://www.mediafire.com/file/m5ek8yauwn79n90/ChromeOSEarth.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "cc2557a9a8d83b306a60deaa75751d29",
+        "fileSize": 5018173,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSFire": {
+        "themeUrl": "https://www.mediafire.com/file/g2b9kcgn8fxs8cl/ChromeOSFire.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "b9aad83018d3c91d24e5e1b1b011dcd3",
+        "fileSize": 3812930,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSGreens": {
+        "themeUrl": "https://www.mediafire.com/file/32ehc3ijbuqu6bz/ChromeOSGreens.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "a3ade6fa580bcfaf7cce1836b4e7860d",
+        "fileSize": 5578698,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSReds": {
+        "themeUrl": "https://www.mediafire.com/file/tkypqa5eprtym5o/ChromeOSReds.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "24749390dae7229a4cf6c21f9309b36d",
+        "fileSize": 4041130,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSWater": {
+        "themeUrl": "https://www.mediafire.com/file/er9p2zhgsriwzla/ChromeOSWater.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "51435856719afc990ebfe499860f42c6",
+        "fileSize": 5849933,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSWind": {
+        "themeUrl": "https://www.mediafire.com/file/krj1uz66hiu1fdd/ChromeOSWind.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "7631243ed01c1ddf30961dfa66d28da3",
+        "fileSize": 5808296,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ChromeOSYellows": {
+        "themeUrl": "https://www.mediafire.com/file/844bfteakpfska5/ChromeOSYellows.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "67d65e6fad5f0fa6b92f02ec80bdf07a",
+        "fileSize": 5120703,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2960,
+            2960
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Coast": {
+        "themeUrl": "https://www.mediafire.com/file/p35ibremuq9bzi0/Coast.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "01f8bedc65a93bf599f66f5a14387550",
+        "fileSize": 7053733,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Coastline": {
         "themeUrl": "https://www.mediafire.com/file/cdxa8fun2mv6qqs/Coastline.ddw/file",
         "themeType": "community",
@@ -1275,6 +1465,25 @@
             "night"
         ]
     },
+    "cyberpunk": {
+        "themeUrl": "https://www.mediafire.com/file/ocuzjpu53s5cgen/cyberpunk.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "5356df0f17bf74fa68899b16f77a582e",
+        "fileSize": 28800596,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Daft_Punk": {
         "themeUrl": "https://www.mediafire.com/file/opogbqexbcamt1f/Daft_Punk.ddw/file",
         "themeType": "community",
@@ -1309,6 +1518,44 @@
             "night"
         ]
     },
+    "Desert_2": {
+        "themeUrl": "https://www.mediafire.com/file/2h8xbznd8ejo47s/Desert.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "60de3a6a1438c94536cf1a43bc0f7212",
+        "fileSize": 6780066,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3456,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "DesertSands": {
+        "themeUrl": "https://www.mediafire.com/file/gbz0zr4vcmlwufz/DesertSands.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "a8ce296cd4f52248dbefe93399e111dd",
+        "fileSize": 67199341,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5160,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Destiny_2_Day-Night_Cycle_FULL_Version": {
         "themeUrl": "https://www.mediafire.com/file/vn5mq1e6vvnwarv/Destiny_2_Day-Night_Cycle_FULL_Version.ddw/file",
         "themeType": "community",
@@ -1339,6 +1586,25 @@
         "imageSize": [
             3440,
             1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Disco": {
+        "themeUrl": "https://www.mediafire.com/file/r4lziiyv7ekgkbl/Disco.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "405a6e4b079f4877b7209a47cb3ce2d4",
+        "fileSize": 18736729,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2160
         ],
         "sunPhases": [
             "sunrise",
@@ -1506,6 +1772,25 @@
             "night"
         ]
     },
+    "DynamicFry": {
+        "themeUrl": "https://www.mediafire.com/file/0rl7l634krwai2q/DynamicFry.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "ea71a2e7caef95b4f9b8a1b6c11871e3",
+        "fileSize": 6272342,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Earth_View": {
         "themeUrl": "https://www.mediafire.com/file/lvg94m0bg6atk2y/Earth_View.ddw/file",
         "themeType": "community",
@@ -1539,6 +1824,82 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "ElementaryOS": {
+        "themeUrl": "https://www.mediafire.com/file/sww9spbrbdtcdws/ElementaryOS.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "3f4d389eb69fe5890e44da39ca82d2ea",
+        "fileSize": 43023593,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "EOS_SnowCappedMountain": {
+        "themeUrl": "https://www.mediafire.com/file/aat6qblt2pwa9ek/EOS_SnowCappedMountain.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "5f8af86c5db0c72bed27126858a3c656",
+        "fileSize": 19580124,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4200,
+            2800
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "EOS_Sunset": {
+        "themeUrl": "https://www.mediafire.com/file/i6pvqeg5mz1eti7/EOS_Sunset.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "a92ee034aa5db6759106167ff2cb306b",
+        "fileSize": 16265911,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5470,
+            3646
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "EOS_WeYamle": {
+        "themeUrl": "https://www.mediafire.com/file/0qp8z4cpr7ahtpm/EOS_WeYamle.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "195a8b65018fefe8ed1e88f72726c78e",
+        "fileSize": 9916305,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -1609,6 +1970,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "FedeMarinMountain": {
+        "themeUrl": "https://www.mediafire.com/file/rpv5vw04p6sdswv/FedeMarinMountain.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "f84c96a58d6d49ffb04df470aa2f529a",
+        "fileSize": 141842968,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5184,
+            3888
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -1688,6 +2068,44 @@
             "night"
         ]
     },
+    "FluidifiedST": {
+        "themeUrl": "https://www.mediafire.com/file/nh8w8za0smlnwf4/FluidifiedST.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "5f5db3cb4eeeb297a956ece358c05732",
+        "fileSize": 55036429,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4445,
+            2873
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "FocalFossa": {
+        "themeUrl": "https://www.mediafire.com/file/4xvf0bpy1gdg3q1/FocalFossa.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "832ef28948b96e60548150780c851fa5",
+        "fileSize": 5579704,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Follow_Me": {
         "themeUrl": "https://www.mediafire.com/file/nbq2wrrh50iql3b/Follow_Me.ddw/file",
         "themeType": "community",
@@ -1726,6 +2144,25 @@
             "night"
         ]
     },
+    "Fuji": {
+        "themeUrl": "https://www.mediafire.com/file/3yk5azi3wf1jgk7/Fuji.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "b497e16d02bd7eb6a0e2ceb1037a01d6",
+        "fileSize": 2918326,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Glacier": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
         "themeType": "paid",
@@ -1739,6 +2176,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Globe": {
+        "themeUrl": "https://www.mediafire.com/file/d4bahdox9qz9emb/Globe.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "550b37b28c948d1cf56bab3078e37feb",
+        "fileSize": 24336019,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Golden_Gate_Bridge": {
         "themeUrl": "https://www.mediafire.com/file/nq131g8blkcuufc/Golden_Gate_Bridge.ddw/file",
@@ -1824,6 +2280,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "GroovyGorilla": {
+        "themeUrl": "https://www.mediafire.com/file/ksr87isw35lhtj6/GroovyGorilla.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "6b7ea50173def9f3f28f4ff9814bc2f1",
+        "fileSize": 5695737,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Guadalupe": {
         "themeUrl": "https://www.mediafire.com/file/3rwiieb71dzgjem/Guadalupe.ddw/file",
@@ -2047,6 +2522,25 @@
             "night"
         ]
     },
+    "Hills_2": {
+        "themeUrl": "https://www.mediafire.com/file/6jw4cw5uhlzotqw/Hills.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "71187d5b2610d764c128d5169efa5729",
+        "fileSize": 31897650,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Hills_3D": {
         "themeUrl": "https://www.mediafire.com/file/6fi4kiv0nlbiqjf/Hills+3D.ddw/file",
         "themeType": "community",
@@ -2061,6 +2555,44 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "HirsuteHippo": {
+        "themeUrl": "https://www.mediafire.com/file/kwsur1qp8typdys/HirsuitHippo.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "e4fc33a7117bc5cabe27fc3d2955080f",
+        "fileSize": 3589080,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "HirsuteHippoBlue": {
+        "themeUrl": "https://www.mediafire.com/file/ydrnhq5zsabtz8b/HirsuteHippoBlue.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "5972edc6507810a46e52e52ad10e74bc",
+        "fileSize": 4092835,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -2775,6 +3307,25 @@
             "night"
         ]
     },
+    "MagicLake": {
+        "themeUrl": "https://www.mediafire.com/file/pvrykxkdgjrwbos/MagicLake.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "b8613975e3bf621246249aa8a3d638e8",
+        "fileSize": 33934571,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Malibu": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/malibu-windd",
         "themeType": "paid",
@@ -3041,6 +3592,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "minecraft_bedrock_plateau": {
+        "themeUrl": "https://www.mediafire.com/file/d873nzd1emo0fjc/minecraft_bedrock_plateau.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Created by the .ddw Theme Creator, mojang",
+        "fileHash": "b1956562f928e9969d1dcb816063731a",
+        "fileSize": 41952014,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -3709,6 +4279,25 @@
         ],
         "sunPhases": null
     },
+    "Ocean": {
+        "themeUrl": "https://www.mediafire.com/file/y3qci4hpjeitq71/Ocean.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "69f37d7fe54ae006f69d516330c69864",
+        "fileSize": 15384027,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Onion_Skins": {
         "themeUrl": "https://www.mediafire.com/file/hplue2v3z5stjhw/Onion_Skins.ddw/file",
         "themeType": "community",
@@ -3775,6 +4364,44 @@
             2880
         ],
         "sunPhases": null
+    },
+    "PadarIsland": {
+        "themeUrl": "https://www.mediafire.com/file/av560ohd1yfvt5s/PadarIsland.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "4a334f3b8362b98ffb0bb0baa8601071",
+        "fileSize": 83041583,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5399,
+            3599
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "PaintingStudio": {
+        "themeUrl": "https://www.mediafire.com/file/qgnvmtgj3572t86/PaintingStudio.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "795ea883300d5c0fb2f8a281072317cd",
+        "fileSize": 12052102,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Pantone_Color_of_the_Year_2022": {
         "themeUrl": "https://www.mediafire.com/file/nhci6g1vnjnx5yv/Pantone_Color_of_the_Year_2022.ddw/file",
@@ -3901,6 +4528,44 @@
         "sunPhases": [
             "sunrise",
             "day",
+            "night"
+        ]
+    },
+    "PlasticBeach": {
+        "themeUrl": "https://www.mediafire.com/file/f1h121wlr7hm7vy/PlasticBeach.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "288d8cdc26b16fa072507926c48fb720",
+        "fileSize": 47041582,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Plateau": {
+        "themeUrl": "https://www.mediafire.com/file/cpftn79t09ycfzm/Plateau.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "ab8ba350816e0d9e37dc435d2cae326e",
+        "fileSize": 17308138,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -4096,6 +4761,82 @@
             "night"
         ]
     },
+    "Rock": {
+        "themeUrl": "https://www.mediafire.com/file/bh1c7fojjcs7aq2/Rock.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "e0fea166a2df784674591dcba75008f5",
+        "fileSize": 14371608,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Rocknegy": {
+        "themeUrl": "https://www.mediafire.com/file/g4qdwafaqwax6sr/Rocknegy.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "a7b934d8338436dd853318d693fe75b3",
+        "fileSize": 48256748,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Rocksketto": {
+        "themeUrl": "https://www.mediafire.com/file/09sd1tp0mcsjvwl/Rocksketto.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "0a34d6acf7a93639ad44c937d97c17af",
+        "fileSize": 54120962,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "RockyMountain": {
+        "themeUrl": "https://www.mediafire.com/file/1alp78w46i4wkri/RockyMountain.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "19fb3ad26e2e750375eaae9456ecec9d",
+        "fileSize": 28436059,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5760,
+            3840
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-SanFrancisco": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
         "themeType": "paid",
@@ -4233,6 +4974,82 @@
             "night"
         ]
     },
+    "SolidDesert": {
+        "themeUrl": "https://www.mediafire.com/file/1ag1e675ua3c2jr/SolidDesert.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "4f49b3b08d6a4bbb5c1372437932fefe",
+        "fileSize": 36375338,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "SolidForest": {
+        "themeUrl": "https://www.mediafire.com/file/4msimaevxf2dezf/SolidForest.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "480cc14e201c96f51b61758e8934663a",
+        "fileSize": 58016924,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3530,
+            2647
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "SolidMountain": {
+        "themeUrl": "https://www.mediafire.com/file/tme2di1zymfsf9g/SolidMountain.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "94a5a7816b2ea0f432b37e9e46e954e5",
+        "fileSize": 21587499,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Solitude": {
+        "themeUrl": "https://www.mediafire.com/file/ndbxc4r0k0trid3/Solitude.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "8fbbed9cf3c86934a9d8bfd21f36f4be",
+        "fileSize": 15384102,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Sonoma_Abstract": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/sonoma/Sonoma_Abstract.ddw",
         "themeType": "macos",
@@ -4264,6 +5081,44 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "StepbyStep": {
+        "themeUrl": "https://www.mediafire.com/file/wujqi8hbircqtm4/StepbyStep.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "18eaef0fe0a302773f0636fd864942ee",
+        "fileSize": 1395402,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "StevenUniverse": {
+        "themeUrl": "https://www.mediafire.com/file/5wzfnw1oe3cj6hp/StevenUniverse.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "adfc1d9c01e709f879367e1b709558b2",
+        "fileSize": 3104710,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -4403,6 +5258,25 @@
             "night"
         ]
     },
+    "SurfaceBreeze": {
+        "themeUrl": "https://www.mediafire.com/file/uk9nnz4oqb7l07j/SurfaceBreeze.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "7d728141cb2b733ca3d2d0bcd9f5007e",
+        "fileSize": 6280052,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "SurfaceX": {
         "themeUrl": "https://www.mediafire.com/file/ym933bo16sjnkdm/SurfaceX.ddw/file",
         "themeType": "community",
@@ -4417,6 +5291,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Symbolics": {
+        "themeUrl": "https://www.mediafire.com/file/e0y2hkei8khmvl0/Symbolics.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "35ce1d2f94787d0e4c18c690efc4b4c5",
+        "fileSize": 66604259,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -4596,6 +5489,25 @@
             "night"
         ]
     },
+    "Tokyo_Street_2": {
+        "themeUrl": "https://www.mediafire.com/file/dtung6tcuqs9k9r/TokyoStreet.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "3241ed1604909ff64f4e577f6d7c8d90",
+        "fileSize": 33570050,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3200,
+            1800
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Tree": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Tree.ddw",
         "themeType": "macos",
@@ -4681,6 +5593,44 @@
             "night"
         ]
     },
+    "Truchet": {
+        "themeUrl": "https://www.mediafire.com/file/ohid1q9jmvtoabi/Truchet.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "a8923d511cf5d9f789645f9e66fa114a",
+        "fileSize": 4748963,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "UbuntuMinimal": {
+        "themeUrl": "https://www.mediafire.com/file/4w6f5c8ksbfqapy/UbuntuMinimal.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "06358a02846a89c7331f32ed6d5d648c",
+        "fileSize": 9863824,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Uplink": {
         "themeUrl": "https://www.mediafire.com/file/31b0xzimldtngtp/Uplink.ddw/file",
         "themeType": "community",
@@ -4748,6 +5698,44 @@
             "night"
         ]
     },
+    "Viragegy": {
+        "themeUrl": "https://www.mediafire.com/file/3lrgvjyq5b9l8ok/Viragegy.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "cff4dd041d2987c8cf02dd0f09f29bb7",
+        "fileSize": 16952105,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Viragharom": {
+        "themeUrl": "https://www.mediafire.com/file/1dkz6a7pljt9ill/Viragharom.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "88ca483d741febe5becca80a5968d83a",
+        "fileSize": 20992184,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-WashingtonMonument": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/washingtonmonument-windd",
         "themeType": "paid",
@@ -4761,6 +5749,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "WaterHill": {
+        "themeUrl": "https://www.mediafire.com/file/h9xxhcqi1q6xeck/WaterHill.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "b025c87d2c710e830b922569ccf3c657",
+        "fileSize": 13135795,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            4096,
+            2621
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Wharariki_Beach": {
         "themeUrl": "https://www.mediafire.com/file/amb16l03o5c32vn/Wharariki+Beach.ddw/file",
@@ -4837,6 +5844,25 @@
         "imageSize": [
             3841,
             2400
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "WhiteLighthouse": {
+        "themeUrl": "https://www.mediafire.com/file/jwvhtejvf5en9xp/WhiteLighthouse.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "47413e4fd7a4f7208f7775d2f5bfc195",
+        "fileSize": 13385768,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6000,
+            3375
         ],
         "sunPhases": [
             "sunrise",
@@ -5534,6 +6560,25 @@
             "night"
         ]
     },
+    "Wiravketto": {
+        "themeUrl": "https://www.mediafire.com/file/rbdp5q9gkt3h106/Wiravketto.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "7999298e927cafec5380ae2127214428",
+        "fileSize": 17763432,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3412,
+            3412
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "XCDE_-_Main_Menu_Screen": {
         "themeUrl": "https://www.mediafire.com/file/6gsuod7mt108i87/XCDE_-_Main_Menu_Screen.ddw/file",
         "themeType": "community",
@@ -5642,6 +6687,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "ZorinMountainFog": {
+        "themeUrl": "https://www.mediafire.com/file/m819f08d68th3z7/ZorinMountainFog.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "zjkhy94",
+        "fileHash": "23470d31a104cf807d77fb28c7db4b98",
+        "fileSize": 12306678,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            5120,
+            2610
         ],
         "sunPhases": [
             "sunrise",

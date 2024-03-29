@@ -20,14 +20,14 @@ from utils import (
 orig_cwd = os.getcwd()
 
 
-def add(theme_type, theme_path):
+def add(theme_type, theme_path, theme_id=None):
     is_local = re.match("\w{2,}:", theme_path) is None
     theme_path = theme_path if not is_local or os.path.isabs(theme_path) else os.path.join(orig_cwd, theme_path)
     ddw_file = theme_path if is_local else mediafire_download(theme_path)
     theme_dir = extract_ddw(ddw_file)
     theme_config = load_theme_config(theme_dir)
     themes_db = load_themes_db()
-    theme_id = os.path.splitext(os.path.basename(ddw_file))[0].replace(" " if is_local else "+", "_")
+    theme_id = theme_id or os.path.splitext(os.path.basename(ddw_file))[0].replace(" " if is_local else "+", "_")
     if "#" in theme_id:
         theme_config["displayName"] = theme_config.get("displayName", theme_id.replace("_", " "))
         theme_id = theme_id.replace("#", "")
@@ -67,8 +67,9 @@ if len(sys.argv) > 2:
             with open("new-themes.csv", 'r') as fileobj:
                 theme_paths = [line.strip() for line in fileobj if not line.startswith("#")]
         for path in theme_paths:
-            print(f"+ {type_}\t{path}")
-            add(type_, path)
+            args = path.split(" ")
+            print(f"+ {type_}\t{args[0]}")
+            add(type_, *args)
     elif action == "remove":
         for id_ in sys.argv[2:]:
             print(f"- {id_}")
