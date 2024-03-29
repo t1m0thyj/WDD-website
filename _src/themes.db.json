@@ -2803,6 +2803,23 @@
             "night"
         ]
     },
+    "iOS_16": {
+        "themeUrl": "https://www.mediafire.com/file/gz8c1dbng6sodyp/iOS_16.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "ecba5d9eeb50dfdc233967f69644b921",
+        "fileSize": 6503899,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            3208,
+            1804
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "ipad-pro-liquid": {
         "themeUrl": "https://www.mediafire.com/file/dfnh1x3hywm11p4/ipad-pro-liquid.ddw/file",
         "themeType": "community",
@@ -4057,6 +4074,23 @@
             "night"
         ]
     },
+    "Motion_Blue": {
+        "themeUrl": "https://www.mediafire.com/file/xyz3ztw8zcx9b5y/Motion_Blue.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "79bf65860ad3be67f217c69bcaca60d1",
+        "fileSize": 23252868,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Motion_Flow": {
         "themeUrl": "https://www.mediafire.com/file/8bkpxzyamdpx9b0/Motion+Flow.ddw/file",
         "themeType": "community",
@@ -4073,6 +4107,57 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Motion_Green": {
+        "themeUrl": "https://www.mediafire.com/file/aaht74222b6ry72/Motion_Green.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "33279df9085e35243f001595bb61cd44",
+        "fileSize": 22442364,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Motion_Purple": {
+        "themeUrl": "https://www.mediafire.com/file/71wx74rge384hiq/Motion_Purple.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "a0083a8e8c936e36e509842d4f53979b",
+        "fileSize": 22557188,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Motion_Yellow": {
+        "themeUrl": "https://www.mediafire.com/file/c3nnh6srzhpx4jb/Motion_Yellow.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "6969dd9ea0773a6c3821f6f068c4168e",
+        "fileSize": 22551390,
+        "dateAdded": "2024-03-29",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
