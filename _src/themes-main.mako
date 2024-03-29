@@ -115,7 +115,7 @@
     <script type="text/javascript">
     $(function() {
         % if pageType == "home":
-        ${list(featuredFree + featuredPaid)}.map(loadThumbnail);
+        ${list(featuredFree + featuredPaid)}.forEach(loadThumbnail);
         % else:
         loadThumbnailGrid('${pageType}');
         % endif
