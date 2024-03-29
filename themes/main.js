@@ -1,5 +1,6 @@
 var basePath = document.currentScript.getAttribute('src').slice(0, -14);
 var isLoading = false;
+var previewThemeId = (window.location.hash || "").slice(1);
 var themesPerPage = 30;
 
 var thumbnailTemplate = `<div class="img-thumbnail">
@@ -71,6 +72,10 @@ function loadThumbnailGrid(themeType, pageNumber) {
         loadThumbnail(themeId);
     });
     isLoading = false;
+    if (previewThemeId && themeIds.includes(previewThemeId)) {
+        openPreview(previewThemeId);
+        previewThemeId = null;
+    }
 }
 
 function openPreview(themeId) {
