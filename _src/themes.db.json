@@ -4984,6 +4984,23 @@
         ],
         "sunPhases": null
     },
+    "Scarlet_Tree": {
+        "themeUrl": "https://www.mediafire.com/file/qinck89oo4vlw8l/Scarlet_Tree.ddw/file",
+        "themeType": "community",
+        "displayName": "Scarlet Tree",
+        "imageCredits": "axo1otl",
+        "fileHash": "fad1f31588607f374b09ffa36e51729a",
+        "fileSize": 1087014,
+        "dateAdded": "2024-05-04",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Sea_Minimalism": {
         "themeUrl": "https://www.mediafire.com/file/5usdoubuxv1gvzt/Sea_Minimalism.ddw/file",
         "themeType": "community",
