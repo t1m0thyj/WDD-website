@@ -623,6 +623,25 @@
             "night"
         ]
     },
+    "Bmw": {
+        "themeUrl": "https://www.mediafire.com/file/tzat44ki3lxpxis/Bmw.ddw/file",
+        "themeType": "community",
+        "displayName": "Bmw",
+        "imageCredits": "Bmw",
+        "fileHash": "3b29c06f552044e7547a7fa4ca6b7489",
+        "fileSize": 9547737,
+        "dateAdded": "2024-05-13",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BotW_Dueling_Peaks_Stable": {
         "themeUrl": "https://www.mediafire.com/file/c0i78wyb8grutvm/BotW_Dueling_Peaks_Stable.ddw/file",
         "themeType": "community",
