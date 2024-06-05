@@ -6399,6 +6399,23 @@
             "night"
         ]
     },
+    "Windows_11_Copilot": {
+        "themeUrl": "https://www.mediafire.com/file/x6iu7an3e8wmtiv/Windows_11_Copilot.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "5abfd70056b13cdecd77f991c71f901b",
+        "fileSize": 1126743,
+        "dateAdded": "2024-06-04",
+        "imageSize": [
+            2880,
+            1800
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_11_Dune": {
         "themeUrl": "https://www.mediafire.com/file/5jbh5b5vgx100fa/Windows_11_Dune.ddw/file",
         "themeType": "community",
