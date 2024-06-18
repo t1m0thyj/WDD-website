@@ -5053,6 +5053,23 @@
         ],
         "sunPhases": null
     },
+    "Sequoia_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/sequoia/Sequoia_Abstract.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4cd5eee60d8f5a97fe73e92f8f57a9e5",
+        "fileSize": 6661011,
+        "dateAdded": "2024-06-18",
+        "imageSize": [
+            6400,
+            3552
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Shadow_Gambit_The_Cursed_Crew_Marley": {
         "themeUrl": "https://www.mediafire.com/file/w4h2ibvuv9ai7n2/Shadow_Gambit_The_Cursed_Crew_Marley.ddw/file",
         "themeType": "community",
