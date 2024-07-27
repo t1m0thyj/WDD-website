@@ -6096,14 +6096,14 @@
             "night"
         ]
     },
-    "Windows": {
-        "themeUrl": "https://www.mediafire.com/file/vy3pmrzdfu8dz1j/Windows.ddw/file",
+    "Windows_10": {
+        "themeUrl": "https://www.mediafire.com/file/sgsqigcd9t6xvtw/Windows_10.ddw/file",
         "themeType": "community",
-        "displayName": null,
-        "imageCredits": "MSFT",
-        "fileHash": "75935e9a9a8bb311d0fe5cbfc9ffee30",
-        "fileSize": 1083001,
-        "dateAdded": "2021-04-21",
+        "displayName": "Windows 10",
+        "imageCredits": "Microsoft",
+        "fileHash": "eec2ea60ddb220fe0b5a451426070ce6",
+        "fileSize": 617837,
+        "dateAdded": "2024-07-27",
         "imageSize": [
             1920,
             1200
@@ -6236,6 +6236,23 @@
             "night"
         ]
     },
+    "Windows_Server_2025": {
+        "themeUrl": "https://www.mediafire.com/file/i3diqdn5iivqgr3/Windows_Server_2025.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows Server 2025",
+        "imageCredits": "Microsoft",
+        "fileHash": "7e6082ee78483e5fc9b32ec596f67323",
+        "fileSize": 6081808,
+        "dateAdded": "2024-07-27",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows11SE": {
         "themeUrl": "https://www.mediafire.com/file/6jdi5zgfi3rsh4m/Windows11SE.ddw/file",
         "themeType": "community",
@@ -6360,6 +6377,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Windows_10_Purple": {
+        "themeUrl": "https://www.mediafire.com/file/vy3pmrzdfu8dz1j/Windows.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "MSFT",
+        "fileHash": "75935e9a9a8bb311d0fe5cbfc9ffee30",
+        "fileSize": 1083001,
+        "dateAdded": "2021-04-21",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
