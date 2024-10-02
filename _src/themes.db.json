@@ -2940,6 +2940,44 @@
         ],
         "sunPhases": null
     },
+    "Jupiter_Daycycle_SDR": {
+        "themeUrl": "https://www.mediafire.com/file/oqb38smzz9ptrzy/Jupiter_Daycycle_SDR.ddw/file",
+        "themeType": "community",
+        "displayName": "Jupiter Daycycle [56x4K SDR]",
+        "imageCredits": "Created with Space Engine, and Reshade",
+        "fileHash": "23d2bdaaf098d86ac9569ff5e1650ada",
+        "fileSize": 65976036,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Jupiter_Daycycle_HDR": {
+        "themeUrl": "https://www.mediafire.com/file/arptl86jhbkt3w1/Jupiter_Daycycle_HDR.ddw/file",
+        "themeType": "community",
+        "displayName": "Jupiter Daycycle [60x4K HDR]",
+        "imageCredits": "Created with Space Engine and Reshade",
+        "fileHash": "e1dbe8eea6a936c8634abf940e7e84f0",
+        "fileSize": 96621359,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Landscape_2": {
         "themeUrl": "https://www.mediafire.com/file/71lal19ivum9eug/Landscape+2.ddw/file",
         "themeType": "community",
@@ -3409,6 +3447,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Mars_Daycycle_HDR": {
+        "themeUrl": "https://www.mediafire.com/file/4g1iozon5o5ityy/Mars_Daycycle_HDR.ddw/file",
+        "themeType": "community",
+        "displayName": "Mars Daycycle [56x4K HDR]",
+        "imageCredits": "Created with Space Engine and Reshade",
+        "fileHash": "0511227775ca89503889d6304d665f23",
+        "fileSize": 100061776,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "24hr-Miami-1": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-1-windd",
@@ -5239,6 +5296,44 @@
             "night"
         ]
     },
+    "Sony_Alpha_Clock_Alhambra_6K": {
+        "themeUrl": "https://www.mediafire.com/file/npshbhz6lk6sili/Sony_Alpha_Clock_Alhambra_6K.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "AYuji Nukui",
+        "fileHash": "da0b8e34595be7defb8306dbb084e88b",
+        "fileSize": 120236029,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Sony_Alpha_Clock_Amalfi_6K": {
+        "themeUrl": "https://www.mediafire.com/file/i00u0d4urt23sxq/Sony_Alpha_Clock_Amalfi_6K.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Yuji Nukui",
+        "fileHash": "a4262bd730dba0885f7f9778b55c7d3e",
+        "fileSize": 113466284,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Spider__Man": {
         "themeUrl": "https://www.mediafire.com/file/imbcnhdzc90u7qw/Spider__Man.ddw/file",
         "themeType": "community",
@@ -5819,6 +5914,42 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Ventura_Hybrid": {
+        "themeUrl": "https://www.mediafire.com/file/u5u0fts7vmwieon/Ventura+Hybrid.ddw/file",
+        "themeType": "community",
+        "displayName": "Ventura Hybrid",
+        "imageCredits": "Apple",
+        "fileHash": "cf327308b1236b5af0a523fba7c668ef",
+        "fileSize": 9206566,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Ventura_11": {
+        "themeUrl": "https://www.mediafire.com/file/wdttm7lwfor30tv/Ventura_11.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Anon",
+        "fileHash": "8a045eddea4a87058f2f32044e7a278f",
+        "fileSize": 775738,
+        "dateAdded": "2024-10-02",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
