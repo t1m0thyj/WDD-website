@@ -105,7 +105,7 @@ def make_thumbnails(theme_config, theme_dir, theme_id):
 def mediafire_download(theme_url):
     out_file = os.path.join(tempfile.gettempdir(),
         re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", theme_url).group(1))
-    with urllib.request.urlopen(theme_url) as fileobj:
+    with urllib.request.urlopen(urllib.request.Request(theme_url, headers={"User-Agent": "Mozilla/5.0"})) as fileobj:
         html = fileobj.read()
     soup = BeautifulSoup(html, "html.parser")
     direct_link = soup.find("a", {"id": "downloadButton"})["href"]
