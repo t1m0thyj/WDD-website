@@ -4,6 +4,7 @@ import json
 import os
 import re
 import shutil
+import ssl
 import tempfile
 import urllib.request
 import zipfile
@@ -105,7 +106,9 @@ def make_thumbnails(theme_config, theme_dir, theme_id):
 def mediafire_download(theme_url):
     out_file = os.path.join(tempfile.gettempdir(),
         re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", theme_url).group(1))
-    with urllib.request.urlopen(urllib.request.Request(theme_url, headers={"User-Agent": "Mozilla/5.0"})) as fileobj:
+    headers = {"User-Agent": "Mozilla/5.0"}
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
+    with urllib.request.urlopen(urllib.request.Request(theme_url, headers=headers), context=ssl_context) as fileobj:
         html = fileobj.read()
     soup = BeautifulSoup(html, "html.parser")
     direct_link = soup.find("a", {"id": "downloadButton"})["href"]

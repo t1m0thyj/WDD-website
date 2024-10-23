@@ -91,6 +91,7 @@ def validate_image_brightness(data: ThemeData):
 
 class MyClient():
     def __init__(self, *args, **kwargs):
+        telebot.apihelper.SESSION_TIME_TO_LIVE = 5 * 60
         self.bot = telebot.TeleBot(*args, **kwargs)
     
     def start(self):
@@ -131,7 +132,8 @@ class MyClient():
                 for error in errors:
                     logging.error(f"[{theme_name}] {error}")
                 logging.info(f"[{theme_name}] Theme rejected")
-        except:
+        except Exception as e:
+            logging.error(e, exc_info=True)
             self.bot.send_message(os.environ["OWNER_TELEGRAM_ID"], f"```\n{traceback.format_exc()}\n```", parse_mode="MarkdownV2")
 
     @staticmethod
@@ -199,8 +201,8 @@ class MyClient():
 
         if errors:
             lines.append(f"{EMOJI_REJECTED} *Theme Rejected*")
-            lines.append(f"{len(errors)} error\(s\) for *{escape_md(theme_name)}*")
-            lines.extend(f"- {EMOJI_REJECTED} {escape_md(error)}" for error in errors)
+            lines.append(f"{len(errors)} check\(s\) failed for *{escape_md(theme_name)}*")
+            lines.extend(f"\- {escape_md(error)}" for error in errors)
         else:
             lines.append(f"{EMOJI_APPROVED} *Theme Approved*")
             lines.append(f"Check email for *{escape_md(theme_name)}*")
