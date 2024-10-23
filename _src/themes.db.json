@@ -2182,6 +2182,23 @@
             "night"
         ]
     },
+    "FydeOSv18": {
+        "themeUrl": "https://www.mediafire.com/file/4lnwvncfkn2bfzh/FydeOSv18.ddw/file",
+        "themeType": "community",
+        "displayName": "FydeOS v18",
+        "imageCredits": "FydeOS",
+        "fileHash": "4ad4cdd5ea532e1fd16d0d485a8f8460",
+        "fileSize": 9694854,
+        "dateAdded": "2024-10-23",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-Glacier": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
         "themeType": "paid",
@@ -4184,6 +4201,23 @@
             "night"
         ]
     },
+    "Moon_2": {
+        "themeUrl": "https://www.mediafire.com/file/yj9z5tv1xc2a96y/Moon.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Moon",
+        "fileHash": "bcc6db522415d3741431f5e16063c356",
+        "fileSize": 3720385,
+        "dateAdded": "2024-10-23",
+        "imageSize": [
+            7680,
+            4320
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Motion_Blue": {
         "themeUrl": "https://www.mediafire.com/file/xyz3ztw8zcx9b5y/Motion_Blue.ddw/file",
         "themeType": "community",
@@ -6034,6 +6068,24 @@
         ],
         "sunPhases": [
             "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "vtuber_room": {
+        "themeUrl": "https://www.mediafire.com/file/e3rl7g2c9pdg2ve/vtuber_room.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "YukinaaXIII",
+        "fileHash": "132ef76647a7d27167b2b386fb087843",
+        "fileSize": 5225691,
+        "dateAdded": "2024-10-23",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
             "day",
             "sunset",
             "night"
