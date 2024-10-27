@@ -5368,6 +5368,44 @@
             "night"
         ]
     },
+    "Sony_Alpha_Clock_Berne_6K": {
+        "themeUrl": "https://www.mediafire.com/file/dg159ei8s9q4vhg/Sony_Alpha_Clock_Berne_6K.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Yuji Nukui",
+        "fileHash": "a116d6f227dc5b3d3c5f6717fc32f146",
+        "fileSize": 151851953,
+        "dateAdded": "2024-10-27",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Sony_Alpha_Clock_Brugge_6K": {
+        "themeUrl": "https://www.mediafire.com/file/hm555smy86lafkh/Sony_Alpha_Clock_Brugge_6K.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Yuji Nukui",
+        "fileHash": "cf901667fc45d3463af826a93a6f328f",
+        "fileSize": 137793450,
+        "dateAdded": "2024-10-27",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Spider__Man": {
         "themeUrl": "https://www.mediafire.com/file/imbcnhdzc90u7qw/Spider__Man.ddw/file",
         "themeType": "community",
