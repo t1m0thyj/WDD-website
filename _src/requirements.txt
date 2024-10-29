@@ -1,6 +1,7 @@
 beautifulsoup4
 discord.py
 mako
+markdown
 Pillow
 pyTelegramBotAPI
 python-dotenv
