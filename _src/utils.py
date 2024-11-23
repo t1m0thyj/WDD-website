@@ -108,6 +108,7 @@ def mediafire_download(theme_url):
         re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", theme_url).group(1))
     headers = {"User-Agent": "Mozilla/5.0"}
     ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
+    ssl_context.set_alpn_protocols(["http/1.1"])
     with urllib.request.urlopen(urllib.request.Request(theme_url, headers=headers), context=ssl_context) as fileobj:
         html = fileobj.read()
     soup = BeautifulSoup(html, "html.parser")
