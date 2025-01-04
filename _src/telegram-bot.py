@@ -79,7 +79,7 @@ def validate_image_brightness(data: ThemeData):
         image_filename = data.theme_config["imageFilename"].replace("*", str(i))
         img = Image.open(f"{data.theme_dir}/{image_filename}").convert("L")
         img_stat = ImageStat.Stat(img)
-        image_data[i] = img_stat.mean[0]
+        image_data[i] = img_stat.rms[0]
 
     brightest_ids = [k for k, v in image_data.items() if k in data.theme_config["dayImageList"] and
         v == max(image_data.values())]
