@@ -908,6 +908,25 @@
             "night"
         ]
     },
+    "Bridge": {
+        "themeUrl": "https://www.mediafire.com/file/0bcztf52takzufv/Bridge.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Saptangshu",
+        "fileHash": "bb7cc7aaeec23510313c165bb5fc9be6",
+        "fileSize": 1087366,
+        "dateAdded": "2025-01-04",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Bristlecone": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd",
         "themeType": "paid",
@@ -2283,6 +2302,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Goto_Goat": {
+        "themeUrl": "https://www.mediafire.com/file/a8uk576rqjcxs41/Goto_Goat.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Firma",
+        "fileHash": "20ddc83bc1511d6b861cba58b1c72859",
+        "fileSize": 1007426,
+        "dateAdded": "2025-01-04",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
