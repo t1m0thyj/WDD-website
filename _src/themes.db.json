@@ -532,6 +532,23 @@
             "night"
         ]
     },
+    "Bitty": {
+        "themeUrl": "https://www.mediafire.com/file/p25dkly5hp1kcq2/Bitty.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Saptangshu",
+        "fileHash": "8698c6ce8384c2e806b0d751d3afe573",
+        "fileSize": 297046,
+        "dateAdded": "2025-02-06",
+        "imageSize": [
+            4500,
+            3000
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Bliss": {
         "themeUrl": "https://www.mediafire.com/file/2w0smljabpkrjyt/Bliss.ddw/file",
         "themeType": "community",
