@@ -4,13 +4,14 @@ import json
 import os
 import re
 import shutil
-import ssl
 import tempfile
+import urllib.error
 import urllib.request
 import zipfile
 
 from bs4 import BeautifulSoup
 from PIL import Image
+import requests
 import yaml
 
 
@@ -103,14 +104,25 @@ def make_thumbnails(theme_config, theme_dir, theme_id):
     return (w, h)
 
 
-def mediafire_download(theme_url):
+def mediafire_download(theme_url, api_key=None):
     out_file = os.path.join(tempfile.gettempdir(),
         re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", theme_url).group(1))
-    headers = {"User-Agent": "Mozilla/5.0"}
-    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
-    ssl_context.set_alpn_protocols(["http/1.1"])
-    with urllib.request.urlopen(urllib.request.Request(theme_url, headers=headers), context=ssl_context) as fileobj:
-        html = fileobj.read()
+    if api_key is None:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        with urllib.request.urlopen(urllib.request.Request(theme_url, headers=headers)) as fileobj:
+            html = fileobj.read()
+    else:
+        rapidapi_host = "scrapeninja.p.rapidapi.com"
+        headers = {
+            "X-RapidApi-Key": api_key,
+            "X-RapidApi-Host": rapidapi_host,
+            "Content-Type": "application/json"
+        }
+        response = requests.post(f"https://{rapidapi_host}/scrape", json={"url": theme_url}, headers=headers).json()
+        if response["info"]["statusCode"] != 200:
+            info = response["info"]
+            raise urllib.error.HTTPError(theme_url, info["statusCode"], info["statusMessage"], info["headers"])
+        html = response["body"]
     soup = BeautifulSoup(html, "html.parser")
     direct_link = soup.find("a", {"id": "downloadButton"})["href"]
     urllib.request.urlretrieve(direct_link, out_file)

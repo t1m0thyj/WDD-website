@@ -139,7 +139,7 @@ class MyClient():
     @staticmethod
     def check_theme(theme_name, theme_url):
         try:
-            ddw_file = mediafire_download(theme_url)
+            ddw_file = mediafire_download(theme_url, os.environ["RAPIDAPI_KEY"])
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None, ["Theme URL is a valid MediaFire link"]
