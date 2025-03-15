@@ -2123,6 +2123,23 @@
             "night"
         ]
     },
+    "Fluid_Textures_Shapes": {
+        "themeUrl": "https://www.mediafire.com/file/7wufkrbanw1luqt/Fluid_Textures_Shapes.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "a730e7ecc4f9a5ba76a643fcc158ce5a",
+        "fileSize": 2835452,
+        "dateAdded": "2025-03-15",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "FluidifiedST": {
         "themeUrl": "https://www.mediafire.com/file/nh8w8za0smlnwf4/FluidifiedST.ddw/file",
         "themeType": "community",
@@ -3050,6 +3067,23 @@
             "night"
         ]
     },
+    "Kuker_House": {
+        "themeUrl": "https://www.mediafire.com/file/ilscs3939uag2wu/Kuker_House.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "https://www.artstation.com/ognyan",
+        "fileHash": "194bfcce8083a1726402fba0edd8fe8c",
+        "fileSize": 1891661,
+        "dateAdded": "2025-03-15",
+        "imageSize": [
+            2800,
+            1575
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Landscape_2": {
         "themeUrl": "https://www.mediafire.com/file/71lal19ivum9eug/Landscape+2.ddw/file",
         "themeType": "community",
@@ -3155,6 +3189,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Liyue_Harbour": {
+        "themeUrl": "https://www.mediafire.com/file/122azyijulp80oy/Liyue_Harbour.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Genshin Impact",
+        "fileHash": "647f7939c01f91f5c7f92ae709dde5a0",
+        "fileSize": 70332459,
+        "dateAdded": "2025-03-15",
+        "imageSize": [
+            2520,
+            1680
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -5997,6 +6050,25 @@
         "dateAdded": "2024-03-29",
         "imageSize": [
             4096,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Two_Forks": {
+        "themeUrl": "https://www.mediafire.com/file/5mtl50d3sgyjwq5/Two_Forks.ddw/file",
+        "themeType": "community",
+        "displayName": "Two Forks",
+        "imageCredits": "nullofnull",
+        "fileHash": "30f8c4ec1cc76e45233d1068ab67cc26",
+        "fileSize": 64611692,
+        "dateAdded": "2025-03-15",
+        "imageSize": [
+            3840,
             2160
         ],
         "sunPhases": [
