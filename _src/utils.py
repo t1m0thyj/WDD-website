@@ -121,7 +121,7 @@ def mediafire_download(theme_url, api_key=None):
         response = requests.post(f"https://{rapidapi_host}/scrape", json={"url": theme_url}, headers=headers).json()
         if response["info"]["statusCode"] != 200:
             info = response["info"]
-            raise urllib.error.HTTPError(theme_url, info["statusCode"], info["statusMessage"], info["headers"])
+            raise urllib.error.HTTPError(theme_url, info["statusCode"], info["statusMessage"], info["headers"], None)
         html = response["body"]
     soup = BeautifulSoup(html, "html.parser")
     direct_link = soup.find("a", {"id": "downloadButton"})["href"]
