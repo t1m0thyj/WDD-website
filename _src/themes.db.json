@@ -1421,6 +1421,25 @@
             "night"
         ]
     },
+    "City_of_Valletta_6K": {
+        "themeUrl": "https://www.mediafire.com/file/6sz5gu2zq4q0iy6/City_of_Valletta_6K.ddw/file",
+        "themeType": "community",
+        "displayName": "City of Valletta 6K",
+        "imageCredits": "Sony",
+        "fileHash": "25bd3f5b9ee5ef7136346fbb8e12c5e0",
+        "fileSize": 151525590,
+        "dateAdded": "2025-04-05",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Coast": {
         "themeUrl": "https://www.mediafire.com/file/p35ibremuq9bzi0/Coast.ddw/file",
         "themeType": "community",
@@ -2854,6 +2873,23 @@
         "imageSize": [
             4092,
             2298
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Invincible": {
+        "themeUrl": "https://www.mediafire.com/file/uig0ox1bxdf89uh/invincinble.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Duy",
+        "fileHash": "98748c4f87fac47ca029b31ccb3057f9",
+        "fileSize": 21087738,
+        "dateAdded": "2025-04-05",
+        "imageSize": [
+            6868,
+            3892
         ],
         "sunPhases": [
             "day",
@@ -4616,6 +4652,23 @@
         ],
         "sunPhases": null
     },
+    "Nuvole": {
+        "themeUrl": "https://www.mediafire.com/file/4hiw5laftf51wlj/Nuvole.ddw/file",
+        "themeType": "community",
+        "displayName": "Nuvole",
+        "imageCredits": "Krystian Zajdel",
+        "fileHash": "f69a43d56796c21d96968e2779c8fea8",
+        "fileSize": 6989631,
+        "dateAdded": "2025-04-05",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Ocean": {
         "themeUrl": "https://www.mediafire.com/file/y3qci4hpjeitq71/Ocean.ddw/file",
         "themeType": "community",
@@ -4971,6 +5024,23 @@
             2880
         ],
         "sunPhases": null
+    },
+    "quoc-ky-Vietnam": {
+        "themeUrl": "https://www.mediafire.com/file/41bf6vj04frj2ws/quoc-ky-Vietnam.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Duy",
+        "fileHash": "5b94cb9b6b99acd7b3b73714c3d28430",
+        "fileSize": 5963911,
+        "dateAdded": "2025-04-05",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "Rainbow_Bloom_Windows_11_Inspired": {
         "themeUrl": "https://www.mediafire.com/file/v97fy1hm8skqo3m/Rainbow_Bloom_Windows_11_Inspired.ddw/file",
@@ -6967,6 +7037,24 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Windows_7": {
+        "themeUrl": "https://www.mediafire.com/file/qc4qn2qlz8jf2j0/Windows_7.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Microsoft",
+        "fileHash": "17a5732031f0b96ab71aa9812b1c2029",
+        "fileSize": 1358213,
+        "dateAdded": "2025-04-05",
+        "imageSize": [
+            1920,
+            1200
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
             "night"
         ]
     },
