@@ -604,6 +604,25 @@
             "night"
         ]
     },
+    "BlissXP_KuanoVistanium": {
+        "themeUrl": "https://www.mediafire.com/file/5mn82nvimcr4l7q/BlissXP_KuanoVistanium.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "KuanogenMod",
+        "fileHash": "3a5f87c2f43b17700b2f0424aedc815d",
+        "fileSize": 637357848,
+        "dateAdded": "2025-05-10",
+        "imageSize": [
+            4510,
+            2537
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BloomSE": {
         "themeUrl": "https://www.mediafire.com/file/lxuksjvv6mb03cd/BloomSE.ddw/file",
         "themeType": "community",
@@ -3609,6 +3628,23 @@
         ],
         "sunPhases": null
     },
+    "Mammoth_Abstract": {
+        "themeUrl": "https://www.mediafire.com/file/jqn6d8imm81s5ts/Mammoth_Abstract.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Indigo",
+        "fileHash": "78db66852b6590ba64ff67c64d7c5f95",
+        "fileSize": 2486370,
+        "dateAdded": "2025-05-10",
+        "imageSize": [
+            3456,
+            2234
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Mars_Daycycle_HDR": {
         "themeUrl": "https://www.mediafire.com/file/4g1iozon5o5ityy/Mars_Daycycle_HDR.ddw/file",
         "themeType": "community",
@@ -4903,6 +4939,23 @@
             "night"
         ]
     },
+    "PlantaArequipa": {
+        "themeUrl": "https://www.mediafire.com/file/fnae075jkx8ktry/PlantaArequipa.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Planta Arequipa, By Alempsar",
+        "fileHash": "ff53ad55491e0239b1e826b5f9101002",
+        "fileSize": 13756896,
+        "dateAdded": "2025-05-10",
+        "imageSize": [
+            2048,
+            1616
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Plastic_Beach": {
         "themeUrl": "https://www.mediafire.com/file/pplmptsxgyb3x6j/Plastic_Beach.ddw/file",
         "themeType": "community",
@@ -5036,6 +5089,23 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "quoc-ky-Vietnam-2": {
+        "themeUrl": "https://www.mediafire.com/file/6xo8aenci5ef5dr/quoc-ky-Vietnam-2.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Quangtrimang.com (edit by Duy)",
+        "fileHash": "db702e0bc520c0ee09340981c75590eb",
+        "fileSize": 1710470,
+        "dateAdded": "2025-05-10",
+        "imageSize": [
+            2048,
+            1152
         ],
         "sunPhases": [
             "day",
