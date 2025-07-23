@@ -97,7 +97,7 @@ class MyClient():
     def start(self):
         self.bot.channel_post_handler(func=lambda message: True)(self.on_message)
         self.on_ready()
-        self.bot.polling()
+        self.bot.infinity_polling()
 
     def on_ready(self):
         print(f"Logged in as {self.bot.user.full_name} (ID: {self.bot.user.id})")
