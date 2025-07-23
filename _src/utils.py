@@ -1,3 +1,4 @@
+import base64
 import glob
 import hashlib
 import json
@@ -124,7 +125,10 @@ def mediafire_download(theme_url, api_key=None):
             raise urllib.error.HTTPError(theme_url, info["statusCode"], info["statusMessage"], info["headers"], None)
         html = response["body"]
     soup = BeautifulSoup(html, "html.parser")
-    direct_link = soup.find("a", {"id": "downloadButton"})["href"]
+    download_button = soup.find("a", {"id": "downloadButton"})
+    direct_link = download_button["href"]
+    if not direct_link.startswith("http"):
+        direct_link = base64.b64decode(download_button["data-scrambled-url"]).decode("utf-8")
     urllib.request.urlretrieve(direct_link, out_file)
     return out_file
 
