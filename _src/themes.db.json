@@ -5897,6 +5897,23 @@
         ],
         "sunPhases": null
     },
+    "Tahoe_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/tahoe/Tahoe_Abstract.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "4758bd23638b2537eb9f0400d7aea9fe",
+        "fileSize": 21290441,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Tame_Impala_The_Slow_Rush": {
         "themeUrl": "https://www.mediafire.com/file/a0r5nfli1e6mkp5/Tame_Impala_The_Slow_Rush.ddw/file",
         "themeType": "community",
