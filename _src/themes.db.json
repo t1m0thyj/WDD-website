@@ -513,6 +513,25 @@
             "night"
         ]
     },
+    "Big_Sur_Flipped": {
+        "themeUrl": "https://www.mediafire.com/file/su2knkzoroqsosm/Big_Sur_Flipped.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "63a9c9fdf9c4680e58d8666d86d86c9e",
+        "fileSize": 41322290,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "BitDay": {
         "themeUrl": "https://www.mediafire.com/file/0bqp279mw3cb3x3/BitDay.ddw/file",
         "themeType": "community",
@@ -656,6 +675,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Blue_waves": {
+        "themeUrl": "https://www.mediafire.com/file/8ghpnv7csas39wl/Blue+waves.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Mahesh Bhoopathi Rao",
+        "fileHash": "773a821a2074aa76e2e4e9586d9b1335",
+        "fileSize": 13802597,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            3072,
+            2048
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -4871,6 +4907,23 @@
         ],
         "sunPhases": null
     },
+    "parrot": {
+        "themeUrl": "https://www.mediafire.com/file/eezye6rvqj6zwyq/parrot.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Noamiko",
+        "fileHash": "6947a85225c531152940f05d6fe3964a",
+        "fileSize": 14065816,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            3072,
+            2048
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Peak": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/big-sur/Peak.ddw",
         "themeType": "macos",
@@ -5297,6 +5350,40 @@
             "night"
         ]
     },
+    "ROG_space": {
+        "themeUrl": "https://www.mediafire.com/file/kixyn13mba74w12/ROG_space.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Noamiko",
+        "fileHash": "7cfc8d429d8b23edfce2987aea5933a1",
+        "fileSize": 27067233,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            2048,
+            2048
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "ROG_Theme": {
+        "themeUrl": "https://www.mediafire.com/file/p08cdoy2dl0xnqz/ROG_Theme.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Noamiko",
+        "fileHash": "529cc9c8c6e064d7b512c5a0fad24f2a",
+        "fileSize": 39725366,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            3072,
+            2048
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "24hr-SanFrancisco": {
         "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
         "themeType": "paid",
@@ -5634,6 +5721,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Spezi_Porsche": {
+        "themeUrl": "https://www.mediafire.com/file/atn0bze4787evvi/Spezi_Porsche.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Frinshy",
+        "fileHash": "ebbe5a28ddcda896b5b9805aae2fb025",
+        "fileSize": 12115827,
+        "dateAdded": "2025-08-09",
+        "imageSize": [
+            2560,
+            1440
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
