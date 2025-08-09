@@ -3419,23 +3419,6 @@
             "night"
         ]
     },
-    "M2_MacBook_Pro_Green": {
-        "themeUrl": "https://www.mediafire.com/file/phdrdcao91xtjzb/M2_MacBook_Pro_Green.ddw/file",
-        "themeType": "community",
-        "displayName": "M2 MacBook Pro",
-        "imageCredits": "Apple",
-        "fileHash": "dd60005c7e5f16a615e8904d86de7e29",
-        "fileSize": 7167126,
-        "dateAdded": "2023-09-30",
-        "imageSize": [
-            6016,
-            6016
-        ],
-        "sunPhases": [
-            "day",
-            "night"
-        ]
-    },
     "Mac_OS_X_Panther": {
         "themeUrl": "https://www.mediafire.com/file/xsczvzzradke755/Mac+OS+X+Panther.ddw/file",
         "themeType": "community",

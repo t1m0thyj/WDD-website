@@ -5,6 +5,7 @@ import json
 import os
 import re
 import shutil
+import sys
 import tempfile
 import urllib.error
 import urllib.request
@@ -153,3 +154,7 @@ def save_themes_db(themes_db):
     sorted_db = dict(sorted(themes_db.items(), key=lambda theme: get_theme_key(*theme).lower()))
     with open("themes.db.json", "w", newline="\n") as fileobj:
         json.dump(sorted_db, fileobj, indent=4)
+
+
+if __name__ == "__main__":
+    print(mediafire_download(sys.argv[1], os.environ.get("RAPIDAPI_KEY")))
