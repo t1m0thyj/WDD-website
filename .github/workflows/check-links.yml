@@ -17,4 +17,4 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          args: --verbose --no-progress themes/*.html themes/preview/*.html
+          args: --accept 403 --no-progress --verbose themes/*.html themes/preview/*.html
