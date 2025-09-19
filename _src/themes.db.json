@@ -41,6 +41,20 @@
         ],
         "sunPhases": null
     },
+    "24hr-Tahoe-2026": {
+        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tahoe-2026",
+        "themeType": "community",
+        "displayName": "24 Hour Tahoe 2026",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "45f293dde80c1ba6d2e30b6a4f840990",
+        "fileSize": 113870117,
+        "dateAdded": "2025-09-15",
+        "imageSize": [
+            5120,
+            2880
+        ],
+        "sunPhases": null
+    },
     "3D_House": {
         "themeUrl": "https://www.mediafire.com/file/xntbl8h7yktbgr6/3D+House.ddw/file",
         "themeType": "community",
