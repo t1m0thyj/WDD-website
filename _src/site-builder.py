@@ -57,7 +57,7 @@ with open("../themes/index.html", "w", newline="\n") as fileobj:
         themes_main.render(
             basePath=BASE_PATH,
             pageType="home",
-            featuredFree=("24hr-Monterey-Bay-1", "24hr-BigSur-1", "24hr-Earth",
+            featuredFree=("24hr-Tahoe-2026", "24hr-Monterey-Bay-1", "24hr-Earth",
                 "Firewatch", "Your_Name", "Windows_11"),
             featuredPaid=("24hr-Canyonlands-1", "24hr-CatalinaLittleHarbor", "24hr-WhiteSands-2",
                 "24hr-YosemiteLukens", "24hr-MojaveDunes", "24hr-HighSierra"),
