@@ -126,7 +126,7 @@ class MyClient():
             if not errors:
                 self.send_approved_email(data)
                 with open("new-themes.csv", 'a') as fileobj:
-                    fileobj.writelines([theme_url])
+                    fileobj.write(theme_url + '\n')
                 logging.info(f"[{theme_name}] Theme approved")
             else:
                 for error in errors:

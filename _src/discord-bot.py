@@ -115,7 +115,7 @@ class MyClient(discord.Client):
                 approved_channel = self.get_channel(int(os.environ["DISCORD_CHANNEL_APPROVED_ID"]))
                 await approved_channel.send(**self.get_approved_message(data))
                 with open("new-themes.csv", 'a') as fileobj:
-                    fileobj.writelines([theme_url])
+                    fileobj.write(theme_url + '\n')
                 logging.info(f"[{theme_name}] Theme approved")
             else:
                 for error in errors:

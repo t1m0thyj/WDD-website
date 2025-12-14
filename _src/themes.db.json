@@ -2354,6 +2354,25 @@
         ],
         "sunPhases": null
     },
+    "Glasslight": {
+        "themeUrl": "https://www.mediafire.com/file/n1v40r9bdt7w3cz/Glasslight.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Ryan Taylor",
+        "fileHash": "da68f0dd056806059a44b1773ae38579",
+        "fileSize": 120203135,
+        "dateAdded": "2025-12-14",
+        "imageSize": [
+            4096,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Globe": {
         "themeUrl": "https://www.mediafire.com/file/d4bahdox9qz9emb/Globe.ddw/file",
         "themeType": "community",
@@ -3880,6 +3899,23 @@
             "night"
         ]
     },
+    "Mimmys_7": {
+        "themeUrl": "https://www.mediafire.com/file/lavatps41xpv6u8/Mimmys_7.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Firma",
+        "fileHash": "0c6068d8f1a065e75a81d55c54dd6ae7",
+        "fileSize": 19669747,
+        "dateAdded": "2025-12-14",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Minecraft_24Hr": {
         "themeUrl": "https://www.mediafire.com/file/n5gfx69mh4p8n62/Minecraft_24Hr.ddw/file",
         "themeType": "community",
@@ -4986,6 +5022,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "PKU_Library": {
+        "themeUrl": "https://www.mediafire.com/file/uk9aqttyci643fx/PKU_Library.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Shan Chui",
+        "fileHash": "17483223435f98cf008516479a18c0a4",
+        "fileSize": 99036637,
+        "dateAdded": "2025-12-14",
+        "imageSize": [
+            6195,
+            3872
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
