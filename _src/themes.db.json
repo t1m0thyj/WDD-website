@@ -226,6 +226,91 @@
             "night"
         ]
     },
+    "Abstract_Dreamscapes_1": {
+        "themeUrl": "https://www.mediafire.com/file/vrh8n7bmwvcy7m5/Abstract_Dreamscapes_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Dreamscapes 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "3058d0e904fd4aacd95cc901afff9c0f",
+        "fileSize": 15519286,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Abstract_Dreamscapes_2": {
+        "themeUrl": "https://www.mediafire.com/file/flp4j3qfj5aw1cw/Abstract_Dreamscapes_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Dreamscapes 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "104d4605fd75d4ab9bb610fdb0aeea58",
+        "fileSize": 8087840,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Abstract_Dreamscapes_3": {
+        "themeUrl": "https://www.mediafire.com/file/qf4gsnd68l1y5h8/Abstract_Dreamscapes_3.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Dreamscapes 3",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "56057f4c8038bfb3f20f49597a703661",
+        "fileSize": 23813833,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Abstract_Dreamscapes_4": {
+        "themeUrl": "https://www.mediafire.com/file/xvnuwips0n8hcet/Abstract_Dreamscapes_4.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Dreamscapes 4",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "6c5e5dfdf96bd1ca7e8a6547432d74cb",
+        "fileSize": 17824863,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Abstract_Dreamscapes_5": {
+        "themeUrl": "https://www.mediafire.com/file/1l4ahr4yzzyi6ry/Abstract_Dreamscapes_5.ddw/file",
+        "themeType": "community",
+        "displayName": "Abstract Dreamscapes 5",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "203ec54ea170aa29918654958a10b2d5",
+        "fileSize": 7689683,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Abstract_Mountains": {
         "themeUrl": "https://www.mediafire.com/file/fwcbxbsfw6w8wwi/Abstract_Mountains.ddw/file",
         "themeType": "community",
@@ -331,6 +416,91 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Aperture_1970": {
+        "themeUrl": "https://www.mediafire.com/file/vxeayz8g5mddhkj/Aperture_1970.ddw/file",
+        "themeType": "community",
+        "displayName": "Aperture 1970",
+        "imageCredits": "Original redesign inspired by the Aperture Science corporate identity from Portal 2 (2011) \u00e2\u20ac\u201c \u00c2\u00a9 Valve",
+        "fileHash": "3e74288d0f339007f679b422531b177f",
+        "fileSize": 174069,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Aperture_Laboratories_01": {
+        "themeUrl": "https://www.mediafire.com/file/274j1eichz04j7j/Aperture_Laboratories_01.ddw/file",
+        "themeType": "community",
+        "displayName": "Aperture Laboratories 01",
+        "imageCredits": "Original redesign inspired by the Aperture Science corporate identity from Portal 2 (2011) \u00e2\u20ac\u201c \u00c2\u00a9 Valve",
+        "fileHash": "97fb4fe4c0c2864bfdc0647160be90b4",
+        "fileSize": 110314,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Aperture_Laboratories_02": {
+        "themeUrl": "https://www.mediafire.com/file/8honoai60kh60zp/Aperture_Laboratories_02.ddw/file",
+        "themeType": "community",
+        "displayName": "Aperture Laboratories 02",
+        "imageCredits": "Original redesign inspired by the Aperture Science corporate identity from Portal 2 (2011) \u00e2\u20ac\u201c \u00c2\u00a9 Valve",
+        "fileHash": "b2009e0dac8bb60eb75fd72433553dd8",
+        "fileSize": 115918,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Aperture_Laboratories_03": {
+        "themeUrl": "https://www.mediafire.com/file/c9coqxubviozp6y/Aperture_Laboratories_03.ddw/file",
+        "themeType": "community",
+        "displayName": "Aperture Laboratories 03",
+        "imageCredits": "Original redesign inspired by the Aperture Science corporate identity from Portal 2 (2011) \u00e2\u20ac\u201c \u00c2\u00a9 Valve",
+        "fileHash": "49884e710650e3f3c185d65ba49d9a90",
+        "fileSize": 108900,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Aperture_Science_Innovators": {
+        "themeUrl": "https://www.mediafire.com/file/nqsa8vg0nc88ti0/Aperture_Science_Innovators.ddw/file",
+        "themeType": "community",
+        "displayName": "Aperture Science Innovators",
+        "imageCredits": "Original redesign inspired by the Aperture Science corporate identity from Portal 2 (2011) \u00e2\u20ac\u201c \u00c2\u00a9 Valve",
+        "fileHash": "9aab339e79663a7fc353268207a79820",
+        "fileSize": 146049,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
     },
     "Apple_Ocean": {
         "themeUrl": "https://www.mediafire.com/file/0ayls0c0aa4k4nf/Apple_Ocean.ddw/file",
@@ -1069,6 +1239,23 @@
         ],
         "sunPhases": null
     },
+    "Callaghan": {
+        "themeUrl": "https://www.mediafire.com/file/43k88lb5h9ex1iw/Callaghan.ddw/file",
+        "themeType": "community",
+        "displayName": "Callaghan City Construction",
+        "imageCredits": "Original redesign inspired by Callaghan City Construction from Mirror's Edge (2008) \u00e2\u20ac\u201c \u00c2\u00a9 Electronic Arts",
+        "fileHash": "0686d7bcb1de7dc62a4f24e2d87e3f2e",
+        "fileSize": 217827,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Candle": {
         "themeUrl": "https://www.mediafire.com/file/xw6bna3octrzn8p/Candle.ddw/file",
         "themeType": "community",
@@ -1590,6 +1777,23 @@
         ],
         "sunPhases": null
     },
+    "ctOS": {
+        "themeUrl": "https://www.mediafire.com/file/azew4crvkbjgs2i/ctOS.ddw/file",
+        "themeType": "community",
+        "displayName": "ctOS",
+        "imageCredits": "Original redesign inspired by the Blume Corporation identity from Watch Dogs (2014) \u00e2\u20ac\u201c \u00c2\u00a9 Ubisoft \u00e2\u20ac\u201c Developed by Ubisoft Montreal",
+        "fileHash": "6f64fc9d6f9e06caf40c8931e8d4c767",
+        "fileSize": 1254840,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            7696,
+            4450
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Cutefish_OS_Wallpapers": {
         "themeUrl": "https://www.mediafire.com/file/n5ztsgzb2dvguu6/Cutefish_OS_Wallpapers.ddw/file",
         "themeType": "community",
@@ -1770,6 +1974,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "Drangarnir": {
+        "themeUrl": "https://www.mediafire.com/file/t8h3q0nw039z713/Drangarnir.ddw/file",
+        "themeType": "community",
+        "displayName": "Drangarnir Sea Arch",
+        "imageCredits": "mario0318",
+        "fileHash": "6a6260dc5485a3ee2f96a19c648669a7",
+        "fileSize": 23315324,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2688,
+            1512
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -2046,6 +2269,74 @@
             "night"
         ]
     },
+    "Ethereal_Motion_1": {
+        "themeUrl": "https://www.mediafire.com/file/77uowbxn7mu2t5a/Ethereal_Motion_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Ethereal Motion 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "f798359b3dec150bddd6f4edee5afbb1",
+        "fileSize": 22547740,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Ethereal_Motion_2": {
+        "themeUrl": "https://www.mediafire.com/file/8jaxt89ozp6rfaa/Ethereal_Motion_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Ethereal Motion 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "65a23f31cf09b5831bef994ebceb4446",
+        "fileSize": 32327408,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Ethereal_Motion_4": {
+        "themeUrl": "https://www.mediafire.com/file/pvupa72q4otvudl/Ethereal_Motion_4.ddw/file",
+        "themeType": "community",
+        "displayName": "Ethereal Motion 4",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "9b1eb7518106fcc4ea7367e742b177c1",
+        "fileSize": 27722891,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Ethereal_Motion_5": {
+        "themeUrl": "https://www.mediafire.com/file/rj7k9be1sg256bu/Ethereal_Motion_5.ddw/file",
+        "themeType": "community",
+        "displayName": "Ethereal Motion 5",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "cb4d45f70ace5d0835944a42377da599",
+        "fileSize": 21493395,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Everlasting_Summer_Beach": {
         "themeUrl": "https://www.mediafire.com/file/369reyn4daob8fc/Everlasting_Summer_Beach.ddw/file",
         "themeType": "community",
@@ -2093,6 +2384,23 @@
         "imageSize": [
             7680,
             4320
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Exler": {
+        "themeUrl": "https://www.mediafire.com/file/uo2dovh7tklei5g/Exler.ddw/file",
+        "themeType": "community",
+        "displayName": "Exler OS",
+        "imageCredits": "Terminal wallpaper from Deus Ex: Human Revolution (2011) \u00e2\u20ac\u201c \u00c2\u00a9 Square Enix \u00e2\u20ac\u201c Developed by Eidos-Montr\u00c3\u00a9al",
+        "fileHash": "72033ab2c1a15b581630d0d7b071e99c",
+        "fileSize": 73199486,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
         ],
         "sunPhases": [
             "day",
@@ -2208,6 +2516,108 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Fluid_Textures_1": {
+        "themeUrl": "https://www.mediafire.com/file/j72fk7eujnxm67o/Fluid_Textures_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Fluid Textures 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "1ad10fdeae5c74c854bd272f1f1e22c6",
+        "fileSize": 6363049,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Fluid_Textures_2": {
+        "themeUrl": "https://www.mediafire.com/file/nf9oh9aypkwp2ev/Fluid_Textures_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Fluid Textures 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "f4ac469b84ad1f91d1793c3a392537c8",
+        "fileSize": 18912763,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Fluid_Textures_3": {
+        "themeUrl": "https://www.mediafire.com/file/i26sa3fesh9vysx/Fluid_Textures_3.ddw/file",
+        "themeType": "community",
+        "displayName": "Fluid Textures 3",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "7ba1638921fd04aa679a639548fbadfb",
+        "fileSize": 7750591,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Fluid_Textures_4": {
+        "themeUrl": "https://www.mediafire.com/file/90gsitgedvpl8nk/Fluid_Textures_4.ddw/file",
+        "themeType": "community",
+        "displayName": "Fluid Textures 4",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "9ff4471cb8360e5beb14ace5266d817d",
+        "fileSize": 16954942,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Fluid_Textures_5": {
+        "themeUrl": "https://www.mediafire.com/file/3c09lqcyv8s1zii/Fluid_Textures_5.ddw/file",
+        "themeType": "community",
+        "displayName": "Fluid Textures 5",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "2ed4f432131652261bebe9b7c5bfa8d1",
+        "fileSize": 21037214,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Fluid_Textures_7": {
+        "themeUrl": "https://www.mediafire.com/file/bxr5na4w6gqft53/Fluid_Textures_7.ddw/file",
+        "themeType": "community",
+        "displayName": "Fluid Textures 7",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "f2b3bfc14578f44c86eefedf98fb883f",
+        "fileSize": 19337347,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -2845,6 +3255,74 @@
             "night"
         ]
     },
+    "Horizons_1": {
+        "themeUrl": "https://www.mediafire.com/file/5j330ab5dhcyjpo/Horizons_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Horizons 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "c7e060e4be974404c4f9d4e913d4c5e3",
+        "fileSize": 11546443,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4000,
+            2250
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Horizons_2": {
+        "themeUrl": "https://www.mediafire.com/file/vegwu91zmorjuqx/Horizons_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Horizons 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "4485f877d1e86190a0264146cfdf862a",
+        "fileSize": 19531722,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2880,
+            1620
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Horizons_3": {
+        "themeUrl": "https://www.mediafire.com/file/z2kxycjedorpqbd/Horizons_3.ddw/file",
+        "themeType": "community",
+        "displayName": "Horizons 3",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "c34b86b604622d1e3379ec880ce20e37",
+        "fileSize": 10793774,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Horizons_4": {
+        "themeUrl": "https://www.mediafire.com/file/5eos8jowxjmjbzr/Horizons_4.ddw/file",
+        "themeType": "community",
+        "displayName": "Horizons 4",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "fa4867a9c7bded99f98e5d45985748f0",
+        "fileSize": 15971288,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2880,
+            1620
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Hotel_Room_2": {
         "themeUrl": "https://www.mediafire.com/file/rwjypmvol9yd3we/Hotel+Room+#2.ddw/file",
         "themeType": "community",
@@ -3316,6 +3794,24 @@
             "night"
         ]
     },
+    "Life_is_Strange_-_Arcadia_Bay": {
+        "themeUrl": "https://www.mediafire.com/file/x3wt4zumnyxlr4o/Life_is_Strange_-_Arcadia_Bay.ddw/file",
+        "themeType": "community",
+        "displayName": "Life is Strange - Arcadia Bay",
+        "imageCredits": "Screenshots from Life Is Strange (2015), developed by Dontnod Entertainment and published by Square Enix \u00e2\u20ac\u201c \u00c2\u00a9 Square Enix Ltd.",
+        "fileHash": "6606e6b8396cb94be86368919a8432d2",
+        "fileSize": 2066701,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Liyue_Harbour": {
         "themeUrl": "https://www.mediafire.com/file/122azyijulp80oy/Liyue_Harbour.ddw/file",
         "themeType": "community",
@@ -3744,6 +4240,74 @@
         ],
         "sunPhases": null
     },
+    "Microsoft_50th_1": {
+        "themeUrl": "https://www.mediafire.com/file/roaumic8w21lyd0/Microsoft_50th_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Microsoft 50th 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "dca84da2ecc154f53014dd79c1187438",
+        "fileSize": 7764078,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_50th_2": {
+        "themeUrl": "https://www.mediafire.com/file/8a6mo9d6vq9pjcu/Microsoft_50th_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Microsoft 50th 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "adc1d428eb046d13437fd5b1688efbb9",
+        "fileSize": 8042663,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_50th_3": {
+        "themeUrl": "https://www.mediafire.com/file/52z51fpluuqokcu/Microsoft_50th_3.ddw/file",
+        "themeType": "community",
+        "displayName": "Microsoft 50th 3",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "4d75f93557b5f8c066321ef8c188f16a",
+        "fileSize": 4879309,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_50th_4": {
+        "themeUrl": "https://www.mediafire.com/file/pkh83261mrek3tq/Microsoft_50th_4.ddw/file",
+        "themeType": "community",
+        "displayName": "Microsoft 50th 4",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "4c8edb6a5cbcf7f43b45d9f208d3f425",
+        "fileSize": 8358861,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_Blue": {
         "themeUrl": "https://www.mediafire.com/file/w9n7v151pfaahxz/Windows_Blue.ddw/file",
         "themeType": "community",
@@ -3755,6 +4319,23 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Microsoft_Hispanic_Heritage": {
+        "themeUrl": "https://www.mediafire.com/file/h4bcu17zse12nnn/Microsoft_Hispanic_Heritage.ddw/file",
+        "themeType": "community",
+        "displayName": "Microsoft Hispanic Heritage",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "6590fc30e14968a16dbd4b54711c1a36",
+        "fileSize": 11030400,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2560,
+            1440
         ],
         "sunPhases": [
             "day",
@@ -4381,6 +4962,25 @@
             "night"
         ]
     },
+    "Monterey_Abstract_Plus": {
+        "themeUrl": "https://www.mediafire.com/file/3c8j6c42vf9k8cc/Monterey_Abstract_Plus.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "1245adb7d9c56eaefc2c5158cabf9fe2",
+        "fileSize": 5922519,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Monterey_Windows": {
         "themeUrl": "https://www.mediafire.com/file/43zpukljgiqiyc0/Monterey+Windows.ddw/file",
         "themeType": "community",
@@ -4793,6 +5393,23 @@
             "night"
         ]
     },
+    "Odin": {
+        "themeUrl": "https://www.mediafire.com/file/j558rg7833r5wnq/Odin.ddw/file",
+        "themeType": "community",
+        "displayName": "Odin",
+        "imageCredits": "Brendon Porter. Licensed CC BY-SA 4.0",
+        "fileHash": "55ca7607948ebe5dd4ff55f9eaa74dae",
+        "fileSize": 30487554,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            5398,
+            3036
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Onion_Skins": {
         "themeUrl": "https://www.mediafire.com/file/hplue2v3z5stjhw/Onion_Skins.ddw/file",
         "themeType": "community",
@@ -4809,6 +5426,91 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Opaline_1": {
+        "themeUrl": "https://www.mediafire.com/file/xntsef39ywdgp0v/Opaline_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Opaline 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "e1497dd4cd114242cdd95fb43dddadce",
+        "fileSize": 3031094,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Opaline_2": {
+        "themeUrl": "https://www.mediafire.com/file/o0kdyl52abq4tce/Opaline_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Opaline 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "08be06abb3f6e999a61e11ae334df999",
+        "fileSize": 3618352,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Opaline_3": {
+        "themeUrl": "https://www.mediafire.com/file/lvyobxfozqp42uf/Opaline_3.ddw/file",
+        "themeType": "community",
+        "displayName": "Opaline 3",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "7684e4d405e52ef12d8bae93f821e042",
+        "fileSize": 3797157,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Opaline_4": {
+        "themeUrl": "https://www.mediafire.com/file/3mnyjd99ww58fwt/Opaline_4.ddw/file",
+        "themeType": "community",
+        "displayName": "Opaline 4",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "2644c982e3632f8a79bec9744d082661",
+        "fileSize": 4210873,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            5000,
+            2813
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Opaline_5": {
+        "themeUrl": "https://www.mediafire.com/file/mny7ofitifdhise/Opaline_5.ddw/file",
+        "themeType": "community",
+        "displayName": "Opaline 5",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "cd8d510772f67b83d72aa40dbb457ba5",
+        "fileSize": 2804138,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            5000,
+            2813
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -4840,6 +5542,176 @@
         "imageSize": [
             6016,
             3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Alpine_Glow": {
+        "themeUrl": "https://www.mediafire.com/file/yih8net3amvjqe4/Outlook_-_Alpine_Glow.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Alpine Glow",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "703af6d85e1d4d8fcffd9dbe9af81377",
+        "fileSize": 1515162,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Artic_Solitude": {
+        "themeUrl": "https://www.mediafire.com/file/rajlb6honehko1t/Outlook_-_Artic_Solitude.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Artic Solitude",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "ceca805161ecf5fa8d9adb63977010b1",
+        "fileSize": 1692243,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Future_Plus": {
+        "themeUrl": "https://www.mediafire.com/file/1tjbre2ku5qlfb9/Outlook_-_Future_Plus.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Future Plus",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "6085daea60a77da690d33f0a1dfd6f88",
+        "fileSize": 1427255,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Magnetic_Mood": {
+        "themeUrl": "https://www.mediafire.com/file/ed6697c2pjd3gm2/Outlook_-_Magnetic_Mood.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Magnetic Mood",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "44c67f2341fd436a544fc28e622e772c",
+        "fileSize": 1497469,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Marigold_Hills": {
+        "themeUrl": "https://www.mediafire.com/file/1fthiz6pswlyra0/Outlook_-_Marigold_Hills.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Marigold Hills",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "6b930b1371edf1b5dfb5367560727b90",
+        "fileSize": 1394531,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Nature_Undefined": {
+        "themeUrl": "https://www.mediafire.com/file/3zvj75xweaqyf4r/Outlook_-_Nature_Undefined.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Nature Undefined",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "10c38e92ef60983c9ca2dfabecc91289",
+        "fileSize": 1482409,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Ready_Confetti": {
+        "themeUrl": "https://www.mediafire.com/file/nat4dqcztuf4cgh/Outlook_-_Ready_Confetti.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Ready Confetti",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "db8eca89b869a2fdee89e0c77e78d1d8",
+        "fileSize": 1703483,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Ribbon_Release": {
+        "themeUrl": "https://www.mediafire.com/file/yidywd0oe6y7q27/Outlook_-_Ribbon_Release.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Ribbon Release",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "7816e6c3c206df8d4bfe702e38b735b1",
+        "fileSize": 1452695,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Ruby_Hills": {
+        "themeUrl": "https://www.mediafire.com/file/8b835r6ahuppg76/Outlook_-_Ruby_Hills.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Ruby Hills",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "5c8bd6b77f0b6ca8b47b934781c3fa4e",
+        "fileSize": 1016555,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Outlook_-_Summer_Summit": {
+        "themeUrl": "https://www.mediafire.com/file/4z9s8grafkqbcyo/Outlook_-_Summer_Summit.ddw/file",
+        "themeType": "community",
+        "displayName": "Outlook - Summer Summit",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "508d78e2dd6b80dc0f74725bb907c33f",
+        "fileSize": 1630990,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4096,
+            2304
         ],
         "sunPhases": [
             "day",
@@ -5567,6 +6439,23 @@
             "night"
         ]
     },
+    "Shifting_Horizons": {
+        "themeUrl": "https://www.mediafire.com/file/d3cyozwztz2gs34/Shifting_Horizons.ddw/file",
+        "themeType": "community",
+        "displayName": "Shifting Horizons",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "a0dd2efe8caa73bf74e91756c503cec5",
+        "fileSize": 2219553,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3680,
+            2161
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Sky_View": {
         "themeUrl": "https://www.mediafire.com/file/ky25xa82e4yaicr/Sky+View.ddw/file",
         "themeType": "community",
@@ -5865,6 +6754,74 @@
             "night"
         ]
     },
+    "Surface_Duo": {
+        "themeUrl": "https://www.mediafire.com/file/e1ggb9hq1rftuwd/Surface_Duo.ddw/file",
+        "themeType": "community",
+        "displayName": "Surface Duo",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "1a26e12dbb5fec814e876b4d6054af19",
+        "fileSize": 14879463,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3704,
+            2394
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Surface_Duo_2": {
+        "themeUrl": "https://www.mediafire.com/file/f1lcysszmhdi97t/Surface_Duo_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Surface Duo 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "5616aa6b706a03c78e29b09b3f38afe0",
+        "fileSize": 13215788,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2754,
+            1892
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Surface_Graphite": {
+        "themeUrl": "https://www.mediafire.com/file/p853kh6l47lmzyv/Surface_Graphite.ddw/file",
+        "themeType": "community",
+        "displayName": "Surface Graphite",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "99f4087868c5ed33d0fe254bb224dda4",
+        "fileSize": 1925006,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4260,
+            2840
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Surface_Platinum": {
+        "themeUrl": "https://www.mediafire.com/file/jcb1v1j34kvh1z0/Surface_Platinum.ddw/file",
+        "themeType": "community",
+        "displayName": "Surface Platinum",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "143713f3dcb17ee5d9cd939d6112262c",
+        "fileSize": 1610755,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4260,
+            2840
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Surface_Family": {
         "themeUrl": "https://www.mediafire.com/file/2k80ztqdlo83ux3/Surface+Family.ddw/file",
         "themeType": "community",
@@ -6104,6 +7061,23 @@
             "night"
         ]
     },
+    "The_Circle": {
+        "themeUrl": "https://www.mediafire.com/file/v7qyvnns482b48e/The_Circle.ddw/file",
+        "themeType": "community",
+        "displayName": "The Circle",
+        "imageCredits": "Designs by Karen Sori for The Circle (2017) \u00e2\u20ac\u201c \u00c2\u00a9 2017 STXfilms / EuropaCorp",
+        "fileHash": "c60cf2f9a1a9a636f8b5af2fec6db181",
+        "fileSize": 132096,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            1920,
+            1080
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Crew2_M4_Canyon": {
         "themeUrl": "https://www.mediafire.com/file/4al16dt4itfi5tt/Crew2_M4_Canyon.ddw/file",
         "themeType": "community",
@@ -6120,6 +7094,23 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "The_Institute": {
+        "themeUrl": "https://www.mediafire.com/file/w3sv5e3emwu243w/The_Institute.ddw/file",
+        "themeType": "community",
+        "displayName": "The Institute",
+        "imageCredits": "Inspired by the Institute emblem from Fallout 4 \u00e2\u20ac\u201c Visual design by Bethesda Game Studios \u00e2\u20ac\u201c \u00c2\u00a9 Bethesda Softworks",
+        "fileHash": "dcb0d5276a95813416711c7113567750",
+        "fileSize": 308773,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -6602,6 +7593,23 @@
             "night"
         ]
     },
+    "Weyland_Corp": {
+        "themeUrl": "https://www.mediafire.com/file/jklzg180c6lcfi4/Weyland_Corp.ddw/file",
+        "themeType": "community",
+        "displayName": "Weyland Corp",
+        "imageCredits": "Inspired by the Weyland Corporation identity from the Alien franchise \u00e2\u20ac\u201c Concept design by Ron Cobb \u00e2\u20ac\u201c \u00c2\u00a9 20th Century Studios",
+        "fileHash": "662221c9027989fbce9b30ae4e7de365",
+        "fileSize": 91319,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Wharariki_Beach": {
         "themeUrl": "https://www.mediafire.com/file/amb16l03o5c32vn/Wharariki+Beach.ddw/file",
         "themeType": "community",
@@ -6808,6 +7816,23 @@
             "night"
         ]
     },
+    "Windows_11_-_Hero_2": {
+        "themeUrl": "https://www.mediafire.com/file/uidn6ywgjemcx9l/Windows_11_-_Hero_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Hero 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "5f9c7062f80455b587d4c95c4164d8d5",
+        "fileSize": 3017562,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Windows_11_Rise_and_Fall": {
         "themeUrl": "https://www.mediafire.com/file/tz2xvnn54o2ctca/Windows+11+Rise+&+Fall.ddw/file",
         "themeType": "community",
@@ -6824,6 +7849,40 @@
             "sunrise",
             "day",
             "sunset",
+            "night"
+        ]
+    },
+    "Windows_11_-_Sunrise_2": {
+        "themeUrl": "https://www.mediafire.com/file/806lo1njdoz3957/Windows_11_-_Sunrise_2.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Sunrise 2",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "20dfa7c69d33dbeada30a494f397cf13",
+        "fileSize": 2017170,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2500,
+            1563
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_-_Sunrise_3": {
+        "themeUrl": "https://www.mediafire.com/file/lmvrek0nkoy0fz1/Windows_11_-_Sunrise_3.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows 11 Sunrise 3",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "6b56d5bbfa5f93b065b8defc20965902",
+        "fileSize": 4532930,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2500,
+            1563
+        ],
+        "sunPhases": [
+            "day",
             "night"
         ]
     },
@@ -6891,6 +7950,57 @@
         "imageSize": [
             4092,
             2298
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_Insider_10th_Anniversary": {
+        "themeUrl": "https://www.mediafire.com/file/xbeuxfroph68hbt/Windows_Insider_10th_Anniversary.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows Insider 10th Anniversary",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "53282abb4bddb6b0f2d0edbf2f8600c2",
+        "fileSize": 23490662,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            3840,
+            2160
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_Insider_11th_Anniversary": {
+        "themeUrl": "https://www.mediafire.com/file/3m9gol4zkz3yu0p/Windows_Insider_11th_Anniversary.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows Insider 11th Anniversary",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "7204431d81bff104794fa159f9200130",
+        "fileSize": 8910136,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            2560,
+            1707
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_Insider_9th_Anniversary": {
+        "themeUrl": "https://www.mediafire.com/file/i4d17xcs0ycxfgg/Windows_Insider_9th_Anniversary.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows Insider 9th Anniversary",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "fce11eb098b449dda6a9f67e874acce4",
+        "fileSize": 14237854,
+        "dateAdded": "2026-03-26",
+        "imageSize": [
+            4320,
+            2880
         ],
         "sunPhases": [
             "day",
@@ -7066,6 +8176,23 @@
         "fileHash": "03bde82b676295e868a4ba64e8777f18",
         "fileSize": 1666711,
         "dateAdded": "2021-06-16",
+        "imageSize": [
+            3840,
+            2400
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
+    "Windows_11_-_Education_1": {
+        "themeUrl": "https://www.mediafire.com/file/86oyruaewv0extu/Windows_11_-_Education_1.ddw/file",
+        "themeType": "community",
+        "displayName": "Windows_11 Education 1",
+        "imageCredits": "\u00c2\u00a9 Microsoft",
+        "fileHash": "4e5a15dbd13bdab77f2ff7956bf3f401",
+        "fileSize": 2191407,
+        "dateAdded": "2026-03-26",
         "imageSize": [
             3840,
             2400
