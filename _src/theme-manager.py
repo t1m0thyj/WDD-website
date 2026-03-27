@@ -1,7 +1,7 @@
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, UTC
 
 from utils import (
     extract_ddw,
@@ -21,7 +21,7 @@ orig_cwd = os.getcwd()
 
 
 def add(theme_type, theme_path, theme_id=None):
-    is_local = re.match("\w{2,}:", theme_path) is None
+    is_local = re.match(r"\w{2,}:", theme_path) is None
     theme_path = theme_path if not is_local or os.path.isabs(theme_path) else os.path.join(orig_cwd, theme_path)
     ddw_file = theme_path if is_local else mediafire_download(theme_path)
     theme_dir = extract_ddw(ddw_file)
@@ -43,7 +43,7 @@ def add(theme_type, theme_path, theme_id=None):
         "imageCredits": theme_config.get("imageCredits"),
         "fileHash": get_md5_checksum(ddw_file),
         "fileSize": os.path.getsize(ddw_file),
-        "dateAdded": str(datetime.utcfromtimestamp(os.path.getmtime(ddw_file)).date()),
+        "dateAdded": str(datetime.fromtimestamp(os.path.getmtime(ddw_file), UTC).date()),
         "imageSize": make_thumbnails(theme_config, theme_dir, theme_id),
         "sunPhases": make_previews(theme_config, theme_dir, theme_id) if not theme_id.startswith("24hr") else None,
     }

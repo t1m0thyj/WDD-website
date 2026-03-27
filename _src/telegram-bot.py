@@ -36,7 +36,7 @@ class ThemeData:
 
 def validate_ddw_name(data: ThemeData):
     filename = re.search(r"mediafire\.com/file/.+?/(.+?)($|/file)", data.theme_url).group(1)
-    if re.sub("[\W_]", "", os.path.splitext(filename)[0]) != re.sub("[\W_]", "", data.theme_name):
+    if re.sub(r"[\W_]", "", os.path.splitext(filename)[0]) != re.sub(r"[\W_]", "", data.theme_name):
         return 'DDW filename matches theme name (e.g., "My_Theme.ddw" for "My Theme")'
 
 
@@ -226,6 +226,8 @@ class MyClient():
         message.attach(MIMEText(html, "html"))
 
         day_highlight = data.theme_config.get("dayHighlight") or get_middle_item(data.theme_config["dayImageList"])
+        if isinstance(day_highlight, list):
+            day_highlight = day_highlight[0]
         image_filename = data.theme_config["imageFilename"].replace("*", str(day_highlight))
         day_img = BytesIO()
         resize_16x9(Image.open(f"{data.theme_dir}/{image_filename}"), 384).save(day_img, format="PNG")
@@ -237,6 +239,8 @@ class MyClient():
         night_highlight = data.theme_config.get("nightHighlight") or get_middle_item(
             data.theme_config["nightImageList"]
         )
+        if isinstance(night_highlight, list):
+            night_highlight = night_highlight[0]
         image_filename = data.theme_config["imageFilename"].replace("*", str(night_highlight))
         night_img = BytesIO()
         resize_16x9(Image.open(f"{data.theme_dir}/{image_filename}"), 384).save(night_img, format="PNG")
