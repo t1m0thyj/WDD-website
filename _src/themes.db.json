@@ -2802,6 +2802,23 @@
             "night"
         ]
     },
+    "Golden_Gate_Abstract": {
+        "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/golden-gate/Golden_Gate_Abstract.ddw",
+        "themeType": "macos",
+        "displayName": null,
+        "imageCredits": "Apple",
+        "fileHash": "baa9ff680ad93af849d6ed61a0cee2fb",
+        "fileSize": 7945134,
+        "dateAdded": "2026-06-10",
+        "imageSize": [
+            6016,
+            3384
+        ],
+        "sunPhases": [
+            "day",
+            "night"
+        ]
+    },
     "Golden_Gate_Bridge": {
         "themeUrl": "https://www.mediafire.com/file/nq131g8blkcuufc/Golden_Gate_Bridge.ddw/file",
         "themeType": "community",
