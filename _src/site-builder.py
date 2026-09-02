@@ -58,7 +58,7 @@ with open("../themes/index.html", "w", newline="\n") as fileobj:
             basePath=BASE_PATH,
             pageType="home",
             featuredFree=("24hr-GoldenGate", "24hr-Monterey-Bay-1", "24hr-Earth",
-                "Abstract_Mountains", "Firewatch", "Your_Name"),
+                "Abstract_Mountains", "Your_Name", "Firewatch"),
             featuredPaid=("24hr-Canyonlands-1", "24hr-CatalinaLittleHarbor", "24hr-WhiteSands-2",
                 "24hr-YosemiteLukens", "24hr-MojaveDunes", "24hr-HighSierra"),
             numFree=len([td for td in themes_db.values() if td["themeType"] == "free"]),
