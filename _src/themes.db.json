@@ -1,6 +1,6 @@
 {
     "24hr-BigSur-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/big-sur-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/big-sur-1-windd",
         "themeType": "community",
         "displayName": "24 Hour Big Sur #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -14,7 +14,7 @@
         "sunPhases": null
     },
     "24hr-Earth": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/earth-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/earth-windd",
         "themeType": "community",
         "displayName": "24 Hour Earth from ISS",
         "imageCredits": "24 Hour Wallpaper",
@@ -27,8 +27,22 @@
         ],
         "sunPhases": null
     },
+    "24hr-GoldenGate": {
+        "themeUrl": "https://windows.24hourwallpaper.com/windows?w=golden-gate",
+        "themeType": "community",
+        "displayName": "24 Hour Golden Gate",
+        "imageCredits": "24 Hour Wallpaper",
+        "fileHash": "b784ae36c9b3dec0b84831467832e18e",
+        "fileSize": 129417332,
+        "dateAdded": "2026-09-01",
+        "imageSize": [
+            5120,
+            3200
+        ],
+        "sunPhases": null
+    },
     "24hr-Monterey-Bay-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-bay-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/monterey-bay-1-windd",
         "themeType": "community",
         "displayName": "24 Hour Monterey Bay #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -42,7 +56,7 @@
         "sunPhases": null
     },
     "24hr-Tahoe-2026": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tahoe-2026",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/tahoe-2026",
         "themeType": "community",
         "displayName": "24 Hour Tahoe 2026",
         "imageCredits": "24 Hour Wallpaper",
@@ -404,7 +418,7 @@
         ]
     },
     "24hr-AlabamaHills": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/alabamahills-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/alabamahills-windd",
         "themeType": "paid",
         "displayName": "Alabama Hills",
         "imageCredits": "24 Hour Wallpaper",
@@ -416,6 +430,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "Alp": {
+        "themeUrl": "https://www.mediafire.com/file/1jx1jad4fpbpla4/Alp.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Fantai (made in Space Engine)",
+        "fileHash": "88a4091c80122e7205d9bb79ac31d5a9",
+        "fileSize": 8811564,
+        "dateAdded": "2026-09-02",
+        "imageSize": [
+            2559,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Aperture_1970": {
         "themeUrl": "https://www.mediafire.com/file/vxeayz8g5mddhkj/Aperture_1970.ddw/file",
@@ -634,7 +667,7 @@
         ]
     },
     "24hr-BigSur-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/big-sur-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/big-sur-2-windd",
         "themeType": "paid",
         "displayName": "Big Sur #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -648,7 +681,7 @@
         "sunPhases": null
     },
     "24hr-BigSur-3": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/big-sur-3-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/big-sur-3-windd",
         "themeType": "paid",
         "displayName": "Big Sur #3",
         "imageCredits": "24 Hour Wallpaper",
@@ -1184,7 +1217,7 @@
         ]
     },
     "24hr-Bristlecone": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/bristlecone-pine-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/bristlecone-pine-windd",
         "themeType": "paid",
         "displayName": "Bristlecone Pine",
         "imageCredits": "24 Hour Wallpaper",
@@ -1198,7 +1231,7 @@
         "sunPhases": null
     },
     "24hr-BuenosAires-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/buenos-aires-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/buenos-aires-1-windd",
         "themeType": "paid",
         "displayName": "Buenos Aires #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -1212,7 +1245,7 @@
         "sunPhases": null
     },
     "24hr-BuenosAires-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/buenos-aires-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/buenos-aires-2-windd",
         "themeType": "paid",
         "displayName": "Buenos Aires #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -1226,7 +1259,7 @@
         "sunPhases": null
     },
     "24hr-BuenosAires-3": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/buenos-aires-3-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/buenos-aires-3-windd",
         "themeType": "paid",
         "displayName": "Buenos Aires #3",
         "imageCredits": "24 Hour Wallpaper",
@@ -1295,7 +1328,7 @@
         ]
     },
     "24hr-Canyonlands-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/canyonlands-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/canyonlands-1-windd",
         "themeType": "paid",
         "displayName": "Canyonlands #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -1309,7 +1342,7 @@
         "sunPhases": null
     },
     "24hr-Canyonlands-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/canyonlands-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/canyonlands-2-windd",
         "themeType": "paid",
         "displayName": "Canyonlands #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -1380,7 +1413,7 @@
         ]
     },
     "24hr-CatalinaAvalonLeft": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-avalon-left-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/catalina-avalon-left-windd",
         "themeType": "paid",
         "displayName": "Catalina Avalon (Left)",
         "imageCredits": "24 Hour Wallpaper",
@@ -1394,7 +1427,7 @@
         "sunPhases": null
     },
     "24hr-CatalinaAvalonRight": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-avalon-right-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/catalina-avalon-right-windd",
         "themeType": "paid",
         "displayName": "Catalina Avalon (Right)",
         "imageCredits": "24 Hour Wallpaper",
@@ -1408,7 +1441,7 @@
         "sunPhases": null
     },
     "24hr-CatalinaIsthmusCove": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-isthmus-cove-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/catalina-isthmus-cove-windd",
         "themeType": "paid",
         "displayName": "Catalina Isthmus Cove",
         "imageCredits": "24 Hour Wallpaper",
@@ -1422,7 +1455,7 @@
         "sunPhases": null
     },
     "24hr-CatalinaLittleHarbor": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-little-harbor-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/catalina-little-harbor-windd",
         "themeType": "paid",
         "displayName": "Catalina Little Harbor",
         "imageCredits": "24 Hour Wallpaper",
@@ -1436,7 +1469,7 @@
         "sunPhases": null
     },
     "24hr-Catalina-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/catalina-mix-windd",
         "themeType": "paid",
         "displayName": "Catalina Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -1450,7 +1483,7 @@
         "sunPhases": null
     },
     "24hr-CatalinaWhalesTail": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/catalina-whales-tail-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/catalina-whales-tail-windd",
         "themeType": "paid",
         "displayName": "Catalina Whale's Tail",
         "imageCredits": "24 Hour Wallpaper",
@@ -1464,7 +1497,7 @@
         "sunPhases": null
     },
     "24hr-Chicago-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/chicago-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/chicago-1-windd",
         "themeType": "paid",
         "displayName": "Chicago #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -1478,7 +1511,7 @@
         "sunPhases": null
     },
     "24hr-Chicago-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/chicago-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/chicago-2-windd",
         "themeType": "paid",
         "displayName": "Chicago #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -1733,7 +1766,7 @@
         ]
     },
     "24hr-Colorado-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/colorado-nature-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/colorado-nature-mix-windd",
         "themeType": "paid",
         "displayName": "Colorado Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -1764,7 +1797,7 @@
         ]
     },
     "24hr-Cotswolds": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/cotswolds-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/cotswolds-windd",
         "themeType": "paid",
         "displayName": "Cotswolds",
         "imageCredits": "24 Hour Wallpaper",
@@ -2337,6 +2370,25 @@
             "night"
         ]
     },
+    "European_Satellite": {
+        "themeUrl": "https://www.mediafire.com/file/hs5nexngd7pfjz2/European_Satellite.ddw/file",
+        "themeType": "community",
+        "displayName": null,
+        "imageCredits": "Fantai (made in Space Engine)",
+        "fileHash": "2230d1b540bffd0cbe7df67e81ac8b70",
+        "fileSize": 109468759,
+        "dateAdded": "2026-09-02",
+        "imageSize": [
+            2559,
+            1440
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Everlasting_Summer_Beach": {
         "themeUrl": "https://www.mediafire.com/file/369reyn4daob8fc/Everlasting_Summer_Beach.ddw/file",
         "themeType": "community",
@@ -2751,7 +2803,7 @@
         ]
     },
     "24hr-Glacier": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/glacier-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/glacier-windd",
         "themeType": "paid",
         "displayName": "Glacier National Park",
         "imageCredits": "24 Hour Wallpaper",
@@ -2910,7 +2962,7 @@
         ]
     },
     "24hr-GrandTetons": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/grand-tetons-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/grand-tetons-windd",
         "themeType": "paid",
         "displayName": "Grand Tetons",
         "imageCredits": "24 Hour Wallpaper",
@@ -3168,7 +3220,7 @@
         ]
     },
     "24hr-HighSierra": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/high-sierra-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/high-sierra-windd",
         "themeType": "paid",
         "displayName": "High Sierra",
         "imageCredits": "24 Hour Wallpaper",
@@ -3415,7 +3467,7 @@
         ]
     },
     "24hr-Iceland-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/iceland-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/iceland-mix-windd",
         "themeType": "paid",
         "displayName": "Iceland Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -3635,7 +3687,7 @@
         ]
     },
     "24hr-JoshuaTree": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/joshua-tree-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/joshua-tree-windd",
         "themeType": "paid",
         "displayName": "Joshua Tree",
         "imageCredits": "24 Hour Wallpaper",
@@ -3678,6 +3730,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "Kitsune_Forest_24": {
+        "themeUrl": "https://www.mediafire.com/file/fsqedn1guhaa7x5/Kitsune_Forest_24.ddw/file",
+        "themeType": "community",
+        "displayName": "Kitsune Forest 24",
+        "imageCredits": "Custom",
+        "fileHash": "3b63887d3c24a43b0f2e315202429e5a",
+        "fileSize": 53960112,
+        "dateAdded": "2026-09-02",
+        "imageSize": [
+            2048,
+            1143
         ],
         "sunPhases": [
             "sunrise",
@@ -3924,7 +3995,7 @@
         ]
     },
     "24hr-London-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/london-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/london-mix-windd",
         "themeType": "paid",
         "displayName": "London Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -3938,7 +4009,7 @@
         "sunPhases": null
     },
     "24hr-LosAngeles": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/los-angeles-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/los-angeles-windd",
         "themeType": "paid",
         "displayName": "Los Angeles",
         "imageCredits": "24 Hour Wallpaper",
@@ -3952,7 +4023,7 @@
         "sunPhases": null
     },
     "24hr-LosAngeles2019": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/los-angeles-2019-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/los-angeles-2019-windd",
         "themeType": "paid",
         "displayName": "Los Angeles 2019",
         "imageCredits": "24 Hour Wallpaper",
@@ -4180,7 +4251,7 @@
         ]
     },
     "24hr-Malibu": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/malibu-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/malibu-windd",
         "themeType": "paid",
         "displayName": "Malibu",
         "imageCredits": "24 Hour Wallpaper",
@@ -4230,7 +4301,7 @@
         ]
     },
     "24hr-Miami-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/miami-1-windd",
         "themeType": "paid",
         "displayName": "Miami #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -4244,7 +4315,7 @@
         "sunPhases": null
     },
     "24hr-Miami-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/miami-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/miami-2-windd",
         "themeType": "paid",
         "displayName": "Miami #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -4803,7 +4874,7 @@
         ]
     },
     "24hr-MojaveDunes": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/mojave-dunes-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/mojave-dunes-windd",
         "themeType": "paid",
         "displayName": "Mojave Dunes",
         "imageCredits": "24 Hour Wallpaper",
@@ -4817,7 +4888,7 @@
         "sunPhases": null
     },
     "24hr-MojaveMount": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/mojave-mount-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/mojave-mount-windd",
         "themeType": "paid",
         "displayName": "Mojave Mount",
         "imageCredits": "24 Hour Wallpaper",
@@ -4888,7 +4959,7 @@
         ]
     },
     "24hr-Monterey-Bay-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-bay-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/monterey-bay-2-windd",
         "themeType": "paid",
         "displayName": "Monterey Bay #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -4902,7 +4973,7 @@
         "sunPhases": null
     },
     "24hr-Monterey-Hills-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-hills-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/monterey-hills-1-windd",
         "themeType": "paid",
         "displayName": "Monterey Hills #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -4916,7 +4987,7 @@
         "sunPhases": null
     },
     "24hr-Monterey-Hills-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-hills-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/monterey-hills-2-windd",
         "themeType": "paid",
         "displayName": "Monterey Hills #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -4930,7 +5001,7 @@
         "sunPhases": null
     },
     "24hr-Monterey-Hills-3": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monterey-hills-3-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/monterey-hills-3-windd",
         "themeType": "paid",
         "displayName": "Monterey Hills #3",
         "imageCredits": "24 Hour Wallpaper",
@@ -5037,7 +5108,7 @@
         ]
     },
     "24hr-MonumentValley": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/monument-valley-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/monument-valley-windd",
         "themeType": "paid",
         "displayName": "Monument Valley",
         "imageCredits": "24 Hour Wallpaper",
@@ -5305,7 +5376,7 @@
         ]
     },
     "24hr-NewOrleans": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/neworleans-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/neworleans-windd",
         "themeType": "paid",
         "displayName": "New Orleans",
         "imageCredits": "24 Hour Wallpaper",
@@ -5319,7 +5390,7 @@
         "sunPhases": null
     },
     "24hr-NewYork": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/new-york-windd",
         "themeType": "paid",
         "displayName": "New York City",
         "imageCredits": "24 Hour Wallpaper",
@@ -5333,7 +5404,7 @@
         "sunPhases": null
     },
     "24hr-NewYorkWinter": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/nyc-winter-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/nyc-winter-windd",
         "themeType": "paid",
         "displayName": "New York City Winter",
         "imageCredits": "24 Hour Wallpaper",
@@ -5347,7 +5418,7 @@
         "sunPhases": null
     },
     "24hr-NewYork-Maiden": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-york-maiden-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/new-york-maiden-windd",
         "themeType": "paid",
         "displayName": "New York Maiden Lane",
         "imageCredits": "24 Hour Wallpaper",
@@ -5361,7 +5432,7 @@
         "sunPhases": null
     },
     "24hr-NewZealand-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/new-zealand-nature-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/new-zealand-nature-mix-windd",
         "themeType": "paid",
         "displayName": "New Zealand Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -5736,7 +5807,7 @@
         ]
     },
     "24hr-Oxenhope": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/oxenhope-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/oxenhope-windd",
         "themeType": "paid",
         "displayName": "Oxenhope",
         "imageCredits": "24 Hour Wallpaper",
@@ -5805,7 +5876,7 @@
         ]
     },
     "24hr-Paris-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/paris-1-windd",
         "themeType": "paid",
         "displayName": "Paris 1",
         "imageCredits": "24 Hour Wallpaper",
@@ -5819,7 +5890,7 @@
         "sunPhases": null
     },
     "24hr-Paris-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/paris-2-windd",
         "themeType": "paid",
         "displayName": "Paris 2",
         "imageCredits": "24 Hour Wallpaper",
@@ -5833,7 +5904,7 @@
         "sunPhases": null
     },
     "24hr-Paris-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/paris-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/paris-mix-windd",
         "themeType": "paid",
         "displayName": "Paris Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -6026,7 +6097,7 @@
         ]
     },
     "24hr-Polson": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/polson-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/polson-windd",
         "themeType": "paid",
         "displayName": "Polson",
         "imageCredits": "24 Hour Wallpaper",
@@ -6059,7 +6130,7 @@
         ]
     },
     "24hr-PyramidLake-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/pyramid-lake-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/pyramid-lake-mix-windd",
         "themeType": "paid",
         "displayName": "Pyramid Lake Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -6343,7 +6414,7 @@
         ]
     },
     "24hr-SanFrancisco": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-south-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/sf-south-windd",
         "themeType": "paid",
         "displayName": "San Francisco",
         "imageCredits": "24 Hour Wallpaper",
@@ -6357,7 +6428,7 @@
         "sunPhases": null
     },
     "24hr-SanFranciscoEast": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/sf-east-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/sf-east-windd",
         "themeType": "paid",
         "displayName": "San Francisco East",
         "imageCredits": "24 Hour Wallpaper",
@@ -6407,7 +6478,7 @@
         ]
     },
     "24hr-Seattle-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/seattle-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/seattle-mix-windd",
         "themeType": "paid",
         "displayName": "Seattle Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -7031,7 +7102,7 @@
         ]
     },
     "24hr-Tahoe-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/lake-tahoe-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/lake-tahoe-mix-windd",
         "themeType": "paid",
         "displayName": "Tahoe Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -7227,7 +7298,7 @@
         ]
     },
     "24hr-Tokyo-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/tokyo-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/tokyo-mix-windd",
         "themeType": "paid",
         "displayName": "Tokyo Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -7491,7 +7562,7 @@
         ]
     },
     "24hr-VeryLargeArray": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/vla-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/vla-windd",
         "themeType": "paid",
         "displayName": "Very Large Array (VLA)",
         "imageCredits": "24 Hour Wallpaper",
@@ -7578,7 +7649,7 @@
         ]
     },
     "24hr-WashingtonMonument": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/washingtonmonument-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/washingtonmonument-windd",
         "themeType": "paid",
         "displayName": "Washington Monument",
         "imageCredits": "24 Hour Wallpaper",
@@ -7645,7 +7716,7 @@
         ]
     },
     "24hr-WhiteSands-1": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/whitesands-1-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/whitesands-1-windd",
         "themeType": "paid",
         "displayName": "White Sands #1",
         "imageCredits": "24 Hour Wallpaper",
@@ -7659,7 +7730,7 @@
         "sunPhases": null
     },
     "24hr-WhiteSands-2": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/whitesands-2-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/whitesands-2-windd",
         "themeType": "paid",
         "displayName": "White Sands #2",
         "imageCredits": "24 Hour Wallpaper",
@@ -8662,7 +8733,7 @@
         ]
     },
     "24hr-YosemiteLukens": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-lukens-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/yosemite-lukens-windd",
         "themeType": "paid",
         "displayName": "Yosemite Lukens Lake",
         "imageCredits": "24 Hour Wallpaper",
@@ -8676,7 +8747,7 @@
         "sunPhases": null
     },
     "24hr-Yosemite-Mix": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-mix-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/yosemite-mix-windd",
         "themeType": "paid",
         "displayName": "Yosemite Mix",
         "imageCredits": "24 Hour Wallpaper",
@@ -8690,7 +8761,7 @@
         "sunPhases": null
     },
     "24hr-YosemiteTioga": {
-        "themeUrl": "https://www.jetsoncreative.com/ddcatalog/yosemite-tioga-windd",
+        "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/yosemite-tioga-windd",
         "themeType": "paid",
         "displayName": "Yosemite Tioga Road",
         "imageCredits": "24 Hour Wallpaper",
