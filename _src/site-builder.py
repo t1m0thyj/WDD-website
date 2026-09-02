@@ -2,12 +2,13 @@ import glob
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 import requests
 import shortuuid
 from mako.template import Template
 
-from utils import load_themes_db
+from utils import load_themes_db, pick_featured_themes
 
 DEV_BUILD = len(sys.argv) > 1 and sys.argv[1] == "dev"
 BASE_PATH = "https://cdn.jsdelivr.net/gh/t1m0thyj/WDD-website@gh-pages/" if not DEV_BUILD else "../"
@@ -44,6 +45,15 @@ for theme_id, theme_data in themes_db.items():
     else:
         theme_data["imageSize"] = "HD"
 
+pinned_free = ("24hr-GoldenGate", "24hr-Monterey-Bay-1", "24hr-Earth")
+iso_year, iso_week, _ = datetime.now(timezone.utc).isocalendar()
+featured_free = pinned_free + pick_featured_themes(
+    themes_db,
+    count=3,
+    excluded_theme_ids=pinned_free,
+    seed=f"{iso_year}-W{iso_week:02d}",
+)
+
 themes_db_file = f"themes.{shortuuid.uuid()[:8]}.js" if not DEV_BUILD else "themes.db.js"
 with open(f"../themes/{themes_db_file}", "w", newline="\n") as fileobj:
     fileobj.write(f"var themesDb={json.dumps(themes_db)};")
@@ -57,8 +67,7 @@ with open("../themes/index.html", "w", newline="\n") as fileobj:
         themes_main.render(
             basePath=BASE_PATH,
             pageType="home",
-            featuredFree=("24hr-GoldenGate", "24hr-Monterey-Bay-1", "24hr-Earth",
-                "Abstract_Mountains", "Your_Name", "Firewatch"),
+            featuredFree=featured_free,
             featuredPaid=("24hr-Canyonlands-1", "24hr-CatalinaLittleHarbor", "24hr-WhiteSands-2",
                 "24hr-YosemiteLukens", "24hr-MojaveDunes", "24hr-HighSierra"),
             numFree=len([td for td in themes_db.values() if td["themeType"] == "free"]),

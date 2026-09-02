@@ -2,7 +2,9 @@ import base64
 import glob
 import hashlib
 import json
+import math
 import os
+import random
 import re
 import shutil
 import sys
@@ -64,6 +66,37 @@ def load_themes_db():
 
     with open("themes.db.json", "r") as fileobj:
         return json.load(fileobj)
+
+
+def pick_featured_themes(themes_db, count, excluded_theme_ids=(), seed=None):
+    """Pick free themes without replacement, weighted by sqrt(download count)."""
+    excluded_theme_ids = set(excluded_theme_ids)
+    candidates = [
+        (theme_id, math.sqrt(max(0, float(theme_data.get("clickCount", 0)))))
+        for theme_id, theme_data in themes_db.items()
+        if theme_data["themeType"] == "free" and theme_id not in excluded_theme_ids
+    ]
+    if len(candidates) < count:
+        raise ValueError(f"Cannot pick {count} featured themes from {len(candidates)} candidates")
+
+    random_generator = random.Random(seed)
+    selected = []
+    for _ in range(count):
+        total_weight = sum(weight for _, weight in candidates)
+        if total_weight == 0:
+            selected_index = random_generator.randrange(len(candidates))
+        else:
+            selected_weight = random_generator.random() * total_weight
+            cumulative_weight = 0
+            selected_index = len(candidates) - 1
+            for index, (_, weight) in enumerate(candidates):
+                cumulative_weight += weight
+                if selected_weight < cumulative_weight:
+                    selected_index = index
+                    break
+        selected.append(candidates.pop(selected_index)[0])
+
+    return tuple(selected)
 
 
 def make_previews(theme_config, theme_dir, theme_id):
