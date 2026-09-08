@@ -36,6 +36,7 @@ def add(theme_type, theme_path, theme_id=None):
         theme_id = theme_id.replace("&", "and")
     if theme_id in themes_db:
         raise ValueError(f"Theme already exists in database: {theme_id}")
+    is_paid = theme_id.startswith("24hr-") or theme_id.endswith("_24hr")
     themes_db[theme_id] = {
         "themeUrl": theme_path if not is_local else get_theme_url(theme_type, theme_id),
         "themeType": theme_type,
@@ -45,9 +46,9 @@ def add(theme_type, theme_path, theme_id=None):
         "fileSize": os.path.getsize(ddw_file),
         "dateAdded": str(datetime.fromtimestamp(os.path.getmtime(ddw_file), UTC).date()),
         "imageSize": make_thumbnails(theme_config, theme_dir, theme_id),
-        "sunPhases": make_previews(theme_config, theme_dir, theme_id) if not theme_id.startswith("24hr") else None,
+        "sunPhases": make_previews(theme_config, theme_dir, theme_id) if not is_paid else None,
     }
-    if theme_id.startswith("24hr") and theme_type == "community":
+    if is_paid and theme_type == "community":
         themes_db[theme_id]["displayName"] = "24 Hour " + themes_db[theme_id]["displayName"]
     save_themes_db(themes_db)
 

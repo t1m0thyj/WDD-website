@@ -554,6 +554,25 @@
             "night"
         ]
     },
+    "apple-park_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=apple-park_2026_24h",
+        "themeType": "paid",
+        "displayName": "Apple Park",
+        "imageCredits": "Josh Michaels",
+        "fileHash": "bfecfdb2eb3bd48011a95a54c365faea",
+        "fileSize": 100082391,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Apple_theme": {
         "themeUrl": "https://www.mediafire.com/file/ag70avr8abzanmm/Apple_theme.ddw/file",
         "themeType": "community",
@@ -1496,6 +1515,25 @@
         ],
         "sunPhases": null
     },
+    "changping_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=changping_2026_24h",
+        "themeType": "paid",
+        "displayName": "Changping",
+        "imageCredits": "Marcellin Bric",
+        "fileHash": "44a4723c2a77d282b5ae7cc6813c535e",
+        "fileSize": 83113909,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Chicago-1": {
         "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/chicago-1-windd",
         "themeType": "paid",
@@ -1765,6 +1803,25 @@
             "night"
         ]
     },
+    "coit-tower_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=coit-tower_2026_24h",
+        "themeType": "paid",
+        "displayName": "Coit Tower",
+        "imageCredits": "Hal Bergman",
+        "fileHash": "c56fe0d7059722c0f7226a1de391f5ae",
+        "fileSize": 69213445,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5464,
+            3072
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Colorado-Mix": {
         "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/colorado-nature-mix-windd",
         "themeType": "paid",
@@ -1809,6 +1866,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "crater-lake_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=crater-lake_2026_24h",
+        "themeType": "paid",
+        "displayName": "Crater Lake",
+        "imageCredits": "Joshua Klabunde",
+        "fileHash": "a521c3c0386afdb87a0fd79fa957f3f2",
+        "fileSize": 68644204,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "ctOS": {
         "themeUrl": "https://www.mediafire.com/file/azew4crvkbjgs2i/ctOS.ddw/file",
@@ -2245,6 +2321,25 @@
             "night"
         ]
     },
+    "elephant-island_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=elephant-island_2026_24h",
+        "themeType": "paid",
+        "displayName": "Elephant Island",
+        "imageCredits": "Henrique Setim",
+        "fileHash": "e7548a847eac070431c872af3edd5b80",
+        "fileSize": 66927531,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "EOS_SnowCappedMountain": {
         "themeUrl": "https://www.mediafire.com/file/aat6qblt2pwa9ek/EOS_SnowCappedMountain.ddw/file",
         "themeType": "community",
@@ -2571,6 +2666,25 @@
             "night"
         ]
     },
+    "fjordland_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=fjordland_2026_24h",
+        "themeType": "paid",
+        "displayName": "Fjordland",
+        "imageCredits": "Steve Gribble",
+        "fileHash": "b9c09d4ea222b09c12eadf93750183e4",
+        "fileSize": 72174865,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Fluid_Textures_1": {
         "themeUrl": "https://www.mediafire.com/file/j72fk7eujnxm67o/Fluid_Textures_1.ddw/file",
         "themeType": "community",
@@ -2854,6 +2968,25 @@
             "night"
         ]
     },
+    "golden-gate-bridge-south_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=golden-gate-bridge-south_2026_24h",
+        "themeType": "paid",
+        "displayName": "Golden Gate Bridge (South)",
+        "imageCredits": "Josh Michaels & Hal Bergman",
+        "fileHash": "30e2aac802d83052f39f78d533f44155",
+        "fileSize": 56296892,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Golden_Gate_Abstract": {
         "themeUrl": "https://github.com/t1m0thyj/WDD-mac-themes/releases/download/golden-gate/Golden_Gate_Abstract.ddw",
         "themeType": "macos",
@@ -2958,6 +3091,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "grand-prismatic-spring_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=grand-prismatic-spring_2026_24h",
+        "themeType": "paid",
+        "displayName": "Grand Prismatic Spring",
+        "imageCredits": "Titus Pettman",
+        "fileHash": "33eab60647f5b37416d51055e360b0de",
+        "fileSize": 83101689,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -3686,6 +3838,25 @@
             "night"
         ]
     },
+    "jinshanling-great-wall_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=jinshanling-great-wall_2026_24h",
+        "themeType": "paid",
+        "displayName": "Jinshanling Great Wall",
+        "imageCredits": "William Olivieri",
+        "fileHash": "6557a092febea00ddd41d6bfb088174e",
+        "fileSize": 103512488,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-JoshuaTree": {
         "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/joshua-tree-windd",
         "themeType": "paid",
@@ -3738,6 +3909,25 @@
             "night"
         ]
     },
+    "kenya-safari_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=kenya-safari_2026_24h",
+        "themeType": "paid",
+        "displayName": "Kenya Safari",
+        "imageCredits": "Damian Patkowski",
+        "fileHash": "9fc5086c1d1bf5f84e778ceb307ad71a",
+        "fileSize": 77387618,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3368
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Kitsune_Forest_24": {
         "themeUrl": "https://www.mediafire.com/file/fsqedn1guhaa7x5/Kitsune_Forest_24.ddw/file",
         "themeType": "community",
@@ -3771,6 +3961,25 @@
         ],
         "sunPhases": [
             "day",
+            "night"
+        ]
+    },
+    "lake-bled_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=lake-bled_2026_24h",
+        "themeType": "paid",
+        "displayName": "Lake Bled",
+        "imageCredits": "Anonymous",
+        "fileHash": "7a0898e2f62d7d8d6393d8089290d182",
+        "fileSize": 52135644,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
             "night"
         ]
     },
@@ -4292,6 +4501,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "merdeka-118_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=merdeka-118_2026_24h",
+        "themeType": "paid",
+        "displayName": "Merdeka 118",
+        "imageCredits": "Adin",
+        "fileHash": "444a9a79da3337304f713f94b242caaa",
+        "fileSize": 64713868,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            4780,
+            3584
         ],
         "sunPhases": [
             "sunrise",
@@ -5242,6 +5470,25 @@
             "night"
         ]
     },
+    "mount-everest_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=mount-everest_2026_24h",
+        "themeType": "paid",
+        "displayName": "Mount Everest",
+        "imageCredits": "Weichao Deng",
+        "fileHash": "4e51e97b013187e936b39b07389757cd",
+        "fileSize": 80711189,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5308,
+            3200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Mountains": {
         "themeUrl": "https://www.mediafire.com/file/you97m5bvk2u33d/Mountains.ddw/file",
         "themeType": "community",
@@ -5444,6 +5691,25 @@
             2880
         ],
         "sunPhases": null
+    },
+    "niagara-falls_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=niagara-falls_2026_24h",
+        "themeType": "paid",
+        "displayName": "Niagara Falls",
+        "imageCredits": "Stephen Crane",
+        "fileHash": "d7bf471983abab8c1393bfae768cdbf6",
+        "fileSize": 88741265,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5100,
+            3328
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
     },
     "Nuvole": {
         "themeUrl": "https://www.mediafire.com/file/4hiw5laftf51wlj/Nuvole.ddw/file",
@@ -5839,6 +6105,25 @@
             "night"
         ]
     },
+    "painted-ladies_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=painted-ladies_2026_24h",
+        "themeType": "paid",
+        "displayName": "Painted Ladies",
+        "imageCredits": "Hal Bergman",
+        "fileHash": "664a9fda0b60551867508978c9b93c05",
+        "fileSize": 67049594,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5468,
+            3072
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "PaintingStudio": {
         "themeUrl": "https://www.mediafire.com/file/qgnvmtgj3572t86/PaintingStudio.ddw/file",
         "themeType": "community",
@@ -5850,6 +6135,25 @@
         "imageSize": [
             1920,
             1080
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "palm-oasis_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=palm-oasis_2026_24h",
+        "themeType": "paid",
+        "displayName": "Palm Oasis",
+        "imageCredits": "Navi",
+        "fileHash": "5411a0b24741e5dc0cbf02bbe21da0c9",
+        "fileSize": 60909816,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3368
         ],
         "sunPhases": [
             "sunrise",
@@ -6842,6 +7146,25 @@
             "night"
         ]
     },
+    "stockholm-archipelago_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=stockholm-archipelago_2026_24h",
+        "themeType": "paid",
+        "displayName": "Stockholm Archipelago",
+        "imageCredits": "Anders Jild\u00c3\u00a9n",
+        "fileHash": "ca67a9e467ce571f64311644edc0a148",
+        "fileSize": 67787577,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "Surface_Duo": {
         "themeUrl": "https://www.mediafire.com/file/e1ggb9hq1rftuwd/Surface_Duo.ddw/file",
         "themeType": "community",
@@ -7101,6 +7424,25 @@
             "night"
         ]
     },
+    "tabular-iceberg_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=tabular-iceberg_2026_24h",
+        "themeType": "paid",
+        "displayName": "Tabular Iceberg",
+        "imageCredits": "66 North",
+        "fileHash": "72b6974def3e5b09d75981aec9109855",
+        "fileSize": 92800837,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5356,
+            3200
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
     "24hr-Tahoe-Mix": {
         "themeUrl": "https://windows.24hourwallpaper.com/ddcatalog/lake-tahoe-mix-windd",
         "themeType": "paid",
@@ -7177,6 +7519,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "the-great-wall_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=the-great-wall_2026_24h",
+        "themeType": "paid",
+        "displayName": "The Great Wall",
+        "imageCredits": "Chen Zy",
+        "fileHash": "e748654604178d27f2f5c957b4b6f07b",
+        "fileSize": 69192396,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3392
         ],
         "sunPhases": [
             "sunrise",
@@ -8804,6 +9165,25 @@
         "imageSize": [
             3840,
             2160
+        ],
+        "sunPhases": [
+            "sunrise",
+            "day",
+            "sunset",
+            "night"
+        ]
+    },
+    "zhang-jia-jie-national-park_2026_24h": {
+        "themeUrl": "https://windows.24hourwallpaper.com/?w=zhang-jia-jie-national-park_2026_24h",
+        "themeType": "paid",
+        "displayName": "Zhang Jia Jie National Park",
+        "imageCredits": "Robynne O",
+        "fileHash": "2e5e33615f4d51d0630b7583edabd5ae",
+        "fileSize": 63965551,
+        "dateAdded": "2026-09-08",
+        "imageSize": [
+            5056,
+            3372
         ],
         "sunPhases": [
             "sunrise",
