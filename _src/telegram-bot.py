@@ -1,7 +1,9 @@
 import logging
 import os
 import re
+import shutil
 import smtplib
+import tempfile
 import threading
 import traceback
 import urllib.error
@@ -22,6 +24,16 @@ EMOJI_APPROVED = "✔️"
 EMOJI_REJECTED = "❌"
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
+# Strict check so the filename taken from the URL can't escape the temp directory
+MEDIAFIRE_URL_RE = re.compile(r"^https://(?:www\.)?mediafire\.com/file/[^/]+/[^/?#]+(?:/file)?$")
+
+
+def cleanup_temp_files(paths):
+    for path in paths:
+        if os.path.isdir(path):
+            shutil.rmtree(path, ignore_errors=True)
+        elif os.path.exists(path):
+            os.remove(path)
 
 
 @dataclass
@@ -112,6 +124,7 @@ class MyClient():
         threading.Thread(target=self.theme_handler, args=(message,)).start()
 
     def theme_handler(self, message: telebot.types.Message):
+        temp_paths = []  # Downloaded DDW and extracted theme folder, deleted once we're done with them
         try:
             lines = [line for line in message.text.splitlines() if line]
             email_address = lines[0].split()[-1]
@@ -119,7 +132,7 @@ class MyClient():
             theme_url = lines[2].split(": ")[1]
 
             logging.info(f"[{theme_name}] Theme submitted")
-            data, errors = MyClient.check_theme(theme_name, theme_url)
+            data, errors = MyClient.check_theme(theme_name, theme_url, temp_paths)
 
             self.send_email(errors, email_address, theme_name)
             self.bot.send_message(message.chat.id, self.get_new_message(errors, theme_name), parse_mode="MarkdownV2", reply_to_message_id=message.message_id)
@@ -135,9 +148,14 @@ class MyClient():
         except Exception as e:
             logging.error(e, exc_info=True)
             self.bot.send_message(os.environ["OWNER_TELEGRAM_ID"], f"```\n{traceback.format_exc()}\n```", parse_mode="MarkdownV2")
+        finally:
+            cleanup_temp_files(temp_paths)
 
     @staticmethod
-    def check_theme(theme_name, theme_url):
+    def check_theme(theme_name, theme_url, temp_paths):
+        if not MEDIAFIRE_URL_RE.match(theme_url):
+            return None, ["Theme URL is a valid MediaFire link"]
+
         try:
             ddw_file = mediafire_download(theme_url, os.environ["RAPIDAPI_KEY"])
         except urllib.error.HTTPError as e:
@@ -146,6 +164,10 @@ class MyClient():
             raise e
         except:
             raise
+
+        temp_paths.append(ddw_file)
+        # extract_ddw extracts to a folder in the temp dir named after the DDW file
+        temp_paths.append(os.path.join(tempfile.gettempdir(), os.path.splitext(os.path.basename(ddw_file))[0]))
 
         try:
             theme_dir = extract_ddw(ddw_file)
